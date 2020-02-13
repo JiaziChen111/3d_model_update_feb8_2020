@@ -83,7 +83,7 @@ iorder=1;
 variables_BASELINE=y_;
 %set prudential policy in the counterfactual exercise
 Cyphi_H=0;%0.051;
-Cyphi_F=0;%0.128;
+Cyphi_F=0.128;%0.128;
 phi_Hs=0.158;%0.158;%0.2112;
 phi_Fs=0.125;%0.05;%0.125%;%0.05;
 epsilonH1s=0.94;%0.89;%0.94%;%0.89%

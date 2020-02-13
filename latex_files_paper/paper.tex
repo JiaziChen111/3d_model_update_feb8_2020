@@ -40,7 +40,8 @@
 
 \hypersetup{colorlinks,allcolors=blue}
 
-\title{Macroprudential Policy Interactions in a Sectoral DSGE Model with Staggered Interest Rates}
+\title{Macroprudential Policy Interactions in a Sectoral DSGE Model with Staggered Interest Rates \\
+(PRELIMINARY AND INCOMPLETE)}
 \author{Marc Hinterschweiger$^{a}$, Kunal Khairnar$^{b}$, Tolga Ozden$^{c}$, Tom Stratton$^{a}$\footnote{$^{a}$ Bank of England, $^{b}$ University of Toulouse, $^{c}$ University of Amsterdam.}}
 \begin{document}
 
@@ -50,22 +51,22 @@
 \bibliographystyle{apalike2}
 \begin{abstract}
 
-We develop a two-sector DSGE model with a detailed banking sector along the lines of Clerc et. al. (2015) to assess the impact of macroprudential tools (minimum, countercyclical and sectoral capital requirements, as well as and LTV limit) on key macroeconomic and financial variables. The banking sector features residential mortgages and corporate lending subject to staggered interest rates à la Calvo (1983), which is motivated by the sluggish movement of lending rates due to fixed interest rate loan contracts. Other distortions in the model include limited liability, bankruptcy costs and penalty costs for deviations from regulatory capital. We estimate the model using Bayesian methods based on quarterly U.K. data over 1998Q1-2016Q4. Our contributions are threefold. We show that: (i) coordination of macroprudential tools may have a welfare-improving effect, (ii) macroprudential tools would have improved some macroeconomic indicators but not have prevented the Global Financial Crisis altogether, (iii) staggered interest rates may weaken the transmission of macroprudential tools that work through interest rates. 
+We develop a two-sector DSGE model with a detailed banking sector along the lines of Clerc et. al. (2015) to assess the impact of macroprudential tools (minimum, countercyclical and sectoral capital requirements, as well as and LTV limit) on key macroeconomic and financial variables. The banking sector features residential mortgages and corporate lending subject to staggered interest rates à la Calvo (1983), which is motivated by the sluggish movement of lending rates due to fixed interest rate loan contracts. Other distortions in the model include limited liability, bankruptcy costs and penalty costs for deviations from regulatory capital. We estimate the model using Bayesian methods based on quarterly U.K. data over 1998Q1-2016Q2. Our contributions are threefold. We show that: (i) coordination of macroprudential tools may have a welfare-improving effect, (ii) macroprudential tools would have improved some macroeconomic indicators but not have prevented the Global Financial Crisis altogether, (iii) staggered interest rates may weaken the transmission of macroprudential tools that work through interest rates. 
 
 \noindent
 
 \vspace{3 mm}
 Keywords: Sectoral DSGE model; macroprudential policy; interest rate stickiness. \\
 \noindent 
-\vspace{3 mm}
-JEL codes: 
+%\vspace{3 mm}
+%JEL codes: 
 
 
 %	This paper provides cross country evidence of interest rate sluggishness due to fixed interest rate loan contract.We develop a two sector DSGE model with a detailed banking sector to assess the impact of the interest rate stickiness on the transmission of macro prudential tools.We also attempt to understand possible interactions between capital requirement and LTV limit. The banking sector in the model features residential mortgages and corporate lending, subject to borrower default as well as bank defaults.Key distortions in the model include limited liability,bankruptcy costs and penalty costs for deviation from regulatory capital.We find that interest rate stickiness slows down the effect of a change in capital requirement on the economy and also makes the countercyclical capital regulation less effective.At the same, interest rate stickiness increases the impact of a change in LTV policy. The counter cyclical capital performs better than countercyclical LTV  rule even when interest rates are sticky.As regards interaction between the two policy tools, capital regulation has a higher impact on the economy when the LTV limit is higher, whereas the LTV limit has a higher impact when the capital requirement is lower.
 	
 \end{abstract}
 \noindent\vspace{3 mm}
-\section{Introduction (Old Version)}
+\section{Introduction}
 
 The Financial crisis of 2008 brought to forefront the risks inherent in the financial system and the possible role of macro prudential tools to maintain financial and macroeconomic stability.  BIS (2018) suggests that the micro prudential regulation is necessary but not sufficient to maintain financial stability. Regulatory tools which directly track and respond to macro economic developments could enable regulators to deal with boom bust cycles and the resulting threat to the banking system in an effective and timely manner.
 
@@ -95,9 +96,8 @@ The the paper is organized as follows. Section 2 reviews the existing literature
 Section 6 concludes.
 
 
-\section{Literature review (Kunal Version)}
+\subsection{Literature review}
 
-\hl{new stuff that needs to be added--> see the references section at the end}
 
 Literature on financial frictions and role of banks in DSGE models has been growing since the financial crisis of 2008. Our model attempts to bring together two streams of literature. One is based on the celebrated Bernanke, Gilchrist and Gertler (1999) where some fraction of borrowers default in equilibrium. Borrowers default due to limited liability and shocks (both aggregate and idiosyncratic) which cause the value of the asset to go below the loan amount. The other stream of literature is based on borrowing constraints as in Kiyotaki and Moore (1997).
 
@@ -142,20 +142,20 @@ In the empirical section of this paper, we explore one of the sources of interes
 
 
 
+F
 
 
 
+\subsection{Interest rate stickiness in the U.K.}
 
-\section{Interest rate stickiness in the U.K. (Kunal version) }
-\hl{
-(-Kunal version, I only updated the last figure (based on new lending rates))\\
--Check if the data is on new lending or existing lending\\
--We should maybe replace Figure 1 with a matlab figure to be consistent across the paper? \\
--Important points to stress:
---> Pass-through on impact is very low for all rates\\
---> Pass-through typically takes at least several months in all contract types (except for floating rate) \\
---> Pass-through not complete in longer-term contracts (But this is not something we capture with the Calvo mechanism?) \\
--We mention the cross-country evidence but the results go into Appendix }
+%(-Kunal version, I only updated the last figure (based on new lending rates))\\
+%-Check if the data is on new lending or existing lending\\
+%-We should maybe replace Figure 1 with a matlab figure to be consistent across the paper? \\
+%-Important points to stress:
+%--> Pass-through on impact is very low for all rates\\
+%--> Pass-through typically takes at least several months in all contract types (except for floating rate) \\
+%--> Pass-through not complete in longer-term contracts (But this is not something we capture with the Calvo mechanism?) \\
+%-We mention the cross-country evidence but the results go into Appendix 
 
 
 Although interest rate stickiness could arise due to number of reasons highlighted by the literature such as market power, level of competition, regulation, switching/menu costs etc, we highlight the importance of interest rate stickiness emanating from the nature of loan contract i.e. existence of long term loans and fixed interest loans.
@@ -163,18 +163,14 @@ Although interest rate stickiness could arise due to number of reasons highlight
 
 In this section, we compare the response of (effective)lending rates for different terms of interest rate fixation to change in policy rates. The following graph depicts the movement of mortgage rates (for different maturities) over the period of last 20 years in the UK:
 \begin{figure}[h!] 
-	\caption{Mortgage lending rates in the UK} 
+	\caption{Monthly lending rates in the U.K. between periods 2004-2015.} 
 	\centering
 	
-	\includegraphics[width=0.9\textwidth]{mortgage}
-	
+	\subfigure[Mortgage lending rates.]{\includegraphics[width=12cm,height=8cm]{mortgage}}
+	\subfigure[Corporate lending rates.]{\includegraphics[width=12cm,height=8cm]{busirate}}
 \end{figure}
 
-\begin{figure}[h!] 
-	\caption{Business lending rates in the UK} 
-	\includegraphics[width=0.9\textwidth]{busirate}
-	
-\end{figure}
+
 
 We use the monthly data on effective interest rates (between January 2004 to January 2016)  for mortgage loans in the United Kingdom (for different terms of interest rate fixation) from Bank of England database.
 As can be seen in figure below, the response of effective variable interest rate mortgages (to changes in the policy rate) is faster than the effective fixed interest mortgages (as expected).So also the response of the fixed interest mortgages decreases with the increase in the initial term of interest rate fixation.
@@ -182,26 +178,19 @@ The effective interest rates for longer term of initial interest rate fixation, 
 
 Interest rate stickiness arising due to fixed term loan contracts can vary across different sectors, depending upon the proportion of long term contracts in the portfolio. The following figure presents the effective lending rate for the overall portfolio of all fixed interest loans  (i.e.this includes different fixed term contracts) in case of business loans and mortgage loans. We find that the interest rate pass through is slower for the mortgage loan portfolio as compared to the business loan portfolio due to higher proportion of longer term fixed interest loan contracts.
 
-\begin{figure}[h!] 
-	\caption{Mortgage lending rates v/s Business lending rates in the UK} 
-	\centering
+%\begin{figure}[h!] 
+%	\caption{Mortgage lending rates v/s Business lending rates in the UK} 
+%	\centering
 	
-	\includegraphics[width=0.9\textwidth]{int_rate_monthly_plot.pdf}
+%	\includegraphics[width=0.9\textwidth]{int_rate_monthly_plot.pdf}
 	
-\end{figure}
+%\end{figure}
 
 
-\subsection{Econometric Methodology}
-
-\hl{Is the data used in this section on \textbf{new lending} or the average of \textbf{all existing lending}? We need to make the former is used (that is also what we use in the model estimation section) } 
-
-%summary: 
-% floating rate--> 90% pass-through in the following month
-% fixed 1-year--> 45% pass-through in the following month
+\subsubsection{Econometric Methodology}
 
 
-
-As a first step to investigate the extent of sluggishness in the movement of interest rates, we attempt  to find out how lending rates change in response to change in central bank policy rate.Following the empirical literature on interest rate pass-through models ( \hl{some citations here would be nice} ) , we run a vector error correction model, where policy interest rates  are considered to be the most direct determinants of retail bank lending rates. We run the following vector error correction model based on Johansen (1991): 
+As a first step to investigate the extent of sluggishness in the movement of interest rates, we attempt  to find out how lending rates change in response to change in central bank policy rate.Following the empirical literature on interest rate pass-through models, we run a vector error correction model, where policy interest rates  are considered to be the most direct determinants of retail bank lending rates. We run the following vector error correction model based on Johansen (1991): 
 
 \begin{equation}
 {\Delta}R_{t}=\sum _{k=1}^{K }\delta_{k}{\Delta}R^m_{t-k}+\sum _{q=1}^{Q }\gamma_{q}{\Delta}i_{t-q}+\alpha (\mu+R^m_{t}-\beta i_{t})+u_{t}	
@@ -243,52 +232,44 @@ Where $R_{t}$ is the effective lending rate (mortgage loans), $i_{t}$ is the Ban
 
 
 
-In case of floating interest rate loans, the response on impact is very low. However,around 90 percent of the pass through takes place in the following month.
+In case of floating interest rate loans, the response on impact is very low. However,around 90 percent of the pass through takes place in the following month. The above table highlights that the response of floating interest rate to the central bank policy rate, as depicted by coefficients $\{ \i_{t-j} \}_{j=1}^{4}  $,  is higher than the response of 1 year fixed rate loans, which in turn is higher than the response of the 1 to 5 year fixed rate loans.  In case of fixed term of up to 1 year, the response on impact is very low (less than 0.01 percentage point) and around 45 per cent of the pass through takes place in the following month. 
 
-The above table highlights that the response of floating interest rate (as depicted by coefficient $\gamma_{q}$ ( \hl{what is the corresponding $\gamma_q$ in the table? Is the constant equivalent to $\alpha * \mu$? Notation on deltas should be also be consistent in the table and regression model maybe? }))  on the central bank policy rate is higher than the response of 1 year fixed rate loans, which in turn is higher than the response of the 1 to 5 year fixed rate loans.
 
- In case of fixed term of up to 1 year, the response on impact is very low (less than 0.01 percentage point) and around 45 per cent of the pass through takes place in the following month. 
+The pass through for the 1 to 5 year fixed term loans is very low. However,there exists a long term co-integration relationship between the two interest rates.For the fixed rate loans, the sum of short run coefficients is less than 1 suggesting an incomplete pass through of policy interest rate.
 
-The pass through for the 1 to 5 year fixed term loans is very low.  However,there exists a long term co-integration relationship between the two interest rates. \hl{do we interpret the table as follows: there is no significant pass-through in the following 4 months on 1-5 year fixed-term loans because none of the coefficients are significant?  }
-\hl{relatedly: does the negative term on $\beta_{t-2}$ on fixed<1year loans mean the pass-through works in the opposite direction in that month? Summing up all the coefficients, can we claim the pass-through in the following 4 months in only 45 \%? }
-
-For the fixed rate loans, the sum of short run coefficients is less than 1 suggesting an incomplete pass through of policy interest rate.
-
-Thus, the pass through to the fixed interest loans is not only sluggish but also incomplete, whereas the pass through to variable interest loans is faster and almost complete.However, in all the cases including floating interest rate, the response of lending rate on impact is very low (less than 2 percent) \hl{what is "all cases" referring to here? Isn't there only regression here with the floating rate?}.
+Thus, the pass through to the fixed interest loans is not only sluggish but also incomplete, whereas the pass through to variable interest loans is faster and almost complete.However, in all the cases including floating interest rate, the response of lending rate on impact is very low (less than 2 percent).
 
 The fact that  floating interest rates adjust faster than the fixed term interest rates,implies that the existence of fixed rate contract is an important source of interest rate sluggishness. So also,the pass through of interest rate changes on impact (i.e. the speed of adjustment) is very small implies that other sources of stickiness such as switching costs, menu costs, market structure/competition, regulation could also be relevant.
 
 
 
-
  
-\section{Model Overview}
+\section{Model Summary}
 Our model closely follows Clerc et. al. (2015), which augments the baseline model of Bernarke, Gilchrist and Gertler (1999) with a detailed banking sector and different types of default on households, corporates and banks to determine the optimal capital adequecy ratio (CAR) for the banking sector, as well as to analyze the macroeconomic implications of bank capital structure under different shocks. 
 
-The BGG framework assumes that interest rates charged by the banks are state contingent. This implies that higher interest rates charged on non-defaulters are sufficient to meet the losses arising from defaulters. This means that banks always make a risk-free return on their investments, which makes the capital structure of the bank irrelevant in the original BGG framework.
+The BGG framework assumes that interest rates charged by the banks are state contingent. This implies that higher interest rates charged on non-defaulters are sufficient to meet the losses arising from defaulters. This means that banks always make a risk-free return on their investments, which makes the capital structure of the bank irrelevant in the original BGG framework. Clerc et. al. (2015) departs from the BGG framework by assuming a non-contingent lending rate, which implies that in the event of defaults by borrowers, banks may also suffer losses. Therefore, with costly state verification of borrowers, defaults are costly and entail a dead-weight loss for the economy, which necessitates a role for bank capital. They further assume that investor wealth is scarce and hence cost of equity capital is higher than debt funding. This implies that although bank capital is necessary to avoid higher default rates, it is also expensive at the same time, thus creating a trade-off for holding capital. 
 
-Clerc et. al. (2015) departs from the BGG framework by assuming a non-contingent lending rate, which implies that in the event of defaults by borrowers, banks may also suffer losses. Therefore, with costly state verification of borrowers, defaults are costly and entail a dead-weight loss for the economy, which necessitates a role for bank capital. They further assume that investor wealth is scarce and hence cost of equity capital is higher than debt funding. This implies that although bank capital is necessary to avoid higher default rates, it is also expensive at the same time, thus creating a trade-off for holding capital. 
+Our model deviates from Clerc et. al. (2015) in several important ways. On the banking side, we introduce staggered interest rates à la Calvo (1983) to capture the sluggishness of mortgage and corporate lending rates, which is motivated by the empirical evidence shown in Section 3. Further, we endogenize the bank's capital level by allowing it to be determined in equilibrium through the bank's decision problem. Accordingly, the bank maximizes over its lending rates to households and businesses subject to interest rate sluggishness. The minimum and sectoral capital requirements are introduced as penalty costs on the bank's decision problem, which creates a precautionary motive for the bank to hold a capital level higher than the minimum required. This is a realistic setup since banks typically maintain capital buffers to ensure they do not breach the regulatory minimum. This differs from Clerc et. al. (2015), which assumes that banks always hold the minimum capital requirement\footnote{Another minor deviation in our setup is that there is only one bank in our model than lends corporate and mortgage rates, rather than two sectoral banks as in Clerc et. al. (2015).}. 
 
-Our model deviates from Clerc et. al. (2015) in several important ways. On the banking side, we introduce staggered interest rates à la Calvo (1983) to capture the sluggishness of mortgage and corporate lending rates, which is motivated by the empirical evidence shown in Section 3. Further, we endogenize the bank's capital level by allowing it to be determined in equilibrium through the bank's decision problem. Accordingly, the bank maximizes over its lending rates to households and businesses subject to interest rate sluggishness. The minimum and sectoral capital requirements are introduced as penalty costs on the bank's decision problem, which creates a precautionary motive for the bank to hold a capital level higher than the minimum required. This is a realistic setup since banks typically maintain capital buffers to ensure they do not breach the regulatory minimum. This differs from Clerc et. al. (2015), which assumes that banks always hold the minimum capital requirement. 
+On the household and corporate sectors, we introduce an exogenous Loan to Value (LTV) limit on the flow of new lending, which is a key feature of the mortgage and corporate lending sectors. The LTV limits are qualitatively similar to an exogenous collatoral constraint as in Iacoviello (2015). Our main focus in this paper is on the household LTV limit, since the Financial Policy Committee (FPC) in the U.K. does not have such a regulatory tool on corporate lending. Other key distortions and frictions in the model closely follow Clerc et. al. (2015): both the bank and borrowers (mortgage or corporate) in the model are subject to limited liability. The limited liability of banks, along with the presence of a deposit insurance agency implies that banks have an incentive to over-borrow and over-lend, since they do not fully internalize the costs of default. In this framework, regulatory capital is a means to restrict the use of excessive bank leverage. The model further features costly state verification, which implies that the use of leverage is more expensive and that defaults are costly. 
 
-
-On the household side, we introduce a Loan to Value (LTV) limit, which is a key feature of the mortgage lending market. The LTV limit is qualitatively similar to an exogenous collateral constraint as in Iacoviello. We further introduce a similar LTV limit on businesses, although we do not evaluate the impact of this since the Financial Policy Committee (FPC) in the U.K. does not have such a regulatory tool.
-
-
-Other key distortions and frictions in the model follow Clerc et. al. (2015). Accordingly, both the bank and borrowers in the model are subject to limited liability. The limited liability of banks, along with the presence of deposit insurance implies that banks have an incentive to over-borrow and thereby over-lend, since they do not fully internatilize the costs of default suffered by the deposit insurance agency and the economy as a whole. As such, regulatory capital is a means to restrict the use of excessive bank leverage. The model further features costly state verification, which implies that the use of leverage is more expensive and that defaults are costly. 
+The key agents in the economy are patient and impatient households, entrepreneurs, a bank that lends out in corporate and mortgage sectors, a deposit insurance agency and housing, capital and final goods producers. 
 
 
-Key agents in the economy are patient and impatient households, entrepreneurs, banks, a deposit insurance agency, housing, \& capital and final goods producers. Figure ?? provides an overview of all economic agents. Below we provide the maximization problem for each agent type. The associated first-order conditions can be found in the Appendix. 
+The key agents in the economy are patient and impatient households, entrepreneurs, banks, a deposit insurance agency, housing, \& capital and final goods producers. Figure \ref{model_overview} provides an overview of the main interactions between these agents along with the regulatory tools present in the model. Below we summarize the maximization problems for each agent type, while the associated first-order conditions and further details can be found in Appendix \ref{app_modelOverview}.
 
 
 \begin{figure}[H]
-	
+\caption{An overview of the main actors and regulatory tools in the model.}
+\label{model_overview}
 	%\includegraphics[width=0.9\textwidth]{DIAGRAM1}
-\includegraphics[width=0.9\textwidth]{3d_model_overview.pdf}
+\includegraphics[scale=0.5]{3d_flowchart_prud.pdf}
 \end{figure}
 
+\subsection{Overview of Agents}
+
 \noindent
-\textbf{Households:} there are two types of households, patient and impatient, with patient households having a higher discount factor as in Iacoviello (2015). Both patient and impatient households have concave utility functions and derive utility from consumption goods, housing and leisure. The individual households are a part of a representative dynasty, which provides perfect risk sharing within the group. Thus, all individual households within the type are (\hl{ex-post or ex-ante?} identical. While the individuals face idiosyncratic shocks, they are perfectly insured within their dynasty and hence consume and save/borrow identically.Both households supply labour in a competitive labour market.
+\textbf{Households:} there are two types of households, patient and impatient, with patient households having a higher discount factor as in Iacoviello (2015). Both patient and impatient households have concave utility functions and derive utility from consumption goods, housing and leisure. The individual households are a part of a representative dynasty, which provides perfect risk sharing within the group. Thus, all individual households within the type are ex-ante identical. While the individuals face idiosyncratic shocks, they are perfectly insured within their dynasty and hence consume and save/borrow identically.Both households supply labour in a competitive labour market.
 
 \noindent
 \textbf{Patient households} are savers who supply deposits to the bank in equilibrium, and buy houses with their own funds. Both households types derive utility from consumption as well as housing goods, and dis-utility from labour. As such, the patient household's maximization problem is given as:
@@ -302,7 +283,6 @@ c^s_t+q^H_{t}H^s_{t} +{D_{t}}=w_{t}L^s_{t}+q^H_{t}H^s_{t-1}(1-\delta)+{D_{t-1}}R
 \end{equation}
 
 where $\pi_{t}$ includes profits of final goods producing firms and investment \& housing production firms (which are owned by patient households), dividends from entrepreneurs and lump-sum transfers from deposit insurance agency. 
-
 
 
 
@@ -400,7 +380,7 @@ n^b_{t}+D_{t}=B^m_{t}+B^e_{t}
 \end{equation}
 
 
-\hl{we dont have this following  part in the code. This seems to be the old version replaced by 4.22-4.24? Otherwise I don't understand what's going on here. }
+%\hl{we dont have this following  part in the code. This seems to be the old version replaced by 4.22-4.24? Otherwise I don't understand what's going on here. }
 
 
 \begin{equation}
@@ -428,15 +408,16 @@ B^{ei}_t=(\frac{R^{fi}_t}{R^{f}_t})^{-\tau} B^{e}_t
 
 
 
-$R^{mi}$ and $R^{fi}$ are the rates of interest that the bank would charge in the absence of interest rate sluggishness. $\tau$ is the elasticity of substitution and determines the market power of the bank, while $\mu$ represent the bankruptcy cost of households and firms respectively. \hl{is this paragraph correct?} 
+%$R^{mi}$ and $R^{fi}$ are the rates of interest that the bank would charge in the absence of interest rate sluggishness. $\tau$ is the elasticity of substitution and determines the market power of the bank, while $\mu$ represent the bankruptcy cost of households and firms respectively. 
+%\hl{is this paragraph correct?} 
 
-\textbf{Penalty costs for violating the regulatory requirements}  are modeled as a \hl{non-pecuniary?} gain in utility if the capital adequacy ratio is higher than the minimum capital requirement and a \hl{non-pecuniary} cost if the capital adequacy ratio is lower than the minimum capital requirement with the following functional form: 
+\textbf{Penalty costs for violating the regulatory requirements}  are modeled as a non-pecuniary gain in utility if the capital adequacy ratio is higher than the minimum capital requirement and a non-pecuniary cost if the capital adequacy ratio is lower than the minimum capital requirement with the following functional form: 
 
 \begin{equation}
 PC_t=\nu^b \frac{[\frac{\phi^b_t}{\bar{\varphi_t}}]^{1-\sigma}-1}{{1-\sigma}}
 \end{equation}
 
-which is based on Nukhwoon \& Tsomocos (2018). The marginal gains of having excess capital are decreasing, whereas the marginal costs of having a shortfall in capital are increasing, whenever $\sigma$ is greater than 1. This creates an incentive for banks to maintain capital at a higher level than the minimum regulatory requirement. In reality, we find that banks do maintain capital buffer over what is the minimum required \hl{this needs a reference}. The parameter $\nu^b$ determines the weight attached to this penalty costs.
+which is based on Nukhwoon \& Tsomocos (2018). The marginal gains of having excess capital are decreasing, whereas the marginal costs of having a shortfall in capital are increasing, whenever $\sigma$ is greater than 1. This creates an incentive for banks to maintain capital at a higher level than the minimum regulatory requirement. In reality, we find that banks do maintain capital buffer over what is the minimum required, see e.g. Nier and Baumann (2006). The parameter $\nu^b$ determines the weight attached to this penalty costs.
 
 
 %The above functional form,based on Nukhwoon \& Tsomocos (2018) builds in a non-linearity in the penalty costs.The marginal gains of having excess capital are decreasing whereas the marginal costs of having a shortfall in capital are increasing, whenever $\sigma$ is greater than 1. This creates an incentive for banks to maintain capital at a higher level as compared to the minimum regulatory requirement. In reality, we find that banks do maintain capital buffer over what is the minimum required.The parameter $\nu^b$ determines the weight attached to this penalty costs.
@@ -473,8 +454,9 @@ Y_{t}=E_{A_{t}} K^{\alpha}_{t-1}L^{1-\alpha}_{t}
 
 \textbf{Capital goods and housing production } comes from competitive firms, owned by patient households,  that buy finished goods and produce capital goods and housing subject to quadratic adjustment costs. These firms produce new units of capital and housing using consumption goods, which are then sold to entrepreneurs and households. As such, they represent the supply side of capital goods and housing, and they pin down the equilibrium asset prices. 
 
-\subsection*{Exogenous Processes}
-The model is equipped with 12 exogenous AR(1) processes across different sectors. On the housing side, we have two preference shocks on housing and consumption $E_{J,t}$ and $E_{C_t}$, which affect the taste of both patient and impatient households for consumption and housing goods respectively. These shocks can be equivalently interpreted as the degree of risk aversion to purchasing consumption and housing goods. We further have a housing price shocks $E_{H,t}$, which is an external shock that directly affects the housing price index\footnote{This shock can also be thought of as a measurement error, i.e. the component of the housing prices that is not explained internally by the model.}. In the absence of a monetary policy shock, the external housing shock is intended to capture the effects of a looser monetary policy on house prices, which is discussed in further detail in the estimation section. Finally, we have a shock on the LTV limit of the households, $E_{LTVH,t}$ which is introduced to relax the restrictiveness of an always binding collatoral constraint. 
+\subsection{Exogenous Processes}
+
+The model is equipped with 12 exogenous AR(1) processes across different sectors. On the housing side, we have two preference shocks on housing and consumption $E_{J,t}$ and $E_{C_t}$, which affect the taste of both patient and impatient households for consumption and housing goods respectively. These shocks can be equivalently interpreted as the degree of risk aversion to purchasing consumption and housing goods. We further have a housing price shocks $E_{H,t}$, which is an external shock that directly affects the housing price index\footnote{This shock can also be thought of as a measurement error, i.e. the component of the housing prices that is not explained internally by the model.}. Finally, we have a shock on the LTV limit of the households, $E_{LTVH,t}$ which is introduced in order to relax the restrictiveness of an always binding constraint. 
 
 On the corporate side, we have a net worth shock $E_{We,t}$, which is a transfer from the housing sector to the businesses, which we use as a proxy for an exogenous government spending shock in our model. We also introduce a risk shock $E_{Se,t}$ into the corporate sector, which affects businesses' likelihood of default. Finally, we have an expected capital price shock $E_{EbF,t}$, which drives the stock market sentiment in the model. 
 
@@ -500,49 +482,31 @@ Finally, the Cobb-Douglas production function of final goods producing firms is 
 %-Bank capital shock $CAB_t$: this is a shock directly affecting the capital ratio of the bank. In the absence of a monetary policy authority, these shocks can be interpreted as a proxy for monetary policy shocks. \\
 %-Markup, or cost-push shocks $H_{markup,t}$ and $F_{markup,t}$: these are shocks on the mortgage and corporate rate that the bank would like to set. An increase in either shock can be interpreted as an external factor that pushes up the bank's cost of lending, which results in an increase in the rate that the would set in the absence of sluggishness. As such, these are shocks to the wedge interest rate wedge driven by stickiness.
 
-\section*{Estimation}
+\section{Estimation}
 
 
 
-\subsection*{Measurement equations} 
+\subsection{Measurement equations} 
 
-We use quarterly data from U.K. over the period $1998Q1-2016Q4$ for key macroeconomic and financial variables\footnote{Further details on the construction of the observable variables can be found in the appendix.}:
+We use quarterly data from U.K. over the period $1998Q1-2016Q2$ for ten key macroeconomic and financial variables\footnote{Further details on the observable variables can be found in the appendix.} for the Bayesian estimation of our model\footnote{The preceding two years over 1996Q1-1997Q4 are used as a training sample.}. For aggregate output $Y_t$, wages $W_t$, investment $I_t$, consumption $C_t$, as well as House prices $q^{H,t}$, corporate lending $b_{e,t}$ and mortgage lending $b_{m,t}$, we match the data in terms of growth rates with a measurement equation of the form: 
 
-\begin{itemize}
-\item Output growth:\\
-$\Delta Y_t^{obs}=\gamma_Y+ Y_t-Y_{t-1}$,
+\begin{equation}
+\Delta x_t^{obs}=\gamma_x+ X_t-X_{t-1},
+\end{equation}
 
-\item Wage growth:\\
-$\Delta W_t^{obs}=\gamma_W+ W_t-W_{t-1}$,
+with $x \in \{Y, W, I, C, q^{H}, b_e, b_m \} $, where $\gamma_x$ denotes the historical average of each time series under consideration\footnote{Since our model does not feature a steady-state growth, these averages are pre-computed and remain fixed during the estimation.}. For the remaining three variables, namely the official bank rate $R^{D}_{t}$, the effective mortgage lending rate $R^H_t$ and the effective corporate lending rate $R^m_t$, we match the data in levels with a measurement equation of the form: 
 
-\item Investment growth:\\
-$\Delta I_t^{obs}=\gamma_I+ I_t-I_{t-1}$,
+\begin{equation}
+y_t^{obs}=100(\bar{Y}-1) + Y_t,
+\end{equation}
 
-\item Consumption growth:\\
-$\Delta C_t^{obs}=\gamma_C+ C_t-C_{t-1}$,
-
-\item Mortgage lending rate:\\
-${R^{H,t}}^{obs}=100(\bar{R^H}-1) + R^m_t$,
-\item Business lending rate:\\
-${R^{m,t}}^{obs}=100(\bar{R^m}-1) + R^m_t$,
-
-\item Deposit rate: \\
-${R^{D,t}}^{obs}=100(\bar{R^D}-1) + R^D_t$,
+with $y \in \{R^D, R^H, R^m \}$ and $\bar{Y}$, and $\bar{Y}$ denotes the steady-state level of the associated variables in the model. Note that we match the official bank rate to the deposit rates in the model\footnote{An alternative approach is to use both the official bank rate and average deposit rates, where the difference between the two is captured with another layor of staggered interest rates. This approach has been adopted in Paries et. al. (2010), where they find little evidence of staggered rates between these two time series. Therefore in this paper, we directly equate the deposit rates to the official bank rate for simplicity.}. 
 
 
-\item House price growth rate: \\
-$\Delta {q^{H,t}}^{obs} =\gamma_{\Delta q^H} + q^H_t - q^H_{t-1}$,
-\item Business lending growth rate:\\
-$\Delta {b_{e,t}}^{obs}=\gamma_{\Delta b_e}+  b^e_t - b^e_{t-1} $,
-
-\item Mortgage lending growth rate:\\
-$\Delta {b_{m,t}}^{obs}=\gamma_{\Delta b_m}+  b^m_t - b^m_{t-1} $,
-
-\end{itemize}
 
 $\gamma_Y,\gamma_W,\gamma_I,\gamma_C,\gamma_{\Delta q^H} $ and $\gamma_{\Delta b}$ are obtained by demeaning the series prior to estimation, since our model does not feature steady-state growth. $\bar{R^H}, \bar{R^m}$ and $\bar{R^D}$\footnote{We assume that the deposit rates are equivalent to the official Bank Rate in our estimation exercise since there is no monetary policy in our model. In the presence of monetary policy, an alternative would be to introduce another layer of sluggishness from the Bank Rate to deposit rates. However, Pariès et. al. (2010) find little evidence for the importance of this channel based on EU data.} denote the gross lending and deposit rates at the steady-state of the model.  
 
-\subsection*{Calibrated parameters and Prior Distributions }
+\subsection{Calibrated Parameters and Prior Distributions }
 
 Prior to estimation, we fix a number of parameters by either following conventional values used in the literature or to generate steady-state values consistent with U.K. data. Parameters relating to default costs are based on Mendicino et. al. (2015): the depositor cost of bank default $\gamma$ is fixed at $0.1$. The bankruptcy cost of households, businesses and banks $\mu_m, \mu_e$ and $\mu_B$ are set to a common value of $0.3$. The discount factor for patient households is $0.995$. 
 
@@ -550,20 +514,19 @@ Prior to estimation, we fix a number of parameters by either following conventio
 For some parameters, we use standard values following convention in the literature. Accordingly, capital share in production is set to $0.3$, while the Frisch elasticity of labor $\eta$ is $1$. The labor preference parameters for both types of households $\varphi_s$ and $\varphi_m$ are normalized to $1$ since they mainly scale the size of the economy. The parameters $a_s$ and $a_b$ are set to $0.5$, which determine the share of total default costs paid by saving and borrowing households respectively. 
 
 
-Some parameters are closely linked with the steady-state of the economy. We use these parameters to generate plausible ratios for some of the key variables. The housing preference parameters for both types of households, $v_s$ and $v_m$, as well as business and bank dividend payout parameters, $\chi_e$ and $\chi_b$, are used to generate plausible business and mortgage lending to aggregate output ratios.  Accordingly, we set $v_s=0.25$ and $v_m=0.5$, while the divident payouts are set to $\chi_e=0.1$ and $\chi_b=0.15$. These generate lending ratios of $133 \%$ and $86 \%$ for corporate and mortgage lending to output respectively, which are reasonably close to the historical means of the corresponding U.K. ratios over the estimation period, which are $118 \%$ and $81 \%$ respectively. At the given values, mortgage lending constitutes $38 \%$ of total lending in steady-state. Similarly, we set the housing and capital depreciation rates to $\delta_H=0.01$ and $\delta_K=0.04$, which yields an investment to output ratio of $0.12 \%$, which is close to the historical mean of $0.17 \%$ for the U.K. economy over this period \hl{where did I take these ratios from?}. 
+Some parameters are closely linked with the steady-state of the economy. We use these parameters to generate plausible ratios for some of the key variables. The housing preference parameters for both types of households, $v_s$ and $v_m$, as well as business and bank dividend payout parameters, $\chi_e$ and $\chi_b$, are used to generate plausible business and mortgage lending to aggregate output ratios.  Accordingly, we set $v_s=0.25$ and $v_m=0.5$, while the divident payouts are set to $\chi_e=0.1$ and $\chi_b=0.15$. These generate lending ratios of $133 \%$ and $86 \%$ for corporate and mortgage lending to output respectively, which are reasonably close to the historical means of the corresponding U.K. ratios over the estimation period, which are $118 \%$ and $81 \%$ respectively. At the given values, mortgage lending constitutes $38 \%$ of total lending in steady-state. Similarly, we set the housing and capital depreciation rates to $\delta_H=0.01$ and $\delta_K=0.04$, which yields an investment to output ratio of $12 \%$, which is close to the historical mean of $17 \%$ for the U.K. economy over this period\footnote{In the model, aggregate investment is calculated as the sum of housing and capital investment. The historical mean ratio for the U.K. is taken from ons.gov.uk for the estimation period.}. The parameters determining market power of the bank, $\tau_m$ and $\tau_F$ are both set to 40, whereas the hyperparameters in the cost function are set to $\psi_b=5$ and $\nu=0.5$. Finally, we set the household and entrepreneur repayment rates in the LTV limit as $0.01$ and $0.05$ respectively. 
 
-The parameters determining market power of the bank, $\tau_m$ and $\tau_F$ are both set to 40, whereas the hyperparameters in the cost function are set to $\psi_b=5$ and $\nu=0.5$. 
-
-Parameters relating to macroprudential regulation are fixed in our benchmark estimations. Accordingly, for minumum capital requirements, we use a benchmark value of $\phi_H=\phi_F=0.11$ for both sectors, which is close to the historical minimum capital requirements for U.K. over this period. We further assume there is no CCyB in place in our benchmark estimations.  Similarly, the LTV limit for both households and businesses is assumed to be fixed in our benchmark estimation, which is set to $0.86$, close to the historical average over this period for the U.K. economy. \hl{specify which periods and which values these historical averages correspond to}. 
+Parameters relating to macroprudential regulation are fixed in our benchmark estimations. Accordingly, for minumum capital requirements, we use a benchmark value of $\phi_H=\phi_F=0.11$ for both sectors, which is close to the historical minimum capital requirements for U.K\footnote{Available data for capital requirements is taken from Bank of England's website, where we use Basel III common equity Tier I capital ratio after 2014, and Core Tier I capital ratio before 2014. Alternatively, one could use the capital requiments as another observable in the estimation, but we choose to fix these ratios given that Basel requirements do not have a one-to-one correspondence in the model, and that the data is only available at an annual frequency before 2014.}. We assume that there is no CCyB in place in our benchmark estimations, and the LTV limit for households is fixed at 86 \%, which corresponds to the historical average over most of this period for the U.K. economy\footnote{Similar to capital ratios, the data to calculate this average is taken from BoE's website, where we use the Residential mortgage LTV ratio, available over the period 2005-2016.}. We fix the LTV limit on corporates at the same value as household LTV, since the FPC in the U.K. does not have such a regulatory tool. 
 
 
-The remaining 35 parameters are estimated using Bayesian likelihood methods to match the data. For the AR(1) coefficients of all exogenous shocks, we use a standard Beta distribution with mean $0.5$ and standard deviation $0.2$ following Smets-Wouters (2007) \hl{add to citations}. The standard deviations of all exogenous shocks are assigned a diffuse uniform prior over the interval $[0,10]$. The volatility of i.i.d. shocks on households, businesses and banks follow a common Inverted Gamma distribution with mean $0.1$ and standard deviation $2$: we choose to use more informative priors for these parameters since both aggregate and i.i.d shocks mainly relate to the level of default rates in a first-order approximation, hence estimating both sets of parameters with uninformative priors may lead to identification issues. For the cost adjustment parameters $\psi_i$ and $\psi_h$, we assume a conventional normal distribution with a mean of $5$ and standard deviation $2$, which is a wider and less informative prior than previous literature (\hl{see e.g. Smets-Wouters which assumes ~N(4,1.5), check also what is assumed in Compass}).Finally, for the Calvo parameters on interest rates, we follow Pariès et. al. (2010) and assume a Beta distribution with mean $0.5$ and standard deviation $0.2$. This is similar to previously assumed priors for Calvo price setting on prices and wages, which typically follows similar Beta distributions. 
+The remaining 33 parameters are estimated using Bayesian likelihood methods to match the data. For the AR(1) coefficients of all exogenous shocks, we use a standard Beta distribution with mean $0.5$ and standard deviation $0.2$ following Smets-Wouters (2007) . The standard deviations of all exogenous shocks are assigned a diffuse uniform prior over the interval $[0,10]$. The volatility of i.i.d. shocks on households, businesses and banks follow a common Inverted Gamma distribution with mean $0.1$ and standard deviation $2$: we choose to use more informative priors for these parameters since both aggregate and i.i.d shocks mainly relate to the level of default rates in a first-order approximation, hence estimating both sets of parameters with uninformative priors may lead to identification issues. For the cost adjustment parameters $\psi_i$ and $\psi_h$, we assume a conventional normal distribution with a mean of $5$ and standard deviation $2$\footnote{See e.g. Smets-Wouters (2007), which uses a normal prior with mean 4 and standard deviation 1.5. Note that our prior is more diffuse compared to BoE's COMPASS model (2013), which uses a tight Gamma prior with mean $2$ and standard deviation $0.4$.}. For habit formation $\lambda$, we use the same Beta prior as in Calvo parameters, and for the impatient household discount factor $\beta_m$, we use a tight Beta prior with $0.98$ and standard deviation $0.01$ to ensure that the prior interval for this parameter remains below the patient household discount factor of $0.995$. Finally, the volatility of the default shock parameters $\sigma_e$, $\sigma_m$ and $\sigma_B$ are assigned inverted Gamma priors with mean $0.1$ and standard deviation 2\footnote{These i.i.d. essentially play the same role as the exogenous risk shocks in terms of determining the default rates (with the difference that i.i.d. shocks affect the steady-state levels, while the exogenous shocks do not). Therefore these two sets of shocks may not be jointly identified, therefore we assign more informative priors for these parameters compared to the standard deviation of exogenous shocks.}. The priors for all parameters are summarized in Table \ref{post_dist}. 
 
-We notice that the steady state is very sensitive to the remaining 4 parameters: habit formation $\lambda$, repayment rates for households $rp$ and businesses $rpe$, and the discount factor of impatient households $\beta_m$. For these parameters, the likelihood function is also very irregular and we observe large jumps in the objective function for small parameter changes, which makes the computation of standard errors and posterior distributions around these variables very hard with conventional methods. For these parameters, we therefore use the following approach: we compute the point estimates for the candidate density (i.e. posterior mode) without computing the standard errors. These 4 parameters are then fixed at their point estimates and are exluded in the posterior MCMC draws, i.e. we compute the posterior distributions of the remaining 31 parameters conditional on the point estimates of these 4 parameters. 
+The steady-state of our model is not available in closed-form and therefore it is numerically computed for every parameter draw. This increases the computational burden associated with the posterior distributions. This complicates the estimation of parameters that affect the steady-state, namely the habit formation, impatient household discount rate, and the i.i.d. shock variances. Therefore for five these parameters, we only compute the point estimates for the candidate density (i.e. posterior mode). We then leave the parameters fixed at these point estimates before proceeding to the computation of posterior distributions\footnote{Alternatively one could fix these parameters similar to the others, but we did not find studies with similar parameters on the U.K. data that could guide the choice of these and therefore took this intermediate approach.}.  
 
-The posterior distribution of the remaining 31 parameters are computed using 4 parallel MCMCs, each with 200000 draws where the first half of each chain is discarded as the burn-in sample. The scaling coefficient of the parameter covariance matrix is adjusted to obtain an acceptance ratio of around $35\%$ in each case. 
-
+The posterior distributions of the remaining 28 parameters are computed using 4 parallel Monte Carlo Markov Chains (MCMC), each with 500000 draws where the first half of each chain is discarded as a burn-in sample. The scaling coefficient of the parameter covariance matrix is adjusted to obtain an acceptance ratio of around $35 \%$ in each case. 
  
+
+\begin{comment} 
 \begin{table}[H]
 \caption{Prior Distributions}
 \begin{tabular}{l|l|l|l}
@@ -573,102 +536,105 @@ Parameter & Prior &  &  \\
  & Dist & Mean & Variance \\
  \hline
 \hline
-$\epsilon_{Hd}$ & Uniform & 10 & 5.77 \\
-$\epsilon_{Hk}$ & Uniform & 10 & 5.77 \\
 $\epsilon_{A}$ & Uniform & 10 & 5.77 \\
 $\epsilon_{J}$ & Uniform & 10 & 5.77 \\
+$\epsilon_{H}$ & Uniform & 10 & 5.77 \\
 $\epsilon_{Se}$ & Uniform & 10 & 5.77 \\
-$\epsilon_{Sm}$ & Uniform & 10 & 5.77 \\
 $\epsilon_{SB}$ & Uniform & 10 & 5.77 \\
 $\epsilon_{We}$ & Uniform & 10 & 5.77 \\
 $\epsilon_{markup_m}$ & Uniform & 10 & 5.77 \\
 $\epsilon_{markup_e}$ & Uniform & 10 & 5.77 \\
 $\epsilon_{EC}$ & Uniform & 10 & 5.77 \\
 $\epsilon_{ECAB}$ & Uniform & 10 & 5.77 \\
-$\sigma_e$ & Inv. Gamma & 2 & 0.1 \\
-$\sigma_m$ & Inv. Gamma & 2 & 0.1 \\
-$\sigma_B$ & Inv. Gamma & 2 & 0.1 \\
-$\psi_i$ & Normal & 5 & 2 \\
-$\psi_h$ & Normal & 5 & 2 \\
-$\zeta_m$ & Beta & 0.5 & 0.2 \\
-$\zeta_e$ & Beta & 0.5 & 0.2 \\
-$\rho_{Hd}$ & Beta & 0.5 & 0.2 \\
-$\rho_{Hk}$ & Beta & 0.5 & 0.2 \\
+$\epsilon_{LTVH}$ & Uniform & 10 & 5.77 \\
+$\epsilon_{EbF}$ & Uniform & 10 & 5.77 \\
+
+
 $\rho_{A}$ & Beta & 0.5 & 0.2 \\
 $\rho_{J}$ & Beta & 0.5 & 0.2 \\
+$\rho_{H}$ & Beta & 0.5 & 0.2 \\
 $\rho_{Se}$ & Beta & 0.5 & 0.2 \\
-$\rho_{Sm}$ & Beta & 0.5 & 0.2 \\
 $\rho_{SB}$ & Beta & 0.5 & 0.2 \\
 $\rho_{We}$ & Beta & 0.5 & 0.2 \\
 $\rho_{markup_m}$ & Beta & 0.5 & 0.2 \\
 $\rho_{markup_e}$ & Beta & 0.5 & 0.2 \\
 $\rho_{EC}$ & Beta & 0.5 & 0.2 \\
 $\rho_{ECAB}$ & Beta & 0.5 & 0.2 \\
-$\beta_m$ 	  &   Beta   &  0.98   & 0.01    \\
-%$\lambda$ 	  &  Beta    &   0.5  &   0.2  \\
-%$rp$ 	  &   Beta   &   0.05  &   0.025  \\
-%$rpe$ 	  &   Beta   &   0.05  &   0.025  \\
+$\rho_{LTVH}$ & Beta & 0.5 & 0.2 \\
+$\rho_{EbF}$ & Beta & 0.5 & 0.2 \\
+
 $\phi_i$ 	  &   Normal   &  4   & 1.5    \\
 $\phi_h$ 	  &   Normal  &   4   & 1.5  \\
+
+$\zeta_m$ & Beta & 0.5 & 0.2 \\
+$\zeta_e$ & Beta & 0.5 & 0.2 \\
+
+$\beta_m$ 	  &   Beta   &  0.98   & 0.01    \\
+$\lambda$ 	  &  Beta    &   0.5  &   0.2  \\
+
+$\sigma_e$ & Inv. Gamma & 2 & 0.1 \\
+
+$\sigma_m$ & Inv. Gamma & 2 & 0.1 \\
+
+$\sigma_B$ & Inv. Gamma & 2 & 0.1 \\
 \end{tabular}
 \end{table}
+\end{comment}
 
-\section*{Posterior Estimates \& Distributions}
 
-Table \ref{post_dist} reports the point estimates as well as the 95\% HPD intervals of all estimated parameters.
+\subsection{Posterior Distributions for Estimated Parameters}
 
-Of particular interest are Calvo parameters, for which the posterior distributions are along with the posterior mean and mode are shown in Figure ??. We find a Calvo probability of 44.7 \% for corporate rates, whereas the probability for mortgage rates is 69.1 \%. This means banks are able to reset the interest rates on corporate loans once every 1.81 quarters or 5.42 months, while it takes much longer to reset the interest rates on mortgage loans with an average of 3.24 quarters or 9.71 months. The 95 \% confidence intervals are $[4.73,5.93]$ months for corporate rates and $[8.21,11.1]$ months for mortgage rates.
-
-The shocks are typically estimated with high autocorrelation coefficients, with the exception of household and entrepreneur uncertainty shocks, as well as the bank capital shock. In particular the productivity, housing preference and bank uncertainty shocks have autocorrelation coefficients near unity, implying very high persistence. Regarding the capital and housing invesment adjustment cost parameters, we find values of $10.08$ and $13.38$ respectively, implying that housing investment is more sluggish compared to capital invesment. 
+The point estimates, along with the 95 \% highest posterior density (HPD) intervals for the parameters are reported in Table \ref{post_dist}\footnote{The distributions of all estimated parameters can be found in Appendix \ref{app_posteriorDist} in Figures \ref{app_post1} and \ref{app_post2}.}. Of particular interest are Calvo parameters, for which the posterior distributions are along with the posterior mean and mode are shown in Figure \ref{post_calvo}. We find a Calvo probability of 49.7 \% for corporate rates, whereas the probability for mortgage rates is 71.8 \%. This means, on average, banks are able to reset the interest rates on corporate loans once every 1.98 quarters or 5.94 months, while it takes much longer to reset the interest rates on mortgage loans with an average duration of 3.54 quarters or 10.62 months. The 95 \% credible intervals are $[5.19, 6.51]$ for corporate rates and $[8.82,12.48]$ for mortgage rates. The shocks are typically estimated with high autocorrelation coefficients, with the exception of bank and entrepreneur risk shocks. In particular, the productivity, housing preference and business net worth shocks have autocorrelation coefficients near unity, implying high persistence. These shocks also emerge as the main drivers of the business cycle for key variables as will be discussed below. For the capital and housing investment adjustment cost parameters, we find values of $7.92$ and $4.85$ respectively, implying more sluggishnes in housing investment compared with capital investment. 
 
 
 
 \begin{table}[H]
 \caption{Posterior Estimates}
 \label{post_dist}
-\begin{tabular}{l||llll}
-Parameter & Posterior &  &  &  \\
- & Mode & Mean & HPD \% 5 & HPD \% 95 \\
+\begin{tabular}{l||lll|llll}
+\textbf{Parameter} & \textbf{Prior} & &  & \textbf{Posterior} &  &  &  \\
+ & Dist & Mean & Variance & Mode & Mean & HPD \% 5 & HPD \% 95 \\
  \hline
  \hline
-$\epsilon_{A}$ & 0.0078 & 0.0079 & 0.0068 & 0.0092 \\
-$\epsilon_{J}$ & 0.0971 & 0.1019 & 0.0841 & 0.1234 \\
-$\epsilon_{H}$ & 0.0396 & 0.0499 & 0.0323 & 0.0739 \\
-$\epsilon_{Se}$ & 0.0462 & 0.0728 & 0.0317 & 0.1483 \\
-$\epsilon_{SB}$ & 0.0308 & 0.0317 & 0.0244 & 0.0398 \\
-$\epsilon_{We}$ & 0.0053 & 0.0055 & 0.0047 & 0.0064 \\
-$\epsilon_{markup_m}$ & 0.0005 & 0.0005 & 0.0004 & 0.0006 \\
-$\epsilon_{markup_e}$ & 0.0004 & 0.0004 & 0.0003 & 0.0004 \\
-$\epsilon_{EC}$ & 0.0288 & 0.0295 & 0.0253 & 0.0341 \\
-$\epsilon_{ECAB}$ & 0.0379 & 0.038 & 0.029 & 0.0486 \\
-$\epsilon_{LTVH}$ & 0.1353 & 0.1563 & 0.1105 & 0.208 \\
-$\epsilon_{EbF}$ & 0.0423 & 0.0435 & 0.0369 & 0.0516 \\
+ $\epsilon_{A}$& Uniform & 10 & 5.77 & 0.0078 & 0.0079 & 0.0068 & 0.0092 \\
+ $\epsilon_{J}$& Uniform & 10 & 5.77 & 0.0971 & 0.1019 & 0.0841 & 0.1234 \\
+$\epsilon_{H}$ & Uniform & 10 & 5.77 & 0.0396 & 0.0499 & 0.0323 & 0.0739 \\
+$\epsilon_{Se}$ & Uniform & 10 & 5.77 &0.0462 & 0.0728 & 0.0317 & 0.1483 \\
+$\epsilon_{SB}$ & Uniform & 10 & 5.77 & 0.0308 & 0.0317 & 0.0244 & 0.0398 \\
+$\epsilon_{We}$ & Uniform & 10 & 5.77 & 0.0053 & 0.0055 & 0.0047 & 0.0064 \\
+$\epsilon_{markup_m}$ & Uniform & 10 & 5.77 & 0.0005 & 0.0005 & 0.0004 & 0.0006 \\
+$\epsilon_{markup_e}$ & Uniform & 10 & 5.77 & 0.0004 & 0.0004 & 0.0003 & 0.0004 \\
+$\epsilon_{EC}$ & Uniform & 10 & 5.77 & 0.0288 & 0.0295 & 0.0253 & 0.0341 \\
+$\epsilon_{ECAB}$ & Uniform & 10 & 5.77 & 0.0379 & 0.038 & 0.029 & 0.0486 \\
+$\epsilon_{LTVH}$ & Uniform & 10 & 5.77 &0.1353 & 0.1563 & 0.1105 & 0.208 \\
+$\epsilon_{EbF}$ & Uniform & 10 & 5.77 & 0.0423 & 0.0435 & 0.0369 & 0.0516 \\
 \hline
-$\rho_{A}$ & 0.9956 & 0.9905 & 0.9786 & 0.9978 \\
-$\rho_{J}$ & 0.9849 & 0.9836 & 0.9733 & 0.9919 \\
-$\rho_{H}$ & 0.9572 & 0.9416 & 0.9051 & 0.9723 \\
-$\rho_{Se}$ & 0.499 & 0.4983 & 0.1723 & 0.8312 \\
-$\rho_{SB}$ & 0.0328 & 0.0498 & 0.0143 & 0.0984 \\
-$\rho_{We}$ & 0.8434 & 0.835 & 0.7663 & 0.8981 \\
-$\rho_{markup_m}$ & 0.8717 & 0.8685 & 0.7839 & 0.9447 \\
-$\rho_{markup_e}$ & 0.9347 & 0.9304 & 0.8851 & 0.969 \\
-$\rho_{EC}$ & 0.8424 & 0.8433 & 0.8012 & 0.8787 \\
-$\rho_{ECAB}$ & 0.5007 & 0.5002 & 0.1778 & 0.8234 \\
-$\rho_{EbF}$ & 0.9268 & 0.9194 & 0.8675 & 0.9678 \\
-$\rho_{LTVH}$ & 0.9292 & 0.9082 & 0.8207 & 0.971 \\
-$\rho_{Wb}$ & 0.9733 & 0.9587 & 0.9008 & 0.9907 \\
-$\rho_{markup_m}$ & 0.9532 & 0.9267 & 0.8536 & 0.9775 \\
-$\rho_{markup_e}$ & 0.8962 & 0.7038 & 0.2734 & 0.948 \\
-$\rho_{EC}$ & 0.8506 & 0.8567 & 0.8234 & 0.888 \\
-$\rho_{ECAB}$ & 0.2898 & 0.5034 & 0.176 & 0.8295 \\
+$\rho_{A}$ & Beta & 0.5 & 0.2 & 0.9956 & 0.9905 & 0.9786 & 0.9978 \\
+ $\rho_{J}$ & Beta & 0.5 & 0.2 & 0.9849 & 0.9836 & 0.9733 & 0.9919 \\
+$\rho_{H}$& Beta & 0.5 & 0.2 & 0.9572 & 0.9416 & 0.9051 & 0.9723 \\
+$\rho_{Se}$ & Beta & 0.5 & 0.2 & 0.499 & 0.4983 & 0.1723 & 0.8312 \\
+$\rho_{SB}$ & Beta & 0.5 & 0.2 &0.0328 & 0.0498 & 0.0143 & 0.0984 \\
+$\rho_{We}$ & Beta & 0.5 & 0.2 &0.8434 & 0.835 & 0.7663 & 0.8981 \\
+$\rho_{markup_m}$  & Beta & 0.5 & 0.2 & 0.8717 & 0.8685 & 0.7839 & 0.9447 \\
+$\rho_{markup_e}$ & Beta & 0.5 & 0.2 &0.9347 & 0.9304 & 0.8851 & 0.969 \\
+$\rho_{EC}$ & Beta & 0.5 & 0.2 & 0.8424 & 0.8433 & 0.8012 & 0.8787 \\
+$\rho_{ECAB}$ &Beta & 0.5 & 0.2 &0.9268 & 0.9194 & 0.8675 & 0.9678 \\
+$\rho_{LTVH}$ & Beta & 0.5 & 0.2 & 0.9292 & 0.9082 & 0.8207 & 0.971 \\
+$\rho_{Wb}$ & Beta & 0.5 & 0.2 & 0.9733 & 0.9587 & 0.9008 & 0.9907 \\
 \hline
-$\psi_i$ & 7.9159 & 8.0655 & 5.7808 & 10.5123 \\
-$\psi_h$ & 4.8532 & 5.821 & 3.5007 & 8.4709 \\
-$\zeta_m$ & 0.7179 & 0.7155 & 0.6629 & 0.7607 \\
-$\zeta_e$ & 0.4967 & 0.4914 & 0.4333 & 0.5468 \\
+$\psi_i$ &    Normal   &  4   & 1.5  & 7.9159 & 8.0655 & 5.7808 & 10.5123 \\
+$\psi_h$ &    Normal   &  4   & 1.5  & 4.8532 & 5.821 & 3.5007 & 8.4709 \\
+$\zeta_m$ & Beta & 0.5 & 0.2 & 0.7179 & 0.7155 & 0.6629 & 0.7607 \\
+$\zeta_e$ & Beta & 0.5 & 0.2 & 0.4967 & 0.4914 & 0.4333 & 0.5468 \\
+\hline
+$\beta_m$ & Beta   &  0.98   & 0.01  & 0.9719 & - & - & - \\
+$\lambda$ & Beta    &   0.5  &   0.2  & 0.6626 & - & - & - \\
+$\sigma_e$  & Inv. Gamma & 2 & 0.1 & 0.0802 & - & - & - \\
+$\sigma_m$ & Inv. Gamma & 2 & 0.1  & 0.0915 & - & - & - \\
+$\sigma_B$ & Inv. Gamma & 2 & 0.1  & 0.0751 & - & - & - \\
+
 \end{tabular}
 \end{table}
-
 
 
 
@@ -676,40 +642,51 @@ $\zeta_e$ & 0.4967 & 0.4914 & 0.4333 & 0.5468 \\
 \begin{figure}[H]
 \centering
 \caption{Posterior distributions of estimated Calvo parameters on interest rate setting.}
+\label{post_calvo}
 \includegraphics[scale=0.65]{posteriordistributions_calvo2.pdf}
 \end{figure}
 
 \FloatBarrier
 
-\section*{Estimated Shocks}
+\subsection{Estimated Shocks}
 
-Figure \ref{estimated_shocks} shows some of estimated shocks over estimated period, particularly those that play a dominant role over the Global Financial Crisis period. Accordingly, the drops in the macroeconomic variables come out as a combination of several adverse shocks in the model. On the housing side, there is an increase in the housing depreciation shock, which means there is suddenly an increase in the supply of houses available on the market\footnote{We estimated an alternative version of the model where the housing depreciation shock is replaced with a house price expectation shock, in which case a negative expectation shock replaces the role of the positive supply shock as depicted here.}. This is accompanied by a negative housing preference shock. This shift in the housing preference, ceteris paribus, would mean that households will shift their spending towards consumption rather than housing. Therefore the model generates a negative consumption preference shock to offset the impact of the housing preference shock on consumption. Together, these preference shocks can be interpreted as an increase in households' overall risk aversion that makes them less likely to purchase housing or spend on consumption as their income goes down. These shocks are accompanied by an increase in households' uncertainty (or risk) shock, which makes households more likely default other things being equal. Together, these shocks lead to an increase of around 5 \% in the default rate of households over the crisis period. A similar story emerges on the banking side, where we observe an increase in the bank uncertainty shock and a negative bank net worth shock. Together, these shocks lead to a gradual and moderate increase in the bank default rates from  0.1 \% to 0.2 \%. As such, the primary source of contraction in the model emerges as the adverse shocks on the household side that drive down the house prices and household income, leading to an increase in the household default rate and a reduction in the mortgage lending growth.
+Figure \ref{estimated_shocks} shows some of the key estimated shocks along with their 95 \% HPD intervals\footnote{The full set of shocks, along with all of the observable variables are reported in Appendix \ref{app_dataAndShocks}. } over our sample period, which illustrates which shocks play a dominant role during the financial crisis period. Accordingly, it takes the combination of several adverse shocks to generate the crisis in the model. On the housing side, the main drivers emerge as the housing preference and housing price shocks as both of them fall considerably around the crisis period\footnote{We tested alternative version of the model with depreciation and expected price shocks on the housing side, in which case the role played by the preference and house price shocks are somewhat reduced.}. The house price shock in our model plays a qualitatively similar role to a measurement error, i.e. it is an external shock that directly hits the house price level. Keeping everything else equal, the effect of such a drop in housing prices is to boost housing demand and investment. Therefore, the adverse effects of the house price drop on output growth and the macroeconomy as a whole are picked up by the housing preference shock. Similar to the housing shocks, there is a sizeable drop in the consumption preference shock, which slowly starts to pick up after the crisis but remains persistently low throught the sample period. The drop in consumption preference helps explain the reduction in consumption growth and, as a result, in output growth. Given the similar patterns in housing and preference shocks, these two simultaneous drops can be interpreted as an increased risk aversion to spending by households\footnote{Note that there is also a substitution effect at play with these two preference shocks: since both prefence shocks leave the household wealth unchanged, a negative consumption preference shock increases housing demand whereas a negative housing preference shock increases consumption spending.}. 
 
-On the corporate side, we do not observe a discernible difference in business default rates. In order to match the observed drop in business lending rates, the model generates an increase in the capital depreciation shock. Because this creates a larger than observed impact on the real side of the economy in output, investment and consumption, there is a positive increase in the productivity shock to offset some of the impact of the capital depreciation shock. 
+On the business side, the entrepreneur and expected capital price shocks play a dominant role compared to the rest. The entrepreneur net worth shock decreases during the crisis but quickly picks up afterwards, while the expected capital price shock gradually decreases after the crisis. The entrepreneur net worth shock plays a particularly important role in driving output growth as we will discuss below. This shock has a redistributional effect from households to the corporate sector, and as such we interpret it as picking up the effects of an external government spending shock in our framework. It is important to note that this shock remains elevated during the post-crisis period compared to its values during early 2000s. 
 
-\begin{sidewaysfigure}
+Finally, the productivity shock decreases during the crisis period. We observe a pattern in the productivity process similar (but opposite of) to the entrepreneur net worth shock, where the productivity process not does recover after the crisis period and remains lower compared to its pre-crisis level. The post-crisis lower productivity is consistent with the conventional wisdom surrounding productivity in the U.K. 
+
+The remaining shocks (not reported in Figure \ref{estimated_shocks}) play a smaller degree during the crisis period and over the business cycle as a whole: the mortgage and corporate loan mark-up shocks are typically small with the exception of when interest rates fall to the zero lower bound levels. This corresponds to the period where the gap between the official bank rate and the mortgage \& corporate loans grows. Accordingly, these two shocks help generate the interest rate stickiness and obtain the Calvo probabilities reported in the previous section. The bank net worth and bank capital shocks also play a surprisingly small role especially surrounding the crisis period. Finally the housing LTV shock decreases once the adverse shocks hit, which is interpreted as the borrowing constraint becoming more restrictive during this period. However, this shock does not play a substantial role in the variance decompositions as will be discussed below. 
+
+
+Figure \ref{estimated_shocks}b shows the estimated default rates across all three sectors. It is readily seen that corporate default rates remain practically at zero throughout the sample period, implying this layer of default does not play an important role. The bank default rate is somewhat increased during the crisis period, although it still remains at low levels throughout the sample\footnote{We experimented with an alternative version of the model, where we use the average price-to-book ratio of U.K. banks as a proxy for the AR(1) bank risk shock, which directly determines the bank default rate in the model. In this case we obtain a sharper jump in the bank default rate during the crisis, but the overall default rate as well as the wider implications for the model remain qualitatively the same.}. Unlike the bank and corporate default rates, the household default rate is substantially increased during the crisis period, and it remains elevated until 2012 before starting to come down. Together with the redistributional entrepreneur net worth shock, this increase in the default rate can be interpreted as households paying the cost of the crisis. 
+
+
+
+\begin{figure}[H]
 \centering
-\caption{Estimated Shocks}
+\caption{Estimated Shocks and Default Rates over 1998Q1-2016Q2.}
 \label{estimated_shocks}
-\includegraphics[scale=0.5]{smoothed_shocks.pdf}
-\end{sidewaysfigure}
+%\includegraphics[scale=0.5]{smoothed_shocks.pdf}
+\subfigure[Key shocks driving the financial crisis in the model.]{\includegraphics[scale=0.4]{smoothed_shocks_HPD.pdf}}\\
+\subfigure[Default rates during the sample period, where y-axis shows the deviation in percentages from steady-state. ]{\includegraphics[scale=0.4]{smoothed_default_rates.pdf}}\\
+\end{figure}
 
 
 \FloatBarrier
 
-\section*{Variance Decompositions}
-%depreciation shocks do two things: it increases the available stock of housing/capital, and directly reduces the rate of return on housing/corporate
-%portfolio. Therefore for all intents and purposes, these resemble price expectations/stock market shocks?
+\subsection{Variance Decompositions}
+
+We next turn to variance decompositions of some key variables in order to see how the estimated shocks as discussed above transmit through the economy during the sample period. We focus on two variables in particular, namely the output growth and and mortgage lending growth rates, which are shown in Figure \ref{decomp_dbm} . The unconditional decompositions of some other observable variables is also reported in Table \ref{uncond_var_decomp}, which will be discussed further below. 
+
+Starting with the mortgage lending growth rate, it is readily seen that the main drivers are housing preference and house price shocks as previously discussed. The external drop in house prices has a ceteris paribus effect of increasing housing demand and therefore demand for housing loans. Therefore the house price shocks contributes negatively to the mortgage lending growth during the pre-crisis period when house prices are increasing, and negatively during the post-crisis period when the housing price trend reverses. Given the house price shocks, the housing preference shocks are large enough to generate a positive growth before the crisis, and negative growth after the crisis. Aside from these shocks, bank capital and consumption preference shocks also play an smaller but non-negligible role in terms of driving mortgage lending growth. 
+
+Next looking at output growth, we observe that four shocks emerge as important drivers, namely the productivity, entrepreneur net worth and consumption preference shocks. The housing preference shock also plays a role to a smaller extent, and the house price shock becomes particularly important with the onset of the crisis.  During the crisis period, all four of these shocks contribute negatively to output growth, whereas bank capital and house price shocks contribute positively. Interestingly, the productivity shock contributes positively throughout the early 2000s until the crisis, while it contributes negatively for a long period after the crisis until mid-2015. The contributions from consumption preference turn positive shortly after the crisis, while the negative ones from housing preference persists. The entrepreneur net worth shock, while playing a relatively large role overall, has periods of both positive and negative contributions both before and after the crisis. Accordingly, the low output growth rate post-crisis is explained by productivity and housing preference shocks, and to some extent the entrepreneur net worth shocks. The positive contribution from house price shocks during the crisis period works through the channel of boosting housing demand and investment. Therefore we interpret this shock on output growth as picking up the effects of a looser monetary policy, which would work through the same channel of boosting demand and investment. 
 
 
+Table \ref{uncond_var_decomp} shows the unconditional decompositions of output and mortgage lending growth rates, along with the other growth rates used as observables in the estimation. It is readily seen that, as discussed above, the output growth rate is mainly dominated by productivity, consumption preference and entrepreneur net worth shocks. The role for both housing shocks are substantially reduced compared to historical decomposition, which is intuitive since these shocks affect output growth mostly during the period surrounding the crisis. Similarly, the housing preference and housing price shocks are the dominant drivers both for house price and mortgage lending growth rates\footnote{For lending growth rates, bank capital shock also plays an important role, making up around 25 \% of the fluctuations for both variables. Hence the contribution from the \textit{other shocks} category mainly consists of the bank capital shock for these variables, while the \textit{other shocks} category does not play a substantial role for the other variables.}
 
-
-To illustrate which side of they economy, Figures ?? and ?? show the historical variance decompositions of household lending and output growth. The growth rate of household lending is mainly driven by housing depreciation and preference shocks, as well as uncertainty and bank capital shocks to a smaller extent, where the housing depreciation shock plays the most dominant role with a positive feedback before the crisis, and a negative impact after the crisis. As such, this shock emerges as the main driver of mortgage lending in our model. The consumption and housing preference shocks have two opposing effects on mortgage lending: on the one hand, a negative housing preference shock puts downward pressure on mortgage lending since households are less willing to spend their money on housing. On the other hand, a negative consumption preference shocks puts upward pressure on mortgage lending since it leads households to spend less on consumption and more on housing. For mortgage lending, the latter shock dominates in particular after the crisis, which leads to a positive contribution from preference shocks. Therefore the household depreciation shock is large enough to offset this positive feedback from preference shocks. 
-
-Corporate lending has a decomposition similar to mortgage lending, where the capital depreciation replaces the housing depreciation as the main driver of the lending rate. The negative spillover from this shock on output turns out to be larger than warranted by the data. Therefore the model generates a positive productivity shock after the crisis in order to mitigate some of the effects of this shock on output. In addition to these two, net worth and uncertainty shocks, as well as bank capital shocks to a smaller extent emerge as the main drivers of output growth in our model. Overall, the crisis period emerges as a combination of several adverse shocks in our framework. 
-
-
-
+For corporate lending growth rate, the expected capital price and entrepreneur net worth shocks are the dominant players as expected, while wage growth rate is mainly driven by productivity shocks. Finally, consumption growth rate is mainly dominated by productivity and consumption preference shocks, which is similar to output growth rate with the exception that the role of entrepreneur net worth shock is absorbed by preference shocks.
 
 
 %\begin{figure}[H]
@@ -742,9 +719,10 @@ Corporate lending has a decomposition similar to mortgage lending, where the cap
 
 \begin{figure}[H]
 \centering
-\caption{Growth of Mortgage Lending}
+\caption{Historical variance decompositions of mortgage lending and output growth rates.}
 \label{decomp_dbm}
-\includegraphics[scale=0.45]{decomp_dbm.pdf}
+\subfigure[Mortgage lending growth rate.]{\includegraphics[scale=0.45]{decomp_dbm.pdf}}
+\subfigure[Output growth rate.]{\includegraphics[scale=0.45]{decomp_dy.pdf}}
 \end{figure}
 
 
@@ -765,13 +743,6 @@ Corporate lending has a decomposition similar to mortgage lending, where the cap
 
 
 
-\begin{figure}[H]
-\centering
-\caption{Output Growth}
-\label{decomp_dy}
-\includegraphics[scale=0.45]{decomp_dy.pdf}
-\end{figure}
-
 %\begin{figure}[H]
 %\centering
 %\caption{Consumption Growth}
@@ -785,172 +756,55 @@ Corporate lending has a decomposition similar to mortgage lending, where the cap
 %\end{figure}
 
 
-\section*{Impulse Responses \& Interest Rate Stickiness}
-%J-shock looks better than Hd here, because positive Hd--> boom in output not nice
+\begin{table}[H]
+\caption{Unconditional variance decompositions of key variables. The variables we consider are output growth  $\Delta y_t$ , house price growth  $\Delta q^H_t$, corporate lending growth    $\Delta b^e_t$, mortgage lending growth    $\Delta b^m_t$, wage growth   $\Delta w_t$,  and consumption growth   $\Delta c_t$ . }
+\label{uncond_var_decomp}
+\begin{tabular}{l|lllllll}
+Shocks& $\Delta y_t$ & $\Delta q^H_t$  & $\Delta b^e_t$  & $\Delta b^m_t$  & $\Delta w_t$   & $\Delta c_t$  &    \\
+\hline
+\hline
+Productivity & 17.58 & 0.85 & 12.26 & 1.78 & 88.53 & 21.07 &  \\
+Housing Preference & 2.01 & 59.65 & 2 & 37.63 & 0.45 &  4.81 &  \\
+Housing Price & 1.66 & 33.35 & 1.9 & 10.81 & 0.73 & 4.1 &  \\
+Entr. Net Worth & 33.45 & 0.18 & 16.57 & 1.66 & 0.62 &  0.55 &  \\
+Consumption Pref. & 31.65 & 4.49 & 1.08 & 11.33 & 7.58 & 66.21 &  \\
+Exp. Capital Price & 3.63 & 0.07 & 39.8 & 0.28 & 0.28 &  0.19 &  \\
+Other & 10.02 & 1.41 & 26.39 & 36.51 & 1.81 & 3.07 & 
+\end{tabular}
+\end{table}
 
-Before analyzing the effects of macroprudential tools on the economy, we first investigate the impact of staggered interest rates on shock propagation. Figures ?? through ?? report the impulse responses of several variables to three shocks originating in different sectors of the economy: a negative housing preference shock in the mortgage sector and a capital depreciation shock in the corporate sector, both of which play important roles in driving the business cycle as we saw previously; and a negative bank capital shock in the banking sector which may be interpreted as a proxy for monetary policy shocks. 
-
-Starting with the negative preference shock on Figure ??, this implies that households have a weaker preference for housing purchases, i.e. more risk aversion to housing. Therefore this has a direct impact on household borrowing, which is only marginally affected by the degree of interest rate stickiness: household borrowing drops more when mortgage rates are stickier, since the bank is unable to cut the interest rates as much in those cases to mitigate the negative impact of the shock. The impact on house prices is similarly negative and is not affected by the degree of stickiness
-
-preference shock: households have a weaker preference for purchasing housing (or more adverse to purchasing housing) everything else equal. Therefore household borrowing decreases. Due to decreased housing demand, house prices go down. Interest rate stickiness has little effect on these two. The bank's response to decreased demand is to cut the interest rates, and the magnitude of this depends crucially on the degree of stickiness: the smallest change is clearly in the case where the Calvo probabilities are largest. The response of business borrowing also crucially depends on the stickiness: with small stickiness, the bank is able to shift its bundle towards corporate lending by cutting the interest rates, in which case there is a very little overall impact on business lending. When interest rates are sticky, the bank cannot adjust its rate as much as it would like, and as a result corporate lending goes down. As a result of this amplified impact on business lending, aggregate output  experiences larger drops as interest rate stickiness increases.
--->shock originating in the household sector, the biggest difference in IRFs in business borrowing since it takes longer to transmit through interest rates due to Calvo setting. 
-(??? why is business borrowing going down in this case ???)
-
-
-capital depreciation shock: business borrowing goes down since the return on equity on corporate investment is now smaller. Similar to above, the bank responds by cutting the interest rates, which crucially depends on the the degree of stickiness to boost demand. The response of mortgage rates depends on the degree of stickiness, but the overall impact is a reduction either initially or in the medium run (and the cumulative impact is a reduction in all cases). 
-The largest impact on aggregate consumption and house prices is observed when interest rate stickiness is shut off in both sectors as one might expect. The spillover on aggregate output is rather small though, and it is similar in all cases. 
---> shock originating in the corporate sector, the biggest difference in IRFs in household borrowing and house prices since the transmission from one sector to the other affected by interest rates. The real effects (on output and consumption) are much smaller in this case compared to the housing preference shock. This might be due to the corporate interest rates already being small in the baseline case, so shutting it off does not have as large an effect.
---> shock originating in the corporate sector, the biggest difference in IRFs in household borrowing and house prices, since it takes longer for the shock to transmit to the other sector, same as the above argument.
-
-negative bank capital shock: the bank would like to reduce its lending since it has less capital now, so its response is to increase the lending rates. When interest rates are stickier, it is not able to increase its interest rates as much. Therefore the impact on household and corporate borrowing, and therefore on aggregate output, is smaller with stickier interest rates. 
---> shock originating in the banking sector, both housing and corporate related IRFs reflect this since the shock now needs to transmit into both sectors through interest rates. Therefore we get the larger differences across the board in IRFs as opposed to the previous two shocks. 
-
-
-
-\begin{figure}[H]
-\centering
-\caption{Negative Housing Preference Shock}
-\includegraphics[scale=0.4]{stickinessNegativeShocksJ.pdf}
-\end{figure}
-
-
-\begin{figure}[H]
-\centering
-\caption{Negative Capital Price Expectation Shock}
-\includegraphics[scale=0.4]{stickinessNegativeShocksEbF.pdf}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\caption{Negative Bank Capital Shock}
-\includegraphics[scale=0.4]{stickinessNegativeShocksECAB.pdf}
-\end{figure}
-
-
-\begin{figure}[H]
-\centering
-\caption{Negative Housing LTV Shock}
-\includegraphics[scale=0.4]{stickinessNegativeShocksLTVH.pdf}
-\end{figure}
+\FloatBarrier
 
 
 
 
+\section{Macroprudential Policy \& Welfare Analysis}
+
+In this section we analyze the effects of macroprudential policy tools on household welfare, as well as our other target variables credit out and output. We discuss the effects of macroprudential tools in two steps: first, we focus on the steady-state of the model in isolation, without any business cycle fluctuations. Using this approach, we analyze the welfare-maximizing macroprudential policies individually and jointly, in order to determine whether the right combination of macroprudential tools can be welfare improving. Second, using the optimal policies from our steady-state analysis, we discuss a number of counterfactuals to see what effect the macroprudential policies would have had on the economy if they had been in place before the crisis. 
+
+\subsection{Optimal Policy at the Steady State }
 
 
-
-
-\newpage
-
-
-\section*{Stickiness \& Prudential Policy Interactions}
-%preference shock looks weird here--> larger effects with higher capital requirements or with CCyB and the second
-%order effects dominate everything
-
-
-
-\begin{figure}[h]
-%\caption{Negative housing preference shock. Cumulative difference calculated as the  }
-%\subfigure[]{\includegraphics[scale=0.5]{stickiness_ccybJ.pdf}}
-%\subfigure[]{\includegraphics[scale=0.5]{stickiness_LTVJ.pdf}}
-%\subfigure[]{\includegraphics[scale=0.5]{stickiness_CARJ.pdf}}
-\end{figure}
-
-\begin{figure}[H]
-\caption{Positive housing depreciation shock. Cumulative difference calculated as the  }
-\subfigure[Cumulative differences: 0.45 \% and -0.21 \%.]{\includegraphics[scale=0.35]{stickiness_ccybJ.pdf}}
-\subfigure[Cumulative differences: -1.18 \% and 0.25 \%.]{\includegraphics[scale=0.35]{stickiness_LTVJ.pdf}}
-\subfigure[Cumulative differences: 2.85 \% and 0.91 \%.]{\includegraphics[scale=0.35]{stickiness_CARJ.pdf}}
-\end{figure}
-
-\begin{figure}[H]
-\caption{Positive capital depreciation shock. Cumulative difference calculated as the  }
-\subfigure[Cumulative differences: 1.4 \% and -0.34 \%.]{\includegraphics[scale=0.35]{stickiness_ccybEbF.pdf}}
-\subfigure[Cumulative differences: -0.02 \% and 0.003 \%.]{\includegraphics[scale=0.35]{stickiness_LTVEbF.pdf}}
-\subfigure[Cumulative differences: 0.85 \% and 0.34 \%.]{\includegraphics[scale=0.35]{stickiness_CAREbF.pdf}}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\caption{Negative bank capital shock.}
-\subfigure[Cumulative differences: 2.2 \% and 0.128 \%.]{\includegraphics[scale=0.35]{stickiness_ccybECAB.pdf}}
-\subfigure[Cumulative differences: 3.62 \% and 0.33 \%.]{\includegraphics[scale=0.35]{stickiness_LTVECAB.pdf}}
-\subfigure[Cumulative differences: 11.59 \% and 6.25 \%.]{\includegraphics[scale=0.35]{stickiness_CARECAB.pdf}}
-\end{figure}
-
-
-
-
-
-
-\section*{Macroprudential Policy \& Steady State}
-
-%\begin{figure}[H]
-%\centering
-%\caption{LTV limit with a baseline of 86 \%. welfare maximizing value is 89.4 \% if the weight on volatility is 0. It decreases to 86.6 \% if the weight on volatility is 0.1.
-%\textbf{Welfare improvement: 0.014 \% and 0.0002 \% respectively.} } 
-%\includegraphics[scale=0.4]{WA1_level.pdf}\\
-%\includegraphics[scale=0.4]{WA1_var.pdf}
-%\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\caption{Sectoral capital requirements on mortgage lending with a baseline of 11 \%. Welfare maximizing value is 20.7 \% with a weight of 0 on volatility. It decreases to 17.6 \% with a weight of 0.1 on the volatility.
-\textbf{Welfare improvement: 7.47 \% and 4.26 \% respectively.} } 
-\includegraphics[scale=0.2]{welfare_SCR_housing_level.pdf}
-\includegraphics[scale=0.2]{welfare_SCR_housing_var.pdf}\\
-\includegraphics[scale=0.2]{welfare_CAR_level.pdf}
-\includegraphics[scale=0.2]{welfare_CAR_var.pdf}
-\end{figure}
-
-
-%\begin{figure}[H]
-%\centering
-%\caption{Sectoral capital requirements on corporate lending with a baseline of 11 \%/ Welfare maximizing value is 15.5 with a weight of 0 on volatility. It increases to 16.7 \% with a weight of 0.1 on volatility. 
-%\textbf{Welfare improvement: 3.33 \% and 3.22 \% respectively. } } 
-%\includegraphics[scale=0.4]{WA3_level.pdf}\\
-%\includegraphics[scale=0.4]{WA3_var.pdf}
-%\end{figure}
-
-
-%\begin{figure}[H]
-%\centering
-%\caption{Minimum capital requirements with a baseline of 11\%. Welfare maximizing value is 15.5 \% with a weight of 0 on volatility. It decreases to 14.5 \% with a weight of 0.1 on volatility. 
-%\textbf{Welfare improvement: 5.11 \% 3.82 \% respectively.} } 
-%\includegraphics[scale=0.4]{WA4_level.pdf}\\
-%\includegraphics[scale=0.4]{WA4_var.pdf}
-%\end{figure}
-
-
-
-
-
-%\begin{figure}[H]
-%\centering
-%\caption{CCyB: this only affects the economy through volatility and not the levels. Therefore we only provide a positive analysis for this one in the counterfactuals but not optimize over its value: a linearized model is likely to give very imprecise results on this. 
-%\textbf{Welfare improvement 0 with no weight on volatility, and 0.12 \% with a weight of 0.1 on volatility.} In the latter case it simply ends up at its maximum allowed value.} 
-%\includegraphics[scale=0.4]{WA5_level.pdf}\\
-%\includegraphics[scale=0.4]{WA5_var.pdf}
-%\end{figure}
-
-
-
-\section*{Optimal Minimum \& Sectoral Capital Requirements and LTV limit}
-
-Objective function: 
-
-$$ E[W_t] - \omega \sqrt{Var[W_t]} $$
-where welfare $W_t$ is defined as a weighted average of patient and impatient households: 
-
+To assess the effect of macroprudential policies, we start by defining household welfare as follows: 
 
 $$ W_t = \frac{W^s_t C^s_t + W^m_t C^m_t}{C^s_t + C^m_t} $$
 
+where $W_t^i$  and $C_t^i$ with $i \in \{s,m \}$ refers to the welfare and consumption of patient and impatient households respectively. Accordingly, our welfare measure is a weighted average of patient and impatient households, where the weights are determined by the consumption shares of the households\footnote{This definition of welfare closely follows the version used in Mendicino et. al. (2018).}. Given this definition of aggregate welfare $W_t$, we use a simple liner-quadratic function as our objective:   
+
+$$ E[W_t] - \omega \sqrt{Var[W_t]}.$$
+
+Our motivation to include the welfare volatility in our objective function is to capture potential second-order effects of macroprudential policies, since our analysis of the model is based on a first-order approximation. Therefore we consider two cases for the weight on welfare volatility: $\omega=0$, which simply focuses on the expected welfare and ignores volatility, and $\omega=0.1$, which also puts a small weight on the volatility. 
+
+We first find the optimal values of macroprudential tools when they are used individually. To this end, we use a grid search for each policy tool under consideration, leaving the other tools at their baseline level\footnote{For each tool, we use a grid length of 100. For housing LTV, we consider the range over $[0.7,0.95]$, while for SCRs and CARs, the range is $[0.05,0.25]$. For certain combinations of SCRs and CARs below $0.05$ the model becomes indeterminate, which is why we use this value as our lower bound.}. The results are reported in Table \ref{optimalPrud_1}. When $\omega=0$ (no weight on welfare volatility), we find that the optimal LTV is looser at $89.4 \%$ compared to its baseline level of $86 \%$, and it comes at a marginal welfare improvement of $0.014 \%$\footnote{Recall that the LTV limit in our model is assumed to be an always binding constraint. Our results on LTV here may be sensitive to the formulation of this, but we leave the occasionally binding LTV to future research.}. For the sectoral capital requirements (SCRr), we find relatively large optimal values (compared to the baseline of $11 \%$) of $20.7 \% $ and $15.5 \%$ for mortgage and corporate rates respectively, while the optimal CAR turns out to be $15.5 \%$. The welfare improvement among the three is largest when maximizing over mortgage SCR with $7.47 \%$ and smallest when maximizing over corporate SCR with  $15.5 \%$. As such, our results suggest that sectoral SCRs on mortgage lending is more important than those of corporate lending from a household welfare perspective. When we also place some weight on welfare volatility with $\omega=0.1$, we observe that the optimal LTV is tighter compared to $\omega=0.1$ and very close to its benchmark value of $86 \%$. Further, for both SCRs and CAR, we find smaller optimal values, suggesting a trade-off between welfare level and welfare-volatility. Nevertheless, these results indicate that there is a well-defined optimal policy in terms of LTVs, SCRs and the CAR. Table \ref{optimalPrud_fig} illustrates this result with respect to housing SCR and CAR: it is readily seen that the expected asggregate welfare  attains a maximum at the optimal values specified in Table \ref{optimalPrud_1}\footnote{The figures for welfare volatility, as well as for the LTV limit and corporate SCR are omitted here for brevity, but similar results follow.}.
+
+Finally note the results on optimal CCyB, which follow mechanically: since the CCyB reacts to fluctuations of corporate and mortgage lending rates over the business cycle, it does not affect the steady-state levels of lending rates or welfare (i.e. the expected values of lending rates and welfare). Therefore, when there is no weight on welfare volatility, no optimal CCyB exists. At the other extreme, CcyB always reduces the volatility of lending rates and therefore volatility. Hence if there is any weight on volatility, the optimal CCyB is to simply set it as high as possible. 
+
+
+
 \begin{table}[h]
 
-\caption{Maximizing over prudential policy parameters, one at a time.}
+\caption{Maximizing over prudential policy parameters, one at a time. LTV refers to housing loan-to-value limit only and we leave the corporate LTV at its baseline level of 86 \% throughout. The baseline policies are LTV$=86\%$, and CAR$=11 \% $ (i.e. both SCRs are set to $11 \%$). The numbers in parathesis indicate the improvement in aggregate welfare relative to the baseline.}
+\label{optimalPrud_1}
 \begin{tabular}{l|l|l|l}
 
  & $\omega$ & 0 & 0.1   \\
@@ -967,16 +821,21 @@ SCR-Corporate & & 15.5 \% (3.33 \%) & 16.7 \% (3.22 \%) \\
 
 CAR & & 15.5 \% (5.11 \%) & 14.5 \% (3.82 \%) \\
 
-CCyB & & 0 \% (0 \%) & Max. attainable \\
+CCyB & & NaN & Max. attainable \\
 
 \end{tabular}
 \end{table}
 
 
+Given the individual optimal policies, we next investigate whether coordinating these policies (i.e. optimizing them jointly) may lead to further welfare improvements\footnote{CCyB is excluded from this exercise since it does not affect the welfare level as explained above.}. Table \ref{optimalPrud_2} reports the joint optimal combination of LTV, CAR and SCRs for the same cases with $\omega=0$ and $\omega=0.1$\footnote{For this exercise, we use a smaller grid size of 20 since the dimension of the problem is larger.}$^{,}$\footnote{Note that we effectively maximize over three policies, i.e. LTV and SCRs. The CAR is implicitly determined as the minimum of the two SCRs. }. With no weight on volatility, we find that optimal LTV is  looser compared to the previous case, with $91.25 \%$, mortgage SCR is higher than before with $21.25 \%$, and corporate SCR (and therefore CAR) reduces to its lower boundary of $5 \%$. With $\omega=0.1$, we now find that optimal LTV is even looser with $ 94 \%$, while sectoral SCrs are now at closer levels with $15.88 \%$ and $12.5 \%$ on mortgage and corporate lending respectively (and CAR is 12\%). The welfare improvements with the optimal combinations are $8.01 \%$ and $4.8 \%$ with $\omega=0$ and $\omega=0.1$ respectively, and this establishes our key result for this section: the appropriate combination of macroprudential tools achieves a better improvement on welfare compared to when the tools are used individually. 
+
+Using these results, we next run a set of counterfactuals to analyze whether the macroprudential tools also achieve a better outcome over the business cycle. 
+
 
 \begin{table}[h]
 
 \caption{Maximizing over SCRs and LTV at the same time}
+\label{optimalPrud_2}
 \begin{tabular}{l|l|l|l}
 
  & $\omega$ & 0 & 0.1   \\
@@ -999,1015 +858,275 @@ Welfare Improvement & & 8.01 \% & 4.8 \% \\
 
 
 
+\begin{figure}[H]
+\centering
+\caption{Sectoral capital requirements on mortgage lending with a baseline of 11 \%. Welfare maximizing value is 20.7 \% with a weight of 0 on volatility. It decreases to 17.6 \% with a weight of 0.1 on the volatility.
+\label{optimalPrud_fig}
+\textbf{Welfare improvement: 7.47 \% and 4.26 \% respectively.} } 
+\subfigure[Welfare level as a function of housing SCR.]{\includegraphics[scale=0.2]{welfare_SCR_housing_level.pdf}}
+%\subfigure[Welfare volatility as a function of housing SCR/]{\includegraphics[scale=0.2]{welfare_SCR_housing_var.pdf}}\\
+\subfigure[Welfare level as a function of CAR.]{\includegraphics[scale=0.2]{welfare_CAR_level.pdf}}
+%\subfigure[Welfare volatility as a function of CAR.]{\includegraphics[scale=0.2]{welfare_CAR_var.pdf}}
+\end{figure}
 
-%\begin{figure}[h]
-%\caption{Optimal policy values as a function of the weight on welfare volatility}
-%\includegraphics[scale=0.5]{optim_policy_values.pdf}
-%\end{figure}
 
 
 
 \newpage
 
-\section*{Counterfactuals}
+\subsection{Counterfactual Simulations}
+
+In this section we analyze what would have happened if different macroprudential tools were in place before financial crisis through the lense of our model. To this end, we use the joint optimal policies with $\omega=0.1$, hence we set the LTv limit to $94\%$, housing SCR to $15.8 \%$ and corporate SCR to $12.5 \%$. We use the parameters at the estimated posterior mode as reported in \ref{post_dist} and use the smoothed shocks at these parameter values. Accordingly, the shocks are fixed at these benchmark values, and we run the counterfactuals where the economy is hit by the same set of shocks, but macroprudential policies are set at their optimized levels.
+
+ The first exercise assumes that the optimal policies are always in place from the beginning of the sample, which is reported in Figure \ref{counterfactual1}. As the values of these policies already make it clear, the optimal plan prescribes a looser borrowing constraint through a higher LTV limit compared to the benchmark scnerio, and a more resiliant bank through higher SCRs (and therefore CAR). This is exactly what comes out of our counterfactual simulation: due to higher capital requirements, the bank default rate decreases compared to the benchmark scenario. The higher housing SCR and looser LTV limit have opposing effects on household borrowing, and looking at the figure we observe that the looser LTV limit somewhat dominates, resulting in a higher household borrowing. While the corporate SCR is higher compared to the benchmark scenario, the relative increase is smaller compared to the housing SCR. This leads to a substitution effect on the bank's side, where the bank prefers to shift its portfolio from mortgage lending to corporate lending. It is readily seen that this substitution effect dominates the increase in the absolute level of corporate SCR (from 11 \% to 12.5 \%), and the business borrowing ends up higher under the counterfactual scenario compared to the baseline. The increased borrowing also boosts housing and capital investment, which feeds back into the consumption of both impatient (borrower) and patient (lender) households, as well as the aggregate output. The default rate of households increases under the counterfactual since the amount of borrowing is higher, but the disutility of this increased default rate is mostly offset by the utility of increased consumption and and lower bank default rate (which translate into a cost on the households). Therefore the borrowers are almost equally well-off under the counterfactual, while the lenders are better off due to increased consumption and investment. This results in a higher output and total welfare under our counterfactual scenario, even though the drops associated with the crisis are at similar levels compared to the baseline scenario. Accordingly, a looser borrowing limit combined with a more resilient bank results in an overall beneficial outcome. 
+
+Looking at the percentage changes for our target variables in Figure \ref{counterfactual1}, it is readily seen that, the average volumnes of lending, as well as aggregate output and welfare are all higher under the counterfactual scenario. However, a similar level of drop after the financial crisis is still present in all variables. This suggests that, if different counterfactual policies were in place before the crisis, some aggregate indicators would have been improved but the crisis would not be prevented altogether. This is consistent with the policy of a looser borrowing constraint and a more resilient banking system, which does not aim to prevent the crisis but rather makes the system more resistant to it\footnote{An alternative policy analysis would involve the optimal scenario under a counterfactual simulation that finds the right balance between the level and volatility, which leave to future work.}. 
 
 
-\begin{figure}[H]
+
+\begin{figure}[H]{}
 \centering
-\caption{Counterfactual I: using optimized values  with 0.1 weight on volatility. $\phi_H=15.8 \%, \phi_F=12.5 \%, \epsilon_H=94 \%$.}
+\caption{Counterfactual I: using optimized values  with 0.1 weight on volatility. $\phi_H=15.8 \%, \phi_F=12.5 \%, \epsilon_H=94 \%$. For target variables, the average increases over the sample period are 4.9 \% for corporate credits, 4.2 \% for mortgage credits, 2.8 \% for output and 17.6 \% for households welfare.   }
+\label{counterfactual1}
 \includegraphics[scale=0.4]{main_counterfactual.pdf}
 \end{figure}
 
-\begin{table}[h]
+%\begin{table}[h]
 
-\begin{tabular}{l|l|l}
-Variable & \% Change in Level & \% Change in Volatility \\
-\hline
-\hline
-    Corporate Credit           &       0.049    &      0.15 \\
-    Mortgage Credit            &      0.042    &       0.23 \\
-    Output         &     0.028    &    0.157 \\ 
-    Household Welfare       &     0.176     &     0.035\\
-\end{tabular}
-\end{table}
+%\begin{tabular}{l|l|l}
+%Variable & \% Change in Level & \% Change in Volatility \\
+%\hline
+%\hline
+%    Corporate Credit           &       4.9    &      15 \\
+%    Mortgage Credit            &      4.2    &       23 \\
+%    Output         &     2.8    &    15.7 \\ 
+%    Household Welfare       &     17.6     &     3.5\\
+%\end{tabular}
+%\end{table}
 
 
+Next we consider a more realistic alternative scenario, where the same optimal policies are introduced over a 5-year period between 2001 and 2006. In this case we start from the benchmark policies in the year of 2001, and we gradually phase-in the policy levels to the optimal ones over this 5-year period\footnote{For this exercise, we introduce unit root shocks into the model on SCRs and the LTV limit. The policies are then phased-in in the form of permanent shocks.}. As might be expected, we obtain the same (positive) direction in all target variables both in terms of level and volatility, but the resulting magnitudes are substantially smaller since the policies are in place for a shorter duration. Nevertheless, we also obtain a socially beneficial outcome under the optimal policies. 
 
 \begin{figure}[H]
 \centering
-\caption{Same counterfactual phased-in over a 5-year period over 2001-2006 in equal increments.}
+\caption{Same counterfactual phased-in over a 5-year period over 2001-2006 in equal increments. For target variables, average increases  over the sample period are 2.4 \% for corporate credits, 0.8 \% for mortgage credits, 1.3 \% for output and 11.4 \% for household welfare.}
+\label{counterfactual2}
 \includegraphics[scale=0.35]{CF_policy_rules10.pdf}
 \includegraphics[scale=0.4]{main_counterfactual_phaseIn.pdf}\\
 
 \end{figure}
 
 
-\begin{table}[h]
-
-\begin{tabular}{l|l|l}
-\small
-Variable & \% Change in Level & \% Change in Volatility \\
-\hline
-\hline
-    Corporate Credit           &       0.024   &      0.11 \\
-    Mortgage Credit            &      0.008    &      0.04 \\
-    Output         				&     0.013    &      0.107 \\ 
-    Household Welfare       &         0.114     &     0.073\\
-\end{tabular}
-\end{table}
+%\begin{table}[h]
 
 
 
-\begin{figure}[H]
-\centering
-\caption{Same counterfactual as above, without interest rate stickiness.}
-\includegraphics[scale=0.45]{counterfactuals11.pdf}
-\end{figure}
+%\begin{tabular}{l|l|}
+%\small
+%Variable & \% Change in Level  \\% & \% Change in Volatility \\
+%\hline
+%\hline
+%    Corporate Credit           &       2.4  \\% &      11 \\
+%    Mortgage Credit            &      0.8     \\%&      4 \\
+%    Output         				&     1.3   \\% &      10.7 \\ 
+%    Household Welfare       &         11.4    \\%  &     7.3\\
+%\end{tabular}
+%\end{table}
 
-
-
-\begin{table}[h]
-\begin{tabular}{l|l|l}
-\small
-Variable & \% Change in Level & \% Change in Volatility \\
-\hline
-\hline
-    Corporate Credit           &       0.041    &     0.003 \\
-    Mortgage Credit            &      0.029    &      0.066 \\
-    Output         				&     0.02    &    -0.29 \\ 
-    Household Welfare       &     0.12     &     0.1\\
-\end{tabular}
-\end{table}
-
-
-
-
+Finally, to investigate whether CCyB improves the outcomes at the business cycle frequency, we analyze what happens with the introduction of CCyB when the optimal LTV and SCRs are already in place. To this end, we consider three scenarios with a sectoral CCyB individually, and when there is a CCyB in both sectors. Given our policy function, CCyB reacts to deviations of corporate and mortgage lending from its steady state level. We set the CCyB level to generate a standard deviation of approximately 2.5 \% in minimum requirements, which is obtained by tuning the reaction parameters in the policy function\footnote{This results in parameter values of $0.051$ for mortgage lending, and $0.128$ for corporate lending.}. The results are reported in Table \ref{counterfactual3}: we observe that introducing CCyB when the other optimal policies are already in place improves the outcomes further in terms of levels. In particular, aggregate output and welfare levels are improved when CCyB is active in both sectors, as well as when it is active in each sector individually. However, it is worth noting a downside with using CCyB in this form: during the sample period, the mortgage and corporate borrowing rates continue increasing above their steady-state levels during the pre-crisis period, and while they start declining with the onset of the crisis, they are still well above their steady-state values once the crisis hits, and they remain above that level throughout the whole sample. As such, a CCyB that reacts  to deviations of borrowing rates from their steady-state level prescribes ever-increasing capital requirements throughout the sample period. This issue exaggerates the volatility impact of CCyB, and could be resolved with alternative reaction functions such as a CCyB on the growth rate of lending rates. We leave such alternative formulations to future research. 
 
 
 \begin{table}[h]
 \caption{Does CCyB improve things when optimal SCRs are in place?}
-\begin{tabular}{l|l|l}
+\label{counterfactual3}
+\begin{tabular}{ll||ll}
 \small
-Variable & \% Change in Level & \% Change in Volatility \\
+Variable & \% Change in Level  & Variable & \% Change in Level \\
 \hline
-Baseline optimal SCR+LTV & & \\
+Baseline optimal SCR+LTV & &  CCyB 2.5 \%, mortgages   \\
 \hline
-    Corporate Credit           &       0.024   &      0.11 \\
-    Mortgage Credit            &      0.008    &      0.04 \\
-    Output         				&     0.013    &      0.107 \\ 
-    Household Welfare       &         0.114     &     0.073\\
+    Corporate Credit           &       4.9  &    Corporate Credit           &       7.3   \\
+    Mortgage Credit            &      4.2 & Mortgage Credit            &       0.05\\
+    Output         &     2.8   &  Output         				&     3.9  \\
+    Household Welfare       &     17.6 &   Household Welfare       &        19.4  \\
 \hline
-CCyB 2.5 \%, both sectors & & \\
+CCyB 2.5 \%, both sectors &   &   CCyB 2.5 \%, corporate  \\
 \hline
-    Corporate Credit           &       0.073    &     0.273 \\
-    Mortgage Credit            &      0.005    &      0.097 \\
-    Output         				&     0.039    &     0.275 \\ 
-    Household Welfare       &     0.194     &     0.059\\
+    Corporate Credit           &       5.8  &  Corporate Credit           &       3.2 \\
+    Mortgage Credit            &       4.5  &    Mortgage Credit            &       8.1  \\
+    Output         				&     4.1  &  Output         				&      2.7  \\
+    Household Welfare       &        21.2  &  Household Welfare       &          19.1  \\
 \hline
-CCyB 2.5 \%, mortgages  & & \\
-\hline
-    Corporate Credit           &       0.032    &     0.045 \\
-    Mortgage Credit            &      0.081   &      0.397 \\
-    Output         				&     0.027    &     0.134 \\ 
-    Household Welfare       &     0.191     &     0.047\\
- \hline
-CCyB 2.5 \%, corporate  & & \\
-\hline
-    Corporate Credit           &       0.058    &     0.17 \\
-    Mortgage Credit            &      0.044    &      0.26 \\
-    Output         				&     0.041    &    0.266 \\ 
-    Household Welfare       &     0.21     &     0.075\\   
 
 \end{tabular}
 \end{table}
 
 
-\begin{table}[h]
-\caption{Does CcyB improve things when SCRs are at their baseline value? }
-\begin{tabular}{l|l|l}
-\small
-Variable & \% Change in Level & \% Change in Volatility \\
-\hline
-Baseline SCR+LTV & & \\
-\hline
-    Corporate Credit           &       0.024   &      0.11 \\
-    Mortgage Credit            &      0.008    &      0.04 \\
-    Output         				&     0.013    &      0.107 \\ 
-    Household Welfare       &         0.114     &     0.073\\
-  
- \hline
-No Interest Stickiness & & \\
-\hline
 
-    Corporate Credit           &       0.019    &      0.059 \\
-    Mortgage Credit            &      0.047    &       0.188 \\
-    Output         &     0.015    &    0.10 \\ 
-    Household Welfare       &     0.071     &     0.059\\
-  \end{tabular}
+\begin{comment}
+
+\begin{table}[h]
+\caption{Does CCyB improve things when optimal SCRs are in place?}
+\label{counterfactual3}
+\begin{tabular}{l|l}
+\small
+Variable & \% Change in Level \\ % & \% Change in Volatility \\
+\hline
+Baseline optimal SCR+LTV &  \\ % & \\
+\hline
+    Corporate Credit           &       4.9 \\ %  \%    &      15 \\
+    Mortgage Credit            &      4.2 \\ %    &       23 \\
+    Output         &     2.8  \\ %   &    15.7  \\ % \\ 
+    Household Welfare       &     17.6   \\ %   &     3.5\\
+\hline
+CCyB 2.5 \%, both sectors & \\ %  & \\
+\hline
+    Corporate Credit           &       5.8  \\ %   &     17 \\
+    Mortgage Credit            &       4.5  \\ %  &      26 \\
+    Output         				&     4.1   \\ %  &     27.7 \\ 
+    Household Welfare       &        21.2  \\ %    &     7.54\\
+\hline
+CCyB 2.5 \%, mortgages  & \\ %  & \\
+\hline
+    Corporate Credit           &       7.3  \\ %   &     27.3 \\
+    Mortgage Credit            &       0.05 \\ %  &      9.7 \\
+    Output         				&     3.9  \\ %   &     27.5 \\ 
+    Household Welfare       &        19.4  \\ %    &     5.9\\
+ \hline
+CCyB 2.5 \%, corporate  & \\ %  & \\
+\hline
+    Corporate Credit           &       3.2  \\ %   &     4.5 \\
+    Mortgage Credit            &       8.1  \\ %   &     39 \\
+    Output         				&      2.7   \\ %  &    13.4 \\ 
+    Household Welfare       &          19.1  \\ %   &    4.71\\   
+
+\end{tabular}
 \end{table}
 
-
+\end{comment}
 
 \FloatBarrier
 
+
+\section{Impulse Response Analysis}
+
+\subsection{Interest Rate Stickiness and Shock Propagation}
+
+In this section we discuss the effects of individual shocks on key variables through impulse response functions. We first start with the effects of interest rate stickiness on shock propagation. Given the significant rate of stickiness on U.K. data, this can be an important channel that affects the transmission of shocks throughout the economy. We focus on three shocks across different sectors of the economy, namely a housing preference shock on the housing side, an expected capital price shock on the corporate side and a bank capital shock on the banking side. We report the effects on several key variables with and without interest rate stickiness in each sector, in particular we focus on four scenarios in terms of interest rate stickiness: (i) estimated degrees of stickiness, (ii) a low degree of stickiness in the housing sector, (iii) a low degree of stickiness in the corporate sector and (iv) a low of degree stickiness in both sectors. 
+
+Figure \ref{irf_stickiness_J} reports the effects of a negative housing preference shock: the shock directly lowers the demand for borrowing by households, which translates into a drop in house prices. Since the shock leaves the level of household wealth unchanged, they increase their consumption spending. The effects on these three variables are similar with different degrees of stickiness, since the shock originates in the household sector and does not transmit through interest rate. In response to the drop in housing demand, the bank lowers the household interest rate and this is where we start to see the effects of interest rate stickiness: it is able to cut the interest rates the most when interest rate stickiness is low in both sectors, while the drop in interest rates is smallest when the stickiness is at the estimated level in both sectors. 
+In response to the drop in house prices, aggregate investment, which consists of housing and capital investment, also decreases subject to a similar constraint as the housing sector depending on the degree of stickiness. Similar to the household interest rates, the bank also ends up lowering corporate rates for two reasons: first, keeping the corporate rates constant while lowering mortgage rates would result in a substitution effect into the housing sector, and therefore the bank has an inventive cut corporate rates in response to mortgage rates. Second, the volume of business borrowing decreases given the lower aggregate investment, and therefore the bank prefers lower business lending rates to make up for the loss in demand.  The net effect on aggregate output in general depends on the positive effects on aggregate consumption and the negative effects on aggregate investment. Under our parameterization, the negative effects dominate and we see a reduction in aggregate output following the housing preference shock. The effect is smallest when the degree is stickiness is small in both sectors, and the stickiness in mortgage rates has the highest impact on aggregate output in this case. This is intuitive since the shock starts from the housing sector, and hence the largest spillover effect takes place when the bank is unable to react through mortgage rates. 
+
+
+
+
+\begin{figure}[H]
+\centering
+\caption{Impulse responses to a negative housing preference shock.}
+\label{irf_stickiness_J}
+\includegraphics[scale=0.4]{stickinessNegativeShocksJ.pdf}
+\end{figure}
+
+
+Next we turn to Figure \ref{irf_stickiness_EbF}, which reports the effects of a negative capital price shock. Since the shock originates in the corporate sector, the immediate effects take place on the borrowing volume of businesses and aggregate investment: these variables decrease in all cases independent of the degree of stickiness. This effect spreads through two channels: first, the lower capital investment results in a substitution effect to housing investment, which pushes up the house prices. As a result, households shift some of their spending from housing to consumption in the short run, which results in a higher consumption and lower household borrowing. As a response to lower volume of household borrowing, and to prevent the substitution effect vfrom lower corporate rates, the bank cuts the housing lending rates. In the medium run after around 10 quarters, the effects of lower household lending rates start to kick and the households start shifting away from consumption back into housing. The largest fluctuations in household borrowing takes place when both interest rates are stickiest. Interestingly, the stickiness rate in mortgage lending again plays a more important role than corporate lending, even though the shock originates in the corporate sector. The overall effects on output are only marginally affected by interest rate stickiness in this case, since drop in investment is substantially larger than the short-term increases in consumption, which means the largest effect (through investment) does not transmit through interest rates. 
+
+
+
+\begin{figure}[H]
+\centering
+\caption{Impulse responses to a negative expected capital price shock.}
+\label{irf_stickiness_EbF}
+\includegraphics[scale=0.4]{stickinessNegativeShocksEbF.pdf}
+\end{figure}
+
+
+Finally we discuss the effects of negative bank capital shock, which is reported in Figure \ref{irf_stickiness_ECAB}. In this case the shock originates as a lower bank capital, to which the bank responds by increasing the lending rates in both sectors since it is not able to lend out as much. This unambiguously transmits through the rest of the economy in a negative manner, where the interest rates increase depending on the degree of stickiness (largest increase when stickiness is lowest). This results in lower borrowing volumes in both sectors. Investment and house prices both go down in response to the lower borrowing rates. In terms of consumption, there are again two effects: the lower household borrowing results in a substitution effect in households spending bundle, but at the same time the lower aggregate investment results in a lower household wealth. It is clear from the figure that the latter effect dominates and household consumption goes down, which also results in a lower aggregate output. Unlike the previous two cases, we see the largest effects on output when interest rate stickiness is lowest: in the previous cases, the bank reacts through interest rates by trying to mitigate the adverse effects of shocks in other sectors, hence the effects are strongest when interest rates are stickiest. In this case, the bank reacts by trying to shift the adverse effects on itself onto households and businesses, and therefore the effect tuns out strongest when interest rates are the least sticky. 
+
+
+
+\begin{figure}[H]
+\centering
+\caption{Impulse responses to a negative bank capital shock.}
+\label{irf_stickiness_ECAB}
+\includegraphics[scale=0.4]{stickinessNegativeShocksECAB.pdf}
+\end{figure}
+
+
+
+
+\subsection{Interest Rate Stickiness and Sectoral Capital Requirements}
+
+Given the importance of interest rate stickiness on the transmission of shocks, in this section we analyze how interest rate stickiness affects the impact of macroprudential policies. We focus on the policies that transmit through interest rates in our model, namely sectoral capital requirements and sectoral countercyclical buffers\footnote{While the LTV limit also works through interest rates in reality, in our model it is a direct constraint on households and does not transmit through the bank and interest rates. Therefore we exclude this policy from our analysis in this section. A more realistic implementation of the LTV limit, along with loan-to-income ratios (LTI) is left to future research.}. In this case we focus on the response on lending volumes to a (positive) bank capital shock only, although the analysis can be extended to other shocks as well. 
+
+Figures \ref{irf_stickiness_corpSCR} and \ref{irf_stickiness_housingSCR} report the effects of low (11 \%) and high (15 \%) SCRs on corporate and mortgage lending respectively. Two important observations stand out from the figures: first, increasing SCRs in either sector generally lowers the lending volume in both sectors. Second, the difference between impulse response under high and low SCRs is generally larger when interest rate stickiness is lower (i.e. the difference between green and blue curves tends to be larger than the difference between red and black curves). This suggests that a high degree of interest rate stickiness may weaken the effect of minimum capital requirements. 
+
+Similarly, Figures \ref{irf_stickiness_corporateCCyB} and \ref{irf_stickiness_housingCCyB} report the effects of no sectoral CCyB and a 2.5 \% sectoral CCyB on housing and corporate lending respectively\footnote{Similar to the previous section, the 2.5 \% CCyB is obtained by tuning the parameter in reaction functions to generate a standard deviation of 2.5 \% in the capital requirement rates.}. We observe in this case that, in both sectors, introducing a sectoral CCyB lowers the lending volume in that sector. However, there are two important differences compared to the SCRs: first, the differences with and without interest rate stickiness are smaller compared to the SCRs. Second, unlike the SCRs, we observe a substitution effect towards the other sector in this case: a sectoral CCyB in corporate lending increases the volumne of mortgage lending, and similarly a sectoral CCyB in mortgage lending increases the volume of corporate lending. These results emerge due to the gradual nature of CCyBs: since the tool builds up slowly over time, interest rate stickiness has a much smaller impact and the graduality allows the bank some time to substitute its lending volume towards the other sector. 
+
+Overall, these results suggest that interest rate stickiness plays an important role both in terms of the transmission of shocks through the economy, and also in terms of the effectiveness of macroprudential tools that work through interest rates. This presents a new, important channel for the design of macroprudential policies and particularly for tools that affect the degree of interest rate stickiness through long-term contracts. 
+
+
+
+\begin{figure}[H]
+\centering
+\caption{The impact of corporate SCR on lending volumes with high and low levels of interest rate stickiness. }
+%Cumulative differences are 3.63 \% and 2. 93 \% for mortgage and corporate lending respectively. }
+\label{irf_stickiness_corpSCR}
+\includegraphics[scale=0.35]{stickiness_corporate_SCRECAB.pdf}
+\end{figure}
+
+\begin{figure}[H]{}
+\centering
+\caption{The impact of housing SCR on lending volumes with high and low levels of interest rate stickiness.}
+% Cumulative differences are 5.12 \% and 3.57 \% for mortgage and corporate lending respectively. }
+\label{irf_stickiness_housingSCR}
+\includegraphics[scale=0.35]{stickiness_housing_SCRECAB.pdf}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\caption{The impact of a 2.5 \% corporate CCyB on lending volumes with high and low levels of interest rate stickiness. }
+% Cumulative differences are -4.07 \% and 0.09 \% for mortgage and corporate lending respectively. }
+\label{irf_stickiness_corporateCCyB}
+\includegraphics[scale=0.35]{stickiness_corporate_ccybECAB.pdf}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{The impact of a 2.5 \% housing CCyB on lending volumes with high and low levels of interest rate stickiness.}
+% Cumulative differences are -0.09 and 0.14 \% for mortgage and corporate lending respectively. } 
+\label{irf_stickiness_housingCCyB}
+\includegraphics[scale=0.35]{stickiness_housing_ccybECAB.pdf}
+\end{figure}
+
+
 \begin{comment}
-cumulative differences with housing SCR
+\begin{figure}[H]
+\caption{Positive housing preference shock. We calculate the cumulative difference is calculated as follows: we first calculate the area between impulse responses with and without interest rate stickiness. The cumulative difference is then given as the difference between these two areas. }
+\subfigure[Cumulative differences: 0.45 \% and -0.21 \%.]{\includegraphics[scale=0.35]{stickiness_ccybJ.pdf}}
+\subfigure[Cumulative differences: -1.18 \% and 0.25 \%.]{\includegraphics[scale=0.35]{stickiness_LTVJ.pdf}}
+\subfigure[Cumulative differences: 2.85 \% and 0.91 \%.]{\includegraphics[scale=0.35]{stickiness_CARJ.pdf}}
+\end{figure}
 
-b_m_J =
-   4.337368179975449
-b_e_J =
-   2.322443202268964
-b_m_HD =
-   3.226519809546808
-b_m_ECAB =
-   6.298439075960825
-b_m_Hk =
-   1.554806114474367
-b_e_HD =
-   0.384145956141740
-b_e_ECAB =
-   3.613437879492995
-b_e_Hk =
-   0.158518868370562
+\begin{figure}[H]
+\caption{Positive expected capital shock. Cumulative difference calculated as the  }
+\subfigure[Cumulative differences: 1.4 \% and -0.34 \%.]{\includegraphics[scale=0.35]{stickiness_ccybEbF.pdf}}
+\subfigure[Cumulative differences: -0.02 \% and 0.003 \%.]{\includegraphics[scale=0.35]{stickiness_LTVEbF.pdf}}
+\subfigure[Cumulative differences: 0.85 \% and 0.34 \%.]{\includegraphics[scale=0.35]{stickiness_CAREbF.pdf}}
+\end{figure}
 
 
-cumulative differences with housing LTV
 
-b_m_J =
-  -1.333054748265415
-b_e_J =
-   0.373505367214993
-b_m_HD =
-  -2.133692102030315
-b_m_ECAB =
-   3.730861575883666
-b_m_Hk =
-   0.074504326967662
-b_e_HD =
-   0.170076875628489
-b_e_ECAB =
-   0.690526482508227
-b_e_Hk =
-   0.202125249021339
-
-
-CCyB
-
-
-b_m_J =
-  -0.273329733621980
-b_e_J =
-   0.195066050298801
-b_m_HD =
-   0.137436935811850
-b_m_ECAB =
-   2.543918366789851
-b_m_Hk =
-   4.604848115893450
-b_e_HD =
-   0.589361860281429
-b_e_ECAB =
-   1.399709895968916
-b_e_Hk =
-   1.442641082365731
-
+\begin{figure}[H]
+\caption{Positive bank capital shock.}
+\subfigure[Cumulative differences: 2.2 \% and 0.128 \%.]{\includegraphics[scale=0.35]{stickiness_ccybECAB.pdf}}
+\subfigure[Cumulative differences: 3.62 \% and 0.33 \%.]{\includegraphics[scale=0.35]{stickiness_LTVECAB.pdf}}
+\subfigure[Cumulative differences: 11.59 \% and 6.25 \%.]{\includegraphics[scale=0.35]{stickiness_CARECAB.pdf}}
+\end{figure}
 
 
 
 \end{comment}
-
-
-
-
-
-
-
-
-\begin{comment}
-$bmHD =3.61   3.85, beHD =3.43   4.02$ ---- 0.24 0.59
-$bmHD =11.94   9.81, beHD =0.68   0.85$---- -2.13 0.17
-$bmHD =14.19  14.55,beHD =5.75   6.67$ ----  0.36 0.92
-$bmECAB =2.2   5.1,beECAB =1.17   3.31$----  2.9   2.14
-$bmECAB =5.19   8.93,beECAB =0.12   0.81$ --- 3.74 0.69
-$bmECAB =47.95  52.78,beECAB =21.15  26.19$ ---- 4.83 5.04
-\end{comment}
-
-% phi_Hs=0.2112, phi_Fs=0.05, epsilonHs=0.89
-
-%    'b_e'             7.84462528346059        8.67269308992684       0.10555861835901       2.4584010935864      2.74256603354155      0.115589331902144
-%    'b_m'             7.95846777557005        7.56308146403059    -0.0496812103396544      2.49199646657523      2.84447642237499      0.141444805611695
-%   'Y_net_2'         4.61389490762257        4.80998123121275     0.0424990875423346    0.0865850500268675    0.0699021998640299     -0.192675873694835
-%    'welfare_'       -38.4431368247487       -27.0009840941536     0.297638373859985      21.3330310447274      22.8521781913702     0.0712110315434162
-
-
-
-%same as above, phased in over a 5-year period: 
-
-%	 'b_e'             7.84462528396997     8.30544497408816      0.0587433654810573      2.45840109362487      2.55491437083149      0.0392585560822045
-%    'b_m'             7.95846777644759     7.52241274125662     -0.0547913301202823      2.49199646663593      2.42508972000822     -0.0268486522848193
-%    'Y_net_2'         4.61389490771639     4.69694541913213      0.0180000873615149    0.0865850499954136    0.0534317858513725      -0.382898250284515
-%    'welfare_'       -38.4431368143011    -35.7101015383757     0.0710929310770672      21.3330310487708       22.517287443649      0.0555128051035425
-
-
-
-
-%same as above, no stickiness
-
-
- %   'b_e'             7.84462528396997      8.34949922478579      0.0643592169848451      2.45840109362487      2.50637048594057      0.0195124353141964
- %   'b_m'             7.95846777644759      7.56646723305889     -0.0492557806854219      2.49199646663593      2.60462094493635      0.0451944775236613
- %   'Y_net_2'         4.61389490771639       4.7082081674508      0.0204411373949339    0.0865850499954136    0.0604385712168193      -0.301974518464553
- %   'welfare_'       -38.4431368143011     -36.1965521230706     0.0584391617698275      21.3330310487708      22.3768819478318        0.04893120422853
-
-
-
-
-
-
-
-
-
-\begin{comment}
-
-
-\begin{figure}[H]
-\centering
-\caption{optimized values with no weight on volatility: phiH=0.21, phiF=0.05, epsilonH=0.89 }
-\includegraphics[scale=0.45]{counterfactuals1.pdf}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\caption{optimized values with 0.1 weight on volatility: phiH=0.158, phiF=0.125, epsilonH=0.94 }
-\includegraphics[scale=0.45]{counterfactuals2.pdf}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\caption{same as above with CCyB=0.5 }
-\includegraphics[scale=0.45]{counterfactuals3.pdf}
-\end{figure}
-
-
-%nothing on 4
-
-\begin{figure}[H]
-\centering
-\caption{stickiness vs no stickiness}
-\includegraphics[scale=0.45]{counterfactuals5.pdf}
-\end{figure}
-
-
-\begin{figure}[H]
-\centering
-\caption{CCyB=0.5 in the baseline version}
-\includegraphics[scale=0.45]{counterfactuals6.pdf}
-\end{figure}
-
-
-\begin{figure}[H]
-\centering
-\caption{CCyB=0.5 in the baseline version without stickiness}
-\includegraphics[scale=0.45]{counterfactuals7.pdf}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\caption{same as the CF1, phased-in over a 5-year period}
-\includegraphics[scale=0.45]{counterfactuals8.pdf}\\
-\includegraphics[scale=0.45]{CF_policy_rules8.pdf}
-\end{figure}
-
-
-
-\begin{figure}[H]
-\centering
-\caption{same as above, with no stickiness}
-\includegraphics[scale=0.45]{counterfactuals9.pdf}
-\end{figure}
-
-
-\begin{figure}[H]
-\centering
-\caption{same as CF2, phased-in over a 5-year period}
-\includegraphics[scale=0.45]{counterfactuals10.pdf}\\
-\includegraphics[scale=0.45]{CF_policy_rules10.pdf}
-\end{figure}
-
-
-\begin{figure}[H]
-\centering
-\caption{same as above, no stickiness}
-\includegraphics[scale=0.45]{counterfactuals11.pdf}
-\end{figure}
-
-
-\end{comment}
-
-
-\begin{comment}
-\begin{lstlisting}
-
-CF1
-
- phi_Hs=0.2112, phi_Fs=0.05, epsilonHs=0.89
-
-
-    'b_e'             7.8446           8.6727     2.4584          2.7426
-    'b_m'             7.9585           7.5631      2.492          2.8445
-    'C_m'             1.6351           1.6395     0.1043          0.0828
-    'C_s'             2.5485           2.6781     0.0534          0.0741
-    'def_rate_m'      1.0384           1.3593     2.2305          2.5238
-    'def_rate_B'      0.0622          -0.0054     0.0932          0.0155
-    'I'               0.3498             0.39     0.1162          0.1198
-    'q_H'             1.0684           1.0722     0.1485          0.1721
-    'Vs'            -41.1369         -21.4746    28.7173         30.4658
-    'Vm'            -32.6029         -33.9885    12.3896         12.4668
-    'Y_net_2'         4.6139             4.81     0.0866          0.0699
-    'welfare_'      -38.4431          -27.001     21.333         22.8522
-
-same as above, phased in over a 5-year period: 
-
-    'b_e'             7.8446           8.3053     2.4584          2.5548
-    'b_m'             7.9585           7.5234      2.492          2.4229
-    'C_m'             1.6351           1.6591     0.1043           0.087
-    'C_s'             2.5485           2.5922     0.0534          0.0791
-    'def_rate_m'      1.0384           1.1172     2.2305          2.2008
-    'def_rate_B'      0.0622           0.0405     0.0932           0.097
-    'I'               0.3498           0.3821     0.1162          0.1158
-    'q_H'             1.0684           1.0655     0.1485          0.1442
-    'Vs'            -41.1369          -35.196    28.7173         31.3178
-    'Vm'            -32.6029         -34.2851    12.3896         11.6184
-    'Y_net_2'         4.6139           4.6967     0.0866          0.0534
-    'welfare_'      -38.4431         -35.7081     21.333         22.5171
-
-same as above, no stickiness
-
-    'b_e'             7.8446           8.3419     2.4584          2.5126
-    'b_m'             7.9585           7.5669      2.492          2.5516
-    'C_m'             1.6351            1.664     0.1043          0.0877
-    'C_s'             2.5485           2.6004     0.0534           0.077
-    'def_rate_m'      1.0384           1.0908     2.2305          2.0888
-    'def_rate_B'      0.0622           0.0329     0.0932          0.0966
-    'I'               0.3498            0.382     0.1162          0.1163
-    'q_H'             1.0684           1.0663     0.1485          0.1414
-    'Vs'            -41.1369         -35.8384    28.7173         31.1584
-    'Vm'            -32.6029         -34.5019    12.3896         11.5105
-    'Y_net_2'         4.6139           4.7064     0.0866          0.0602
-    'welfare_'      -38.4431         -36.1781     21.333         22.3638    
-
-
-stickiness vs. no stickiness in the baseline, for comparison
-
-
-        field_names     baseline_mean    cf_mean     baseline_var    cf_var 
-    ____________    _____________    ________    ____________    _______
-
-    'b_e'             7.8446           7.9368     2.4584          2.4669
-    'b_m'             7.9585           8.0879      2.492          2.6615
-    'C_m'             1.6351           1.6442     0.1043          0.1026
-    'C_s'             2.5485           2.5659     0.0534          0.0568
-    'def_rate_m'      1.0384           1.0151     2.2305          2.1398
-    'def_rate_B'      0.0622           0.0457     0.0932          0.0971
-    'I'               0.3498           0.3525     0.1162          0.1205
-    'q_H'             1.0684           1.0705     0.1485          0.1472
-    'Vs'            -41.1369          -41.465    28.7173         28.7003
-    'Vm'            -32.6029         -32.5926    12.3896         12.3201
-    'Y_net_2'         4.6139           4.6354     0.0866           0.095
-    'welfare_'      -38.4431         -38.6465     21.333         21.2902
-
-
-
-%===============================================================================================
-CF2
-
- phi_Hs=0.158, phi_Fs=0.125, epsilonHs=0.94
-
-    'b_e'             7.8446           8.1534     2.4584          2.5586
-    'b_m'             7.9585           8.1513      2.492          2.8605
-    'C_m'             1.6351           1.6408     0.1043          0.1025
-    'C_s'             2.5485           2.6098     0.0534          0.0664
-    'def_rate_m'      1.0384           1.7747     2.2305          2.7548
-    'def_rate_B'      0.0622           0.0247     0.0932            0.05
-    'I'               0.3498            0.365     0.1162          0.1149
-    'q_H'             1.0684           1.0708     0.1485          0.1564
-    'Vs'            -41.1369         -30.2546    28.7173         29.5883
-    'Vm'            -32.6029         -32.2776    12.3896         12.9986
-    'Y_net_2'         4.6139           4.7017     0.0866          0.0559
-    'welfare_'      -38.4431          -31.705     21.333         22.2655
-
- 
-
-
-CF3
-
-CF2+ CCyb=0.5--> CCyB such that the standard deviation of  
-
-
-
-    'b_e'             7.8446           8.1906     2.4584          2.6709
-    'b_m'             7.9585           8.1436      2.492          2.9029
-    'C_m'             1.6351           1.6427     0.1043          0.1095
-    'C_s'             2.5485           2.6128     0.0534          0.0644
-    'def_rate_m'      1.0384           1.8184     2.2305          3.0709
-    'def_rate_B'      0.0622           0.0254     0.0932          0.0926
-    'I'               0.3498           0.3636     0.1162          0.1251
-    'q_H'             1.0684           1.0718     0.1485          0.1614
-    'Vs'            -41.1369          -30.477    28.7173          29.488
-    'Vm'            -32.6029         -32.2094    12.3896         13.0924
-    'Y_net_2'         4.6139           4.7055     0.0866          0.0885
-    'welfare_'      -38.4431         -31.8079     21.333         22.2409
-
-
-    (when I repeat with CF1 + CCyB=0.2, indeterminacy)
-
-
-
-
-
-    CF5 estimated stickiness vs small stickiness
-
-
-        field_names     baseline_mean    cf_mean     baseline_var    cf_var 
-    ____________    _____________    ________    ____________    _______
-
-    'b_e'             7.8446           7.9368     2.4584          2.4669
-    'b_m'             7.9585           8.0879      2.492          2.6615
-    'C_m'             1.6351           1.6442     0.1043          0.1026
-    'C_s'             2.5485           2.5659     0.0534          0.0568
-    'def_rate_m'      1.0384           1.0151     2.2305          2.1398
-    'def_rate_B'      0.0622           0.0457     0.0932          0.0971
-    'I'               0.3498           0.3525     0.1162          0.1205
-    'q_H'             1.0684           1.0705     0.1485          0.1472
-    'Vs'            -41.1369          -41.465    28.7173         28.7003
-    'Vm'            -32.6029         -32.5926    12.3896         12.3201
-    'Y_net_2'         4.6139           4.6354     0.0866           0.095
-    'welfare_'      -38.4431         -38.6465     21.333         21.2902
-
-
-
-
-CF6 CCyB=0.5 in the baseline case 
-
-
-    'b_e'             7.8446           7.8953     2.4584          2.5634
-    'b_m'             7.9585           7.9674      2.492          2.5526
-    'C_m'             1.6351           1.6389     0.1043          0.1052
-    'C_s'             2.5485           2.5548     0.0534          0.0548
-    'def_rate_m'      1.0384           1.0477     2.2305          2.2942
-    'def_rate_B'      0.0622           0.0598     0.0932           0.136
-    'I'               0.3498           0.3491     0.1162          0.1234
-    'q_H'             1.0684           1.0695     0.1485           0.152
-    'Vs'            -41.1369         -41.3159    28.7173         28.6433
-    'Vm'            -32.6029         -32.6482    12.3896         12.3391
-    'Y_net_2'         4.6139           4.6216     0.0866           0.119
-    'welfare_'      -38.4431         -38.5701     21.333         21.2774
-
-
-    CF7 CCyB=0.5 in baseline without stickiness
-
-    'b_e'             7.8446           7.9679     2.4584          2.6461
-    'b_m'             7.9585            8.052      2.492          2.7172
-    'C_m'             1.6351           1.6474     0.1043          0.1091
-    'C_s'             2.5485           2.5693     0.0534          0.0552
-    'def_rate_m'      1.0384           1.0312     2.2305          2.2725
-    'def_rate_B'      0.0622           0.0477     0.0932          0.1536
-    'I'               0.3498           0.3489     0.1162          0.1355
-    'q_H'             1.0684           1.0717     0.1485          0.1534
-    'Vs'            -41.1369         -41.7983    28.7173         28.5386
-    'Vm'            -32.6029         -32.7987    12.3896         12.1343
-    'Y_net_2'         4.6139           4.6364     0.0866          0.1453
-    'welfare_'      -38.4431         -38.9232     21.333         21.1367
-
-
-CF8: CF1 with 5-year phasing in
-
-
-    'b_e'             7.8446           8.3053     2.4584          2.5548
-    'b_m'             7.9585           7.5234      2.492          2.4229
-    'C_m'             1.6351           1.6591     0.1043           0.087
-    'C_s'             2.5485           2.5922     0.0534          0.0791
-    'def_rate_m'      1.0384           1.1172     2.2305          2.2008
-    'def_rate_B'      0.0622           0.0405     0.0932           0.097
-    'I'               0.3498           0.3821     0.1162          0.1158
-    'q_H'             1.0684           1.0655     0.1485          0.1442
-    'Vs'            -41.1369          -35.196    28.7173         31.3178
-    'Vm'            -32.6029         -34.2851    12.3896         11.6184
-    'Y_net_2'         4.6139           4.6967     0.0866          0.0534
-    'welfare_'      -38.4431         -35.7081     21.333         22.5171
-
-
-
-CF9: same as above, without stickiness
-
-
-    'b_e'             7.8446           8.3419     2.4584          2.5126
-    'b_m'             7.9585           7.5669      2.492          2.5516
-    'C_m'             1.6351            1.664     0.1043          0.0877
-    'C_s'             2.5485           2.6004     0.0534           0.077
-    'def_rate_m'      1.0384           1.0908     2.2305          2.0888
-    'def_rate_B'      0.0622           0.0329     0.0932          0.0966
-    'I'               0.3498            0.382     0.1162          0.1163
-    'q_H'             1.0684           1.0663     0.1485          0.1414
-    'Vs'            -41.1369         -35.8384    28.7173         31.1584
-    'Vm'            -32.6029         -34.5019    12.3896         11.5105
-    'Y_net_2'         4.6139           4.7064     0.0866          0.0602
-    'welfare_'      -38.4431         -36.1781     21.333         22.3638
-
-
-CF10: CF2 with 5-year phasing in
-
-
-    'b_e'             7.8446           8.0296     2.4584          2.4432
-    'b_m'             7.9585           8.0715      2.492          2.4814
-    'C_m'             1.6351           1.6464     0.1043          0.0961
-    'C_s'             2.5485           2.5769     0.0534          0.0699
-    'def_rate_m'      1.0384           1.2165     2.2305          2.3175
-    'def_rate_B'      0.0622           0.0023     0.0932          0.0809
-    'I'               0.3498           0.3649     0.1162          0.1107
-    'q_H'             1.0684           1.0683     0.1485          0.1471
-    'Vs'            -41.1369         -32.5114    28.7173          32.548
-    'Vm'            -32.6029         -31.6476    12.3896         12.8566
-    'Y_net_2'         4.6139           4.6818     0.0866          0.0534
-    'welfare_'      -38.4431         -33.0516     21.333          23.738
-
-
-CF11: same as above, without stickiness
-
-    'b_e'             7.8446           8.1684     2.4584          2.4622
-    'b_m'             7.9585           8.2669      2.492           2.673
-    'C_m'             1.6351           1.6583     0.1043           0.092
-    'C_s'             2.5485           2.6018     0.0534          0.0754
-    'def_rate_m'      1.0384           1.1964     2.2305          2.2341
-    'def_rate_B'      0.0622          -0.0217     0.0932          0.0811
-    'I'               0.3498           0.3707     0.1162          0.1146
-    'q_H'             1.0684           1.0711     0.1485          0.1463
-    'Vs'            -41.1369         -32.4889    28.7173         32.6665
-    'Vm'            -32.6029         -31.4009    12.3896         12.8785
-    'Y_net_2'         4.6139           4.7139     0.0866          0.0583
-    'welfare_'      -38.4431         -32.9639     21.333         23.8076
-
-
-\end{lstlisting}
-\end{comment}
-
-
-\begin{comment}
-
-\begin{figure}[H]
-\centering
-\caption{10 \% drop in LTV for household: all target variables decrease (output and borrowing) but results on welfare are ambiguous. Borrowers are slightly better off, because they can spend their money on consumption instead of housing (and probably work less). Lending households are worse off since both types of lending are reduced (less demand --> lower interest rates). 
-}
-\includegraphics[scale=0.45]{counterfactuals1.pdf}
-\end{figure}
-
-\begin{table}[H]
-%\tiny
-\begin{tabular}{l|l|l}
-Variable & Mean under Baseline & Mean under Counterfactual \\ 
-\hline
-\hline
-Business Credit  & 7.58 & 7.56 \\
-Household Credit & 11.06 & 10.34 \\
-Output & 5.94 & 5.91 \\
-Lenders' Welfare & -32.13 & -34.22 \\
-Borrowers' Welfare  & -25.03 & -23.13 \\
-\end{tabular}
-\end{table}
-
-\begin{comment}
-\begin{lstlisting}
-    'b_e'             7.8446           7.8321      6.0437          6.0353
-    'b_m'             7.9585           7.5392        6.21          4.2734
-    'C_m'             1.6351           1.6502      0.0109          0.0083
-    'C_s'             2.5485           2.5349      0.0029          0.0019
-    'def_rate_m'      1.0384           0.1105       4.975          0.6186
-    'def_rate_B'      0.0622           0.0622      0.0087          0.0078
-    'Vs'            -41.1369         -41.7883    824.6828        817.6997
-    'Vm'            -32.6029         -31.9452    153.5018        157.3478
-    'Y_net_2'         4.6139           4.6094      0.0075          0.0078
-    'dy_data'         0.1517           0.1525      0.0729          0.0725
-    'dq_H_data'       1.3671           1.3707      3.9393          4.1974
-    'dbe_data'        5.3455           5.3477     14.2694         14.2369
-    'dbm_data'        6.7753            6.925     32.6247         22.8887
-\end{lstlisting}
-
-\begin{figure}[H]
-\centering
-\caption{4 \% increase in capital requirements on mortgage lending: all target variables increase (business \& mortgage lending, as well as output are all up). Welfare for both types of households also increases. Impact on household borrowing is small (lower compared to baseline pre-crisis, higher after the crisis). The increase in business lending more than offsets the adverse effect on household borrowing. Welfare of both types of households increases due to this increase in business lending (since firm profits feed back into household wealth after dividends). }
-\includegraphics[scale=0.45]{counterfactuals2.pdf}
-\end{figure}
-
-
-\begin{table}[H]
-%\tiny
-\begin{tabular}{l|l|l}
-Variable & Mean under Baseline & Mean under Counterfactual \\ 
-\hline
-\hline
-Business Credit  & 7.58 & 8.05 \\
-Household Credit & 11.06 & 11.2 \\
-Output & 5.94 & 6.13 \\
-Lenders' Welfare & -32.13 & -20.62 \\
-Borrowers' Welfare  & -25.03 & -23.98 \\
-\end{tabular}
-\end{table}
-
-\begin{comment}
-\begin{lstlisting}
-  variable     baseline mean     CF mean   baseline volatility 	CF volatility
-
-    'b_e'             7.8446           8.1559      6.0437          6.5531
-    'b_m'             7.9585            7.983        6.21          6.4446
-    'C_m'             1.6351           1.6455      0.0109          0.0093
-    'C_s'             2.5485           2.5941      0.0029           0.004
-    'def_rate_m'      1.0384            1.046       4.975          5.0721
-    'def_rate_B'      0.0622           0.0313      0.0087           0.004
-    'Vs'            -41.1369         -32.5266    824.6828        875.6457
-    'Vm'            -32.6029         -32.1664    153.5018        162.5581
-    'Y_net_2'         4.6139           4.6935      0.0075          0.0036
-    'dy_data'         0.1517           0.1753      0.0729          0.0784
-    'dq_H_data'       1.3671           1.3711      3.9393          3.9348
-    'dbe_data'        5.3455            5.401     14.2694         14.2944
-    'dbm_data'        6.7753           6.8057     32.6247         34.9014
-
-\end{lstlisting}
-
-
-
-\begin{figure}[H]
-\centering
-\caption{4 \% increase in capital requirements on business lending: again welfare improving, both household types are better off. In this case a trade-off emerges: household lending increases, but business lending goes down. The net effect on output (and also output growth) seems rather small, but is positive. Borrowing households are better off in this case compared to sectoral increase in mortgage lending, whereas the lending households are worse off (i.e. the increase in welfare is smaller compared to the previous case.)}
-\includegraphics[scale=0.45]{counterfactuals3.pdf}
-\end{figure}
-
-\begin{table}[H]
-%\tiny
-\begin{tabular}{l|l|l}
-Variable & Mean under Baseline & Mean under Counterfactual \\ 
-\hline
-\hline
-Business Credit  & 7.58 & 7.16 \\
-Household Credit & 11.06 & 12.15 \\
-Output & 5.94 & 1.74 \\
-Lenders' Welfare & -32.13 & -25.62 \\
-Borrowers' Welfare  & -25.03 & -21.91 \\
-\end{tabular}
-\end{table}
-
-\begin{comment}
-\begin{lstlisting}
-    'b_e'             7.8446           7.6373      6.0437          5.6226
-    'b_m'             7.9585           8.2438        6.21          5.6779
-    'C_m'             1.6351           1.6406      0.0109           0.017
-    'C_s'             2.5485           2.5487      0.0029          0.0031
-    'def_rate_m'      1.0384           1.0165       4.975           4.986
-    'def_rate_B'      0.0622           0.0482      0.0087          0.0051
-    'Vs'            -41.1369         -36.6621    824.6828        822.5191
-    'Vm'            -32.6029         -31.0589    153.5018        172.8018
-    'Y_net_2'         4.6139            4.599      0.0075          0.0056
-    'dy_data'         0.1517           0.1517      0.0729          0.0875
-    'dq_H_data'       1.3671            1.369      3.9393           3.762
-    'dbe_data'        5.3455           5.3404     14.2694         13.5886
-    'dbm_data'        6.7753            6.991     32.6247         22.5664
-end{lstlisting}
-
-
-
-
-\begin{figure}[H]
-\centering
-\caption{4 \% increase in minimum requirements: again welfare improving. Business lending decreases, whereas household lending slightly increases, hence the same trade-off as in the previous figure emerges. In this case savers are substantially better off, whereas the improvement for borrowing households is somewhere between the two sectoral requirements. This also raises an interesting result in terms of welfare inequality--> while increasing minimum capital requirements leads to the largest welfare gains, it also leads to the largest inequality among the two types of households. Taking that into account might be a good idea.}
-\includegraphics[scale=0.45]{counterfactuals4.pdf}
-\end{figure}
-
-\begin{table}[H]
-%\tiny
-\begin{tabular}{l|l|l}
-Variable & Mean under Baseline & Mean under Counterfactual \\ 
-\hline
-\hline
-Business Credit  & 7.58 & 7.49 \\
-Household Credit & 11.06 & 11.9 \\
-Output & 5.94 & 6.08 \\
-Lenders' Welfare & -32.13 & -19.73 \\
-Borrowers' Welfare  & -25.03 & -22.76 \\
-\end{tabular}
-\end{table}
-
-\begin{comment}
-\begin{lstlisting}
-  variable     baseline mean     CF mean   baseline volatility 	CF volatility
-
-    'b_e'             7.8446             7.88      6.0437          5.7382
-    'b_m'             7.9585           8.1297        6.21          5.9184
-    'C_m'             1.6351            1.644      0.0109          0.0135
-    'C_s'             2.5485           2.5842      0.0029          0.0035
-    'def_rate_m'      1.0384           1.0278       4.975          5.0845
-    'def_rate_B'      0.0622           0.0256      0.0087          0.0016
-    'Vs'            -41.1369          -31.258    824.6828        863.0608
-    'Vm'            -32.6029         -31.4953    153.5018        174.2911
-    'Y_net_2'         4.6139           4.6588      0.0075          0.0026
-    'dy_data'         0.1517           0.1705      0.0729          0.1149
-    'dq_H_data'       1.3671           1.3677      3.9393          3.7764
-    'dbe_data'        5.3455            5.398     14.2694         13.3642
-    'dbm_data'        6.7753           6.9622     32.6247         26.3746
-
-
-
-\end{lstlisting}
-
-
-\begin{figure}[H]
-\centering
-\caption{0.5 on sectoral CCyB on mortgage lending: all target variables increase, also both household types are also better off. The corresponding improvements are small, but then again the coefficient on CCyB is also small.}
-\includegraphics[scale=0.45]{counterfactuals5.pdf}
-\end{figure}
-
-\begin{table}[H]
-%\tiny
-\begin{tabular}{l|l|l}
-Variable & Mean under Baseline & Mean under Counterfactual \\ 
-\hline
-\hline
-Business Credit  & 7.58 & 7.71 \\
-Household Credit & 11.06 & 11.2 \\
-Output & 5.94 & 6 \\
-Lenders' Welfare & -32.13 & -31.9 \\
-Borrowers' Welfare  & -25.03 & -24.43 \\
-\end{tabular}
-\end{table}
-
-\begin{comment}
-\begin{lstlisting}
-  variable     baseline mean     CF mean   baseline volatility 	CF volatility
-    'b_e'             7.8446           7.8605      6.0437          6.4444
-    'b_m'             7.9585           7.9817        6.21          6.3023
-    'C_m'             1.6351           1.6359      0.0109          0.0115
-    'C_s'             2.5485           2.5514      0.0029          0.0027
-    'def_rate_m'      1.0384           1.0517       4.975          5.2621
-    'def_rate_B'      0.0622           0.0592      0.0087          0.0137
-    'Vs'            -41.1369         -41.3046    824.6828        820.3774
-    'Vm'            -32.6029         -32.5648    153.5018        154.1834
-    'Y_net_2'         4.6139           4.6166      0.0075           0.012
-    'dy_data'         0.1517           0.1434      0.0729           0.084
-    'dq_H_data'       1.3671            1.363      3.9393          4.0034
-    'dbe_data'        5.3455            5.319     14.2694         14.9171
-    'dbm_data'        6.7753           6.7821     32.6247         32.6524
-
-\end{lstlisting}
-
-\begin{figure}[H]
-\centering
-\caption{0.5 on sectoral CCyB on business lending: surprisingly this has almost no impact on anything: welfare improving but very small. All target variables are down. }
-\includegraphics[scale=0.45]{counterfactuals6.pdf}
-\end{figure}
-
-
-\begin{table}[H]
-%\tiny
-\begin{tabular}{l|l|l}
-Variable & Mean under Baseline & Mean under Counterfactual \\ 
-\hline
-\hline
-Business Credit  & 7.58 & 7.58 \\
-Household Credit & 11.06 & 11.06 \\
-Output & 5.94 & 5.94 \\
-Lenders' Welfare & -32.13 & -32.09 \\
-Borrowers' Welfare  & -25.03 & -25.01\\
-\end{tabular}
-\end{table}
-
-\begin{comment}
-\begin{lstlisting}
-    'b_e'             7.8446           7.8801      6.0437          6.1673
-    'b_m'             7.9585           7.9452        6.21          6.4278
-    'C_m'             1.6351           1.6381      0.0109          0.0104
-    'C_s'             2.5485            2.552      0.0029          0.0031
-    'def_rate_m'      1.0384           1.0342       4.975          4.9686
-    'def_rate_B'      0.0622           0.0624      0.0087          0.0124
-    'Vs'            -41.1369         -41.1441    824.6828        824.9013
-    'Vm'            -32.6029         -32.6814    153.5018        151.6645
-    'Y_net_2'         4.6139           4.6193      0.0075          0.0089
-    'dy_data'         0.1517           0.1483      0.0729          0.0842
-    'dq_H_data'       1.3671           1.3658      3.9393          3.9325
-    'dbe_data'        5.3455           5.3312     14.2694         14.4915
-    'dbm_data'        6.7753           6.7449     32.6247         34.0703
-
-\end{lstlisting}
-
-
-
-\begin{figure}[H]
-\centering
-\caption{0.5 on CCyB (i.e. on both sectors): everything improves. Welfare is up for both household types. All target variables improve. But from the previous two figures, we know that this improvement comes CCyB on the housing sector.}
-\includegraphics[scale=0.45]{counterfactuals7.pdf}
-\end{figure}
-
-\begin{table}[H]
-%\tiny
-\begin{tabular}{l|l|l}
-Variable & Mean under Baseline & Mean under Counterfactual \\ 
-\hline
-\hline
-Business Credit  & 7.58 & 7.72 \\
-Household Credit & 11.06 & 11.2 \\
-Output & 5.94 & 6 \\
-Lenders' Welfare & -32.13 & -31.87 \\
-Borrowers' Welfare  & -25.03 & -24.41 \\
-\end{tabular}
-\end{table}
-
-\begin{comment}
-\begin{lstlisting}
-  variable     baseline mean     CF mean   baseline volatility 	CF volatility
-
-    'b_e'             7.8446           7.8953      6.0437          6.5712
-    'b_m'             7.9585           7.9674        6.21          6.5159
-    'C_m'             1.6351           1.6389      0.0109          0.0111
-    'C_s'             2.5485           2.5548      0.0029           0.003
-    'def_rate_m'      1.0384           1.0477       4.975          5.2633
-    'def_rate_B'      0.0622           0.0598      0.0087          0.0185
-    'Vs'            -41.1369         -41.3159    824.6828        820.4406
-    'Vm'            -32.6029         -32.6482    153.5018        152.2527
-    'Y_net_2'         4.6139           4.6216      0.0075          0.0142
-    'dy_data'         0.1517           0.1402      0.0729          0.0997
-    'dq_H_data'       1.3671           1.3617      3.9393          3.9998
-    'dbe_data'        5.3455           5.3046     14.2694         15.1446
-    'dbm_data'        6.7753           6.7503     32.6247         34.0548
-
-\end{lstlisting}
-
-
-
-\begin{figure}[H]
-\centering
-\caption{all of the above together: all of the above together: clearly this leads to the largest change in all variables. Both types of lending are clearly smoothed out: less before the crisis, more after the crisis. Welfare is better for both types of households.}
-\includegraphics[scale=0.45]{counterfactuals8.pdf}
-\end{figure}
-
-
-\begin{table}[H]
-%\tiny
-\begin{tabular}{l|l|l}
-Variable & Mean under Baseline & Mean under Counterfactual \\ 
-\hline
-\hline
-Business Credit  & 7.58 & 7.59 \\
-Household Credit & 11.06 & 10.98 \\
-Output & 5.94 & 6.09 \\
-Lenders' Welfare & -32.13 & -22.44 \\
-Borrowers' Welfare  & -25.03 & -20.36 \\
-\end{tabular}
-\end{table}
-
-\begin{comment}
-\begin{lstlisting}
-  variable     baseline mean     CF mean   baseline volatility 	CF volatility
-
-    'b_e'             7.8446           7.9355      6.0437          6.1202
-    'b_m'             7.9585           7.6782        6.21           4.253
-    'C_m'             1.6351           1.6621      0.0109          0.0105
-    'C_s'             2.5485           2.5758      0.0029          0.0022
-    'def_rate_m'      1.0384           0.0955       4.975          0.5958
-    'def_rate_B'      0.0622           0.0245      0.0087          0.0038
-    'Vs'            -41.1369         -32.0798    824.6828        854.7038
-    'Vm'            -32.6029         -30.7395    153.5018          178.85
-    'Y_net_2'         4.6139           4.6645      0.0075          0.0039
-    'dy_data'         0.1517           0.1637      0.0729          0.1479
-    'dq_H_data'       1.3671           1.3665      3.9393          4.0742
-    'dbe_data'        5.3455           5.3707     14.2694         13.9412
-    'dbm_data'        6.7753           7.0973     32.6247         18.2844
-end{lstlisting}
-
-
-
-
-
-\begin{figure}[H]
-\centering
-\caption{household interest rate stickiness=0.1, increase sectoral mortgage req. by 4 percent.}
-\includegraphics[scale=0.45]{counterfactuals9.pdf}
-\end{figure}
-
-
-\begin{table}[H]
-%\tiny
-\begin{tabular}{l|l|l}
-Variable & Mean under Baseline & Mean under Counterfactual \\ 
-\hline
-\hline
-
-\end{tabular}
-\end{table}
-
-\begin{comment}
-\begin{lstlisting}
-  variable     baseline mean     CF mean   baseline volatility 	CF volatility
-
-    'b_e'             7.6868           8.2088      5.8465          7.0001
-    'b_m'             7.1444           7.3451      5.2308          5.8607
-    'C_m'             1.6272           1.6515      0.0081          0.0062
-    'C_s'             2.5145           2.5873       0.002          0.0042
-    'def_rate_m'      1.0364           1.0394      4.4432          4.4987
-    'def_rate_B'      0.0995           0.0389      0.0072          0.0042
-    'Vs'            -51.8086         -41.4665    688.9304         744.291
-    'Vm'            -37.0757         -36.0553    120.9556        131.5012
-    'Y_net_2'         4.5618           4.6908       0.008          0.0048
-    'dy_data'         0.1479           0.1742      0.0728          0.0921
-    'dq_H_data'       1.3594           1.3743      3.8798          3.6231
-    'dbe_data'         5.326           5.3887     14.0627         14.8712
-    'dbm_data'         6.639           6.6506     32.6177          36.193
-end{lstlisting}
-
-
-
-
-\begin{figure}[H]
-\centering
-\caption{corporate interest rate stickiness=0.1, increase sectoral corporate req. by 4 percent.}
-\includegraphics[scale=0.45]{counterfactuals10.pdf}
-\end{figure}
-
-
-\begin{table}[H]
-%\tiny
-\begin{tabular}{l|l|l}
-Variable & Mean under Baseline & Mean under Counterfactual \\ 
-\hline
-\hline
-
-\end{tabular}
-\end{table}
-
-\begin{comment}
-\begin{lstlisting}
-  variable     baseline mean     CF mean   baseline volatility 	CF volatility
-
-
-    'b_e'             7.6868           7.5566      5.8465          5.7646
-    'b_m'             7.1444           7.6597      5.2308          5.2045
-    'C_m'             1.6272           1.6404      0.0081          0.0133
-    'C_s'             2.5145           2.5293       0.002          0.0026
-    'def_rate_m'      1.0364           1.0171      4.4432           4.409
-    'def_rate_B'      0.0995           0.0628      0.0072          0.0049
-    'Vs'            -51.8086         -44.9599    688.9304        684.9906
-    'Vm'            -37.0757         -34.7325    120.9556          139.88
-    'Y_net_2'         4.5618           4.5757       0.008          0.0067
-    'dy_data'         0.1479           0.1453      0.0728          0.0875
-    'dq_H_data'       1.3594           1.3699      3.8798          3.4495
-    'dbe_data'         5.326           5.3163     14.0627         13.4665
-    'dbm_data'         6.639           6.8771     32.6177         23.4986
-end{lstlisting}
-\end{comment}
-
-
-
-
 
 
 
@@ -2034,7 +1153,13 @@ We use a two sector DSGE model with a crucial role for the banking sector,  to 1
 
 \section{References}
 
-\hspace*{0.6cm}Andries N. and Billon S.2014.'Retail bank interest rate pass-through in the Euro area: An empirical survey'.Economic Systems 40 (2016) 170–194.\\
+\hspace*{0.6cm}
+
+Aikman, D., Bridges, J., Kashyap, A. and Siegert, C., 2019. Would macroprudential regulation have prevented the last crisis?. Journal of Economic Perspectives, 33(1), pp.107-30. \\
+
+Aikman, D., Giese, J., Kapadia, S. and McLeay, M., 2019. Targeting financial stability: macroprudential or monetary policy?. \\
+
+Andries N. and Billon S.2014.'Retail bank interest rate pass-through in the Euro area: An empirical survey'.Economic Systems 40 (2016) 170–194.\\
 
 Benes, J., and M. Kumhof. 2011. 'Risky Bank Lending and Optimal
 Capital Adequacy Regulation.' IMF Working Paper No. 11/130.\\
@@ -2047,8 +1172,14 @@ Berstein S., and R. Fuentes, 2002, "From Policy Rate to Bank Lending Rates: the 
 Bianchi, J.: 2011, 'Overborrowing and Systemic Externalities in the Business Cycle'.
 American Economic Review 101(7), 3400 -3426.\\
 
+Bianchi, J. and Mendoza, E.G., 2010. Overborrowing, financial crises and'macro-prudential'taxes (No. w16091). National Bureau of Economic Research. \\
+
 Bluwstein K., Brzoza-Brzezina M., Gelain P.and Kolasa M.2018, 'Multi-period loans, occasionally binding constraints and monetary policy:
 a quantitative evaluation'.Bank of England Staff Working paper no.749.\\
+
+Bonciani, D. and Van Roye, B., 2016. Uncertainty shocks, banking frictions and economic activity. Journal of Economic Dynamics and Control, 73, pp.200-219. \\
+
+Burgess, S., Fernandez-Corugedo, E., Groth, C., Harrison, R., Monti, F., Theodoridis, K. and Waldron, M., 2013. The Bank of England’s forecasting platform: COMPASS, MAPS, EASE and the suite of models. documento de trabajo, (471).
 
 Calvo, G. A.: 1983, 'Staggered prices in a utility-maximizing framework'. Journal of Monetary Economics 12(3), 383-398.\\
 
@@ -2061,8 +1192,20 @@ Clerc, L., A. Derviz, C. Mendicino, S. Moyen, K. Nikolov, L. Stracca, J. Suarez,
 and A. P. Vardoulakis: 2015, 'Capital Regulation in a Macroeconomic Model with
 Three Layers of Default'. International Journal of Central Banking 11(3), 9-63.\\
 
+Collard, F., Dellas, H., Diba, B. and Loisel, O., 2017. Optimal monetary and prudential policies. American Economic Journal: Macroeconomics, 9(1), pp.40-87. \\
+
+Ferreira, L.N. and Nakane, M.I., 2015. Macroprudential Policy in a DSGE Model: anchoring the countercyclical capital buffer. FEA/USP. \\
+
+Financial Policy Committee, 2016. The Financial Policy Committee’s approach to setting the countercyclical capital buffer. London: Bank of England. \\
+
 Forlati, C. and L. Lambertini: 2011, 'Risky Mortgages in a DSGE Model'. Interna-
 tional Journal of Central Banking 7(1), 285-335.\\
+
+Galati, G. and Moessner, R., 2018. What do we know about the effects of macroprudential policy?. Economica, 85(340), pp.735-770.\\
+
+Gambacorta, L. and Karmakar, S., 2016. Leverage and risk weighted capital requirements.\\
+
+Gelain, P. and Ilbas, P., 2017. Monetary and macroprudential policies in an estimated model with financial intermediation. Journal of Economic Dynamics and Control, 78, pp.164-189.\\
 
 Gerali, A., S. Neri, L. Sessa, and F. M. Signoretti: 2010, 'Credit and Banking in
 a DSGE Model of the Euro Area'. Journal of Money, Credit and Banking 42,
@@ -2077,16 +1220,26 @@ national Journal of Central Banking 9(1), 109-144.\\
 Iacoviello, M.: 2005, 'House Prices, Borrowing Constraints, and Monetary Policy in
 the Business Cycle'. American Economic Review 95(3), 739-764.\\
 
+Ingholt, M.M., 2019. Multiple credit constraints and time-varying macroeconomic dynamics (No. 137). Danmarks Nationalbank Working Papers.\\
+
+
+
 Jeanne, O. and A. Korinek: 2010, 'Excessive Volatility in Capital Flows: A Pigouvian
 Taxation Approach'. American Economic Review 100(2), 403-407.\\
+
+Kahou, M.E. and Lehar, A., 2017. Macroprudential policy: A review. Journal of financial stability, 29, pp.92-105.\\
+
+Karmakar, S., 2016. Macroprudential regulation and macroeconomic activity. Journal of financial stability, 25, pp.166-178.\\
+
+Kiyotaki, N. and J. Moore: 1997, 'Credit Cycles'. Journal of Political Economy
+105(2), 211-248.\\
 
 Kobayashi, T. 2008. “Incomplete Interest Rate Pass-Through and
 Optimal Monetary Policy.” International Journal of Central
 Banking 4 (3): 77–118.\\
 
 
-Kiyotaki, N. and J. Moore: 1997, 'Credit Cycles'. Journal of Political Economy
-105(2), 211-248.\\
+
 
 Lowe, P. and T. Rohling (1992), ‘Loan Rate Stickiness: Theory and Evidence’, Research Discussion Paper No. 9206, Reserve Bank of Australia.\\
 
@@ -2098,8 +1251,13 @@ Meh, C., and K. Moran. 2010. 'The Role of Bank Capital in the
 Propagation of Shocks.' Journal of Economic Dynamics and
 Control 34 (3), 555–76.\\
 
+Mendicino, C., Nikolov, K., Suarez, J. and Supera, D., 2018. Optimal dynamic capital requirements. Journal of Money, Credit and Banking, 50(6), pp.1271-1297.\\
+
 Moazzami, B., 1999. 'Lending rate stickiness and monetary transmission mechanism: the case of Canada and the United States'.
 Applied Financial Economics 9, 533–538.\\
+
+
+Nier, E. and Baumann, U., 2006. Market discipline, disclosure and moral hazard in banking. Journal of Financial Intermediation, 15(3), pp.332-361. \\
 
 Nookhwun, N., and Tsomocos, D. (2017). "Mortgage Default, Financial Disintermediation and
 Macroprudential Policies", mimeo
@@ -2112,112 +1270,69 @@ Quint, D. and P. Rabanal: 2014, 'Monetary and Macroprudential Policy in an Estim
 DSGE Model of the Euro Area'. International Journal of Central Banking
 10(2), 169-236.\\
 
+Paries, M.D., Sørensen, C.K. and Rodriguez-Palenzuela, D., 2011. Macroeconomic propagation under different regulatory regimes: Evidence from an estimated dsge model for the euro area. International Journal of Central Banking, 7(4), pp.49-113. \\
+
 
 Repullo, R., and J. Suarez. 2013. 'The Procyclical Effects of Bank
 Capital Regulation.' Review of Financial Studies 26 (2), 452–90.\\
 
+Smets, F. and Wouters, R., 2007. Shocks and frictions in US business cycles: A Bayesian DSGE approach. American economic review, 97(3), pp.586-606. \\
+
 Sorenson C. and Werner T.2006.'Bank Interest rate pass-through in the Euro area: A cross country comparison'.ECB working paper no. 580/January 2006.\\
+
+
 
 Van den Heuvel, S. 2008. 'The Welfare Cost of Bank Capital
 Requirements.' Journal of Monetary Economics 55 (2), 298–320.\\
 
 
-\hl{references to be added:} \\
-
-Staff Working Paper No. 734
-Targeting financial stability:
-macroprudential or monetary policy?
-David Aikman, Julia Giese, Sujit Kapadia and Michael McLeay \\
-
-
-Macroprudential regulation and macroeconomic activitySudipto Karmakar∗,1Banco \\
-
-April 2016
-The Financial Policy Committee’s approach to
-setting the countercyclical capital buffer
-A Policy Statement -->maybe? \\
-
-
-Macroprudential Policy in a DSGE Model: anchoring the
-countercyclical capital buffer
-Leonardo Nogueira Ferreira*
-M´arcio Issao Nakane** \\
-
-
-OVERBORROWING, FINANCIAL CRISES AND 'MACRO-PRUDENTIAL' TAXES
-Javier Bianchi
-Enrique G. Mendoza \\
-
-
-What Do We Know About the Effects of Macroprudential
-Policy?
-By GABRIELE GALATI† and RICHHILDMOESSNER \\
-
-
-ANDREA GERALI
-STEFANO NERI
-LUCA SESSA
-FEDERICO M. SIGNORETTI
-Credit and Banking in a DSGE Model of the
-Euro Area \\
 
 
 
-Would Macroprudential Regulation Have
-Prevented the Last Crisis?
-David Aikman, Jonathan Bridges, Anil Kashyap,
-and Caspar Siegert \\
 
 
-Macroprudential policy: A review
-Mahdi Ebrahimi Kahoua, Alfred Leharb, \\
 
 
-Multiple Credit
-Constraints and Time-
-Varying Macroeconomic
-Dynamics danmarks nationalbank working paper \\
 
 
-CATERINA MENDICINO
-KALIN NIKOLOV
-JAVIER SUAREZ
-DOMINIK SUPERA
-Optimal Dynamic Capital Requirements \\
-
-Leverage and Risk-Weighted Capital
-Requirements∗
-Leonardo Gambacortaa and Sudipto Karmakarb \\
-
-Macroeconomic
-propagation
-under different
-regulatory
-regimes
-Evidence from an
-estimated DSGE
-model for the
-euro area
-by Matthieu Darracq Pariès,
-Christoffer Kok Sørensen and
-Diego Rodriguez Palenzuela \\
 
 
-Optimal Monetary and Prudential Policies†By Fabrice Collard, Harris Dellas, Behzad Diba, and Olivier Loisel \\
 
 
-Monetary and macroprudential policies in an estimated model with financial intermediation
-Paolo Gelain a , Pelin Ilbas \\
 
 
-Uncertainty shocks, banking frictions and economic activityDario Bonciani, Björn van Roye \\
+
 
 
 
 \begin{appendix}
 
-\section*{Cross country evidence on interest rate stickiness}
+\section{Historical Series and the Estimated Shocks}
 
+\begin{sidewaysfigure}
+\centering
+\caption{All estimated shocks over the sample period.}
+\label{estimated_shocks}
+\includegraphics[scale=0.5]{smoothed_shocks.pdf}
+%\subfigure[Key shocks driving the financial crisis in the model.]{\includegraphics[scale=0.4]{smoothed_shocks_HPD.pdf}}\\
+%\subfigure[Default rates during the sample period, where y-axis shows the deviation in percentages from steady-state. ]{\includegraphics[scale=0.4]{smoothed_default_rates.pdf}}\\
+\end{sidewaysfigure}
+
+
+\begin{sidewaysfigure}
+\centering
+\caption{Observable variables used in the estimation.}
+\label{estimated_shocks}
+\includegraphics[scale=0.5]{dataset.pdf}
+%\subfigure[Key shocks driving the financial crisis in the model.]{\includegraphics[scale=0.4]{smoothed_shocks_HPD.pdf}}\\
+%\subfigure[Default rates during the sample period, where y-axis shows the deviation in percentages from steady-state. ]{\includegraphics[scale=0.4]{smoothed_default_rates.pdf}}\\
+\end{sidewaysfigure}
+
+
+\FloatBarrier
+
+\section{Cross country evidence on interest rate stickiness}
+\label{app_crossCountry}
 We do a similar econometric exercise for France, Germany, Italy and Spain. We regress the monthly lending rate with 1 to 5 years of initial rate fixation on ECB policy rate and compare this with the regression of interest floating rate loans on ECB policy rate. We use the data from ECB Statistical Data warehouse.For the fixed rate loans, we use effective interest rate data for loans to corporations with an initial rate fixation  period of over one  to five years. For the floating rate loans, we use effective interest rate data for loans to corporations of (over EUR 1M) and an initial rate fixation period of up to one year.
 
 We find similar results for the Eurozone countries. The response of the lending rate on impact (i.e. during the same month) is very small. In case of variable interest rate loans,the bulk of adjustment takes place in the following period, whereas the adjustment in fixed rate loans is reflected over a longer period.
@@ -2309,21 +1424,27 @@ For the floating interest rate loans, the on impact is also low. However,around 
 
 On the whole, we find that interest rate pass through is fastest in France as compared to Germany where it is the slowest among the four Eurozone economies.
 
-\section*{Posterior distributions of all estimated parameters}
+\section{Posterior distributions of all estimated parameters}
+\label{app_posteriorDist}
 
 \begin{figure}[h]
+\centering
 \caption{Posterior Parameter Distributions}
+\label{app_post1}
 \includegraphics[scale=0.45]{posteriordistributions1.pdf}
 \end{figure}
 
 \begin{figure}[h]
+\centering
 \caption{Posterior Parameter Distributions}
+\label{app_post2}
 \includegraphics[scale=0.45]{posteriordistributions2.pdf}
 \end{figure}
 
+\FloatBarrier
 
-\section*{Model overview}
-
+\section{Model Overview and FOCs}
+\label{app_modelOverview}
 This is a infinite time horizon model with patient and impatient households.The other key agents in the model are entrepreneurs, banks,deposit insurance agency, final/investment/housing goods producers.
 
 \subsection*{Households}
@@ -2450,7 +1571,7 @@ The balance sheet identity of the entrepreneurs is :
 n^e_t+B^e_t=q^K_t K_t
 \end{equation}
 
-\subsection*{Banks}
+\subsection*{Bank}
 
 Banks are financial intermediaries who channel savings from the savers to the borrowers.On the asset side of the banks, there are loans to households (mortgage lending) and entrepreneurs (business lending) respectively. As described earlier, these loans may default depending on aggregate state shocks and idiosyncratic borrower shocks in which case the banks seize the assets subject to state verification costs (these can also be viewed as bankruptcy costs).
 

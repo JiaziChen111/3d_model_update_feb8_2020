@@ -83,8 +83,8 @@ set_psi_h=12.3532; % same as above. Why are there two of these?  %46
 
 
 %STICKINESS & CAPITAL REQ. RELATED STUFF
-set_tau_H=35; %SS*** elasticity of substitution for banks, appears in A1, B1, C1, D1, R_mi R_Fi %63
-set_tau_F=30; %SS*** same as above %64
+set_tau_H=40; %SS*** elasticity of substitution for banks, appears in A1, B1, C1, D1, R_mi R_Fi %63
+set_tau_F=35; %SS*** same as above %64
 set_phiinf1=1.5;  %*** reaction to inflation--why is this so low?  %65
  set_kappa =0 ; %*** interest rate smoothing %66
 set_nu=0.5; %SS*** penalty cost parameter,  appears in A1, C1 %67

@@ -931,12 +931,15 @@ presample=8,
 mh_nblocks=1,
 //mcmc_jumping_covariance=prior_variance,
 //load_mh_file,
+//load_mh_file,
+//smoother,
+//selected_variables_only,
 mh_replic=0000,
 //bayesian_irf,
 //load_results_after_load_mh,
 mh_jscale=0.2,
-mh_drop=0.5);
-//mh_init_scale=0.001);
+mh_drop=0.1);
+//mh_init_scale=0.001)def_rate_m,def_rate_B,def_rate_e;
 
 
 //varexo epsiA  epsiJ epsiK epsiSe epsiSm epsiSF epsiSH epsiWb  epsiWe epsiH epsiHd epsiHk;
@@ -960,6 +963,8 @@ shock_groups;
 end;
 
  //stoch_simul(order=1,irf=100,nograph,nocorr,nomoments,nodecomposition,nodisplay,noprint,tex,relative_irf);
-stoch_simul(order=1,irf=20);
-//shock_decomposition(first_obs=11,datafile='estimation_dataset_quarterly.mat',parameter_set=posterior_mode,init_state=1,use_shock_groups)
+stoch_simul(order=1,irf=40);
+//shock_decomposition(first_obs=8,datafile='estimation_dataset_quarterly.mat',parameter_set=posterior_mode,init_state=1,use_shock_groups)
+//def_rate_B,def_rate_m;
+//dy_data,Y_net_obs,Y_net;
 //dy_data,dq_H_data,int_rate_HH_data,int_rate_business_data,bank_rate_data,dbe_data,dbm_data,dinve_data,dw_data,dc_data,pb_ratio_data;

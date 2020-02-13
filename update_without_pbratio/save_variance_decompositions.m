@@ -1,8 +1,8 @@
 %dy_data, dq_H_data,int_rate_HH_data,int_rate_business_data,bank_rate_data,dbe_data,dbm_data,phib;// , dq_H_data,d_b_to_Y_data,int_rate_HH_data,bank_rate_data,bsp_H_data ,d_b_to_Y_data; 
 
 %run after LTV1.mod
-startDate=datenum('01-01-1999');
-endDate = datenum('01-12-2016');
+startDate=datenum('01-09-1997');
+endDate = datenum('01-06-2016');
 T=75;%sample length
 
 Date=linspace(startDate,endDate,T);

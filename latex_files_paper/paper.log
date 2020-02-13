@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.4)  10 FEB 2020 12:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.4)  13 FEB 2020 18:01
 entering extended mode
 **C:/Users/tolga/OneDrive/Desktop/3d_model_update_feb8_2020/latex_files_paper/p
 aper.tex
@@ -1103,6 +1103,12 @@ Package caption Info: subfigure package is loaded.
 Package hyperref Info: Option `colorlinks' set `true' on input line 41.
  (paper.aux
 
+LaTeX Warning: Label `estimated_shocks' multiply defined.
+
+
+LaTeX Warning: Label `estimated_shocks' multiply defined.
+
+
 LaTeX Warning: Label `tab:title' multiply defined.
 
 
@@ -1111,20 +1117,20 @@ LaTeX Warning: Label `tab:title' multiply defined.
 )
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
@@ -1188,19 +1194,19 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 45.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 45.
+LaTeX Info: Redefining \celsius on input line 46.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 46.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 45.
-Package gensymb Info: Using \Omega for \ohm on input line 45.
+LaTeX Info: Redefining \ohm on input line 46.
+Package gensymb Info: Using \Omega for \ohm on input line 46.
 
 Package gensymb Warning: Not defining \micro.
 
 \AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring ON on input line 45.
+Package hyperref Info: Link coloring ON on input line 46.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1212,9 +1218,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count346
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
 
 (paper.out) (paper.out)
 \@outlinefile=\write9
@@ -1224,41 +1230,46 @@ LaTeX Info: Redefining \nameref on input line 45.
 \c@lstlisting=\count347
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 48
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 49
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-8.
+9.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
+
+ []
+
+[1
 
 {C:/Users/tolga/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (3.6266pt too wide) in paragraph at lines 77--78
+Overfull \hbox (3.6266pt too wide) in paragraph at lines 78--79
 []\T1/cmr/m/n/12 The sec-ond ob-jec-tive of the pa-per is to study how these po
 li-cies in-ter-act with each other.There
  []
@@ -1266,684 +1277,624 @@ li-cies in-ter-act with each other.There
 [2] [3] ("C:\Program Files\MiKTeX 2.9\tex/latex/ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [4]
-<mortgage.png, id=98, 617.30624pt x 292.09125pt>
+<mortgage.png, id=171, 617.30624pt x 292.09125pt>
 File: mortgage.png Graphic file (type png)
 <use mortgage.png>
 Package pdftex.def Info: mortgage.png  used on input line 169.
-(pdftex.def)             Requested size: 435.78593pt x 206.20512pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<busirate.jpg, id=100, 362.85562pt x 218.31563pt>
+(pdftex.def)             Requested size: 341.44102pt x 227.62967pt.
+<busirate.jpg, id=173, 362.85562pt x 218.31563pt>
 File: busirate.jpg Graphic file (type jpg)
 <use busirate.jpg>
-Package pdftex.def Info: busirate.jpg  used on input line 175.
-(pdftex.def)             Requested size: 435.78593pt x 262.2006pt.
+Package pdftex.def Info: busirate.jpg  used on input line 170.
+(pdftex.def)             Requested size: 341.43867pt x 227.62251pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5] [6 <./mortgage.png> <./busirate.jpg>]
-<int_rate_monthly_plot.pdf, id=112, 1029.8475pt x 686.565pt>
-File: int_rate_monthly_plot.pdf Graphic file (type pdf)
-<use int_rate_monthly_plot.pdf>
-Package pdftex.def Info: int_rate_monthly_plot.pdf  used on input line 189.
-(pdftex.def)             Requested size: 435.78593pt x 290.5239pt.
- [7 <./int_rate_monthly_plot.pdf>]
 
-LaTeX Warning: Command \i invalid in math mode on input line 220.
+LaTeX Warning: Command \i invalid in math mode on input line 209.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 222.
+LaTeX Warning: Command \i invalid in math mode on input line 211.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 224.
+LaTeX Warning: Command \i invalid in math mode on input line 213.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 227.
+LaTeX Warning: Command \i invalid in math mode on input line 216.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 229.
+LaTeX Warning: Command \i invalid in math mode on input line 218.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 242.
+Package hyperref Warning: Ignoring empty anchor on input line 231.
 
-[8] [9]
 
-pdfTeX warning: pdflatex (file ./3d_model_overview.pdf): PDF inclusion: found P
+LaTeX Warning: Command \i invalid in math mode on input line 235.
+
+[7] [8]
+
+pdfTeX warning: pdflatex (file ./3d_flowchart_prud.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<3d_model_overview.pdf, id=140, 784.9325pt x 539.01375pt>
-File: 3d_model_overview.pdf Graphic file (type pdf)
-<use 3d_model_overview.pdf>
-Package pdftex.def Info: 3d_model_overview.pdf  used on input line 287.
-(pdftex.def)             Requested size: 435.78593pt x 299.26308pt.
-[10 <./3d_model_overview.pdf>] [11] [12] [13] [14]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 512.
- [15] [16] [17] [18] [19]
-<posteriordistributions_calvo2.pdf, id=231, 855.195pt x 214.8025pt>
+<3d_flowchart_prud.pdf, id=210, 776.9025pt x 545.03625pt>
+File: 3d_flowchart_prud.pdf Graphic file (type pdf)
+<use 3d_flowchart_prud.pdf>
+Package pdftex.def Info: 3d_flowchart_prud.pdf  used on input line 266.
+(pdftex.def)             Requested size: 388.45029pt x 272.51746pt.
+[9 <./3d_flowchart_prud.pdf>] [10] [11] [12] [13] [14] [15] [16]
+Excluding 'comment' comment.
+Overfull \hbox (6.09715pt too wide) in paragraph at lines 594--637
+[][] 
+ []
+
+[17]
+<posteriordistributions_calvo2.pdf, id=320, 855.195pt x 214.8025pt>
 File: posteriordistributions_calvo2.pdf Graphic file (type pdf)
 <use posteriordistributions_calvo2.pdf>
 Package pdftex.def Info: posteriordistributions_calvo2.pdf  used on input line 
-679.
+646.
 (pdftex.def)             Requested size: 555.87018pt x 139.61996pt.
 
-Overfull \hbox (71.6603pt too wide) in paragraph at lines 679--680
+Overfull \hbox (71.6603pt too wide) in paragraph at lines 646--647
  [][] 
  []
 
-[20]
-<smoothed_shocks.pdf, id=238, 1445.4pt x 813.0375pt>
-File: smoothed_shocks.pdf Graphic file (type pdf)
-<use smoothed_shocks.pdf>
-Package pdftex.def Info: smoothed_shocks.pdf  used on input line 694.
-(pdftex.def)             Requested size: 722.69824pt x 406.51776pt.
+[18]
 
-Overfull \hbox (57.81337pt too wide) in paragraph at lines 694--695
+LaTeX Warning: Reference `app_dataAndShocks' on page 19 undefined on input line
+ 653.
+
+[19 <./posteriordistributions_calvo2.pdf>]
+<smoothed_shocks_HPD.pdf, id=560, 1445.4pt x 813.0375pt>
+File: smoothed_shocks_HPD.pdf Graphic file (type pdf)
+<use smoothed_shocks_HPD.pdf>
+Package pdftex.def Info: smoothed_shocks_HPD.pdf  used on input line 671.
+(pdftex.def)             Requested size: 578.14977pt x 325.20924pt.
+
+Overfull \hbox (93.93988pt too wide) in paragraph at lines 671--671
  [][] 
  []
 
-[21 <./posteriordistributions_calvo2.pdf>] [22 <./smoothed_shocks.pdf>]
-<decomp_dbm.pdf, id=481, 1129.21875pt x 565.11125pt>
+<smoothed_default_rates.pdf, id=561, 1445.4pt x 406.51875pt>
+File: smoothed_default_rates.pdf Graphic file (type pdf)
+<use smoothed_default_rates.pdf>
+Package pdftex.def Info: smoothed_default_rates.pdf  used on input line 672.
+(pdftex.def)             Requested size: 578.14977pt x 162.60461pt.
+
+Overfull \hbox (93.93988pt too wide) in paragraph at lines 672--672
+ [][] 
+ []
+
+[20] [21 <./smoothed_shocks_HPD.pdf> <./smoothed_default_rates.pdf>]
+<decomp_dbm.pdf, id=593, 1129.21875pt x 565.11125pt>
 File: decomp_dbm.pdf Graphic file (type pdf)
 <use decomp_dbm.pdf>
-Package pdftex.def Info: decomp_dbm.pdf  used on input line 747.
+Package pdftex.def Info: decomp_dbm.pdf  used on input line 724.
 (pdftex.def)             Requested size: 508.14375pt x 254.2977pt.
-
-Overfull \hbox (23.93387pt too wide) in paragraph at lines 747--748
- [][] 
- []
-
-<decomp_dy.pdf, id=482, 1129.21875pt x 565.11125pt>
+<decomp_dy.pdf, id=594, 1129.21875pt x 565.11125pt>
 File: decomp_dy.pdf Graphic file (type pdf)
 <use decomp_dy.pdf>
-Package pdftex.def Info: decomp_dy.pdf  used on input line 772.
+Package pdftex.def Info: decomp_dy.pdf  used on input line 725.
 (pdftex.def)             Requested size: 508.14375pt x 254.2977pt.
 
-Overfull \hbox (23.93387pt too wide) in paragraph at lines 772--773
+Overfull \hbox (23.93387pt too wide) in paragraph at lines 724--726
  [][] 
  []
 
-[23 <./decomp_dbm.pdf>] [24 <./decomp_dy.pdf>]
-<stickinessNegativeShocksJ.pdf, id=14355, 1445.4pt x 813.0375pt>
-File: stickinessNegativeShocksJ.pdf Graphic file (type pdf)
-<use stickinessNegativeShocksJ.pdf>
-Package pdftex.def Info: stickinessNegativeShocksJ.pdf  used on input line 813.
 
-(pdftex.def)             Requested size: 578.14977pt x 325.20924pt.
-
-Overfull \hbox (93.93988pt too wide) in paragraph at lines 813--814
+Overfull \hbox (23.93387pt too wide) in paragraph at lines 724--726
  [][] 
  []
 
-[25]
-<stickinessNegativeShocksEbF.pdf, id=14361, 1445.4pt x 813.0375pt>
-File: stickinessNegativeShocksEbF.pdf Graphic file (type pdf)
-<use stickinessNegativeShocksEbF.pdf>
-Package pdftex.def Info: stickinessNegativeShocksEbF.pdf  used on input line 82
-0.
-(pdftex.def)             Requested size: 578.14977pt x 325.20924pt.
-
-Overfull \hbox (93.93988pt too wide) in paragraph at lines 820--821
- [][] 
- []
-
-[26 <./stickinessNegativeShocksJ.pdf>]
-<stickinessNegativeShocksECAB.pdf, id=14379, 1445.4pt x 813.0375pt>
-File: stickinessNegativeShocksECAB.pdf Graphic file (type pdf)
-<use stickinessNegativeShocksECAB.pdf>
-Package pdftex.def Info: stickinessNegativeShocksECAB.pdf  used on input line 8
-26.
-(pdftex.def)             Requested size: 578.14977pt x 325.20924pt.
-
-Overfull \hbox (93.93988pt too wide) in paragraph at lines 826--827
- [][] 
- []
-
-[27 <./stickinessNegativeShocksEbF.pdf>]
-<stickinessNegativeShocksLTVH.pdf, id=14397, 1445.4pt x 813.0375pt>
-File: stickinessNegativeShocksLTVH.pdf Graphic file (type pdf)
-<use stickinessNegativeShocksLTVH.pdf>
-Package pdftex.def Info: stickinessNegativeShocksLTVH.pdf  used on input line 8
-33.
-(pdftex.def)             Requested size: 578.14977pt x 325.20924pt.
-
-Overfull \hbox (93.93988pt too wide) in paragraph at lines 833--834
- [][] 
- []
-
-[28 <./stickinessNegativeShocksECAB.pdf>] [29 <./stickinessNegativeShocksLTVH.p
-df>]
-<stickiness_ccybJ.pdf, id=14432, 1445.4pt x 406.51875pt>
-File: stickiness_ccybJ.pdf Graphic file (type pdf)
-<use stickiness_ccybJ.pdf>
-Package pdftex.def Info: stickiness_ccybJ.pdf  used on input line 861.
-(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
-<stickiness_LTVJ.pdf, id=14433, 1445.4pt x 406.51875pt>
-File: stickiness_LTVJ.pdf Graphic file (type pdf)
-<use stickiness_LTVJ.pdf>
-Package pdftex.def Info: stickiness_LTVJ.pdf  used on input line 862.
-(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
-<stickiness_CARJ.pdf, id=14434, 1445.4pt x 406.51875pt>
-File: stickiness_CARJ.pdf Graphic file (type pdf)
-<use stickiness_CARJ.pdf>
-Package pdftex.def Info: stickiness_CARJ.pdf  used on input line 863.
-(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
-
-Overfull \hbox (21.6877pt too wide) in paragraph at lines 861--864
-[][]
- []
-
-
-Overfull \hbox (21.6877pt too wide) in paragraph at lines 861--864
-[][]
- []
-
-
-Overfull \hbox (21.6877pt too wide) in paragraph at lines 861--864
-[][] 
- []
-
-<stickiness_ccybEbF.pdf, id=14435, 1445.4pt x 406.51875pt>
-File: stickiness_ccybEbF.pdf Graphic file (type pdf)
-<use stickiness_ccybEbF.pdf>
-Package pdftex.def Info: stickiness_ccybEbF.pdf  used on input line 868.
-(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
-<stickiness_LTVEbF.pdf, id=14436, 1445.4pt x 406.51875pt>
-File: stickiness_LTVEbF.pdf Graphic file (type pdf)
-<use stickiness_LTVEbF.pdf>
-Package pdftex.def Info: stickiness_LTVEbF.pdf  used on input line 869.
-(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
-<stickiness_CAREbF.pdf, id=14437, 1445.4pt x 406.51875pt>
-File: stickiness_CAREbF.pdf Graphic file (type pdf)
-<use stickiness_CAREbF.pdf>
-Package pdftex.def Info: stickiness_CAREbF.pdf  used on input line 870.
-(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
-
-Overfull \hbox (21.6877pt too wide) in paragraph at lines 868--871
-[][]
- []
-
-
-Overfull \hbox (21.6877pt too wide) in paragraph at lines 868--871
-[][]
- []
-
-
-Overfull \hbox (21.6877pt too wide) in paragraph at lines 868--871
-[][] 
- []
-
-[30 <./stickiness_ccybJ.pdf> <./stickiness_LTVJ.pdf> <./stickiness_CARJ.pdf>]
-<stickiness_ccybECAB.pdf, id=14457, 1445.4pt x 406.51875pt>
-File: stickiness_ccybECAB.pdf Graphic file (type pdf)
-<use stickiness_ccybECAB.pdf>
-Package pdftex.def Info: stickiness_ccybECAB.pdf  used on input line 877.
-(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
-<stickiness_LTVECAB.pdf, id=14458, 1445.4pt x 406.51875pt>
-File: stickiness_LTVECAB.pdf Graphic file (type pdf)
-<use stickiness_LTVECAB.pdf>
-Package pdftex.def Info: stickiness_LTVECAB.pdf  used on input line 878.
-(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
-<stickiness_CARECAB.pdf, id=14459, 1445.4pt x 406.51875pt>
-File: stickiness_CARECAB.pdf Graphic file (type pdf)
-<use stickiness_CARECAB.pdf>
-Package pdftex.def Info: stickiness_CARECAB.pdf  used on input line 879.
-(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
-
-Overfull \hbox (21.6877pt too wide) in paragraph at lines 877--880
-[][]
- []
-
-
-Overfull \hbox (21.6877pt too wide) in paragraph at lines 877--880
-[][]
- []
-
-
-Overfull \hbox (21.6877pt too wide) in paragraph at lines 877--880
-[][] 
- []
-
-[31 <./stickiness_ccybEbF.pdf> <./stickiness_LTVEbF.pdf> <./stickiness_CAREbF.p
-df>]
-<welfare_SCR_housing_level.pdf, id=14478, 1144.275pt x 621.32124pt>
+[22] [23 <./decomp_dbm.pdf> <./decomp_dy.pdf>] [24] [25]
+<welfare_SCR_housing_level.pdf, id=14495, 1144.275pt x 621.32124pt>
 File: welfare_SCR_housing_level.pdf Graphic file (type pdf)
 <use welfare_SCR_housing_level.pdf>
-Package pdftex.def Info: welfare_SCR_housing_level.pdf  used on input line 903.
+Package pdftex.def Info: welfare_SCR_housing_level.pdf  used on input line 866.
 
 (pdftex.def)             Requested size: 228.85094pt x 124.26204pt.
-<welfare_SCR_housing_var.pdf, id=14479, 1144.275pt x 621.32124pt>
-File: welfare_SCR_housing_var.pdf Graphic file (type pdf)
-<use welfare_SCR_housing_var.pdf>
-Package pdftex.def Info: welfare_SCR_housing_var.pdf  used on input line 904.
-(pdftex.def)             Requested size: 228.85094pt x 124.26204pt.
-<welfare_CAR_level.pdf, id=14480, 1144.275pt x 621.32124pt>
+<welfare_CAR_level.pdf, id=14496, 1144.275pt x 621.32124pt>
 File: welfare_CAR_level.pdf Graphic file (type pdf)
 <use welfare_CAR_level.pdf>
-Package pdftex.def Info: welfare_CAR_level.pdf  used on input line 905.
+Package pdftex.def Info: welfare_CAR_level.pdf  used on input line 868.
 (pdftex.def)             Requested size: 228.85094pt x 124.26204pt.
-<welfare_CAR_var.pdf, id=14481, 1144.275pt x 621.32124pt>
-File: welfare_CAR_var.pdf Graphic file (type pdf)
-<use welfare_CAR_var.pdf>
-Package pdftex.def Info: welfare_CAR_var.pdf  used on input line 906.
-(pdftex.def)             Requested size: 228.85094pt x 124.26204pt.
- [32 <./stickiness_ccybECAB.pdf> <./stickiness_LTVECAB.pdf> <./stickiness_CAREC
-AB.pdf>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[33 <./welfare_SCR_housing_level.pdf> <./welfare_SCR_housing_var.pdf> <./welfar
-e_CAR_level.pdf> <./welfare_CAR_var.pdf>]
-<main_counterfactual.pdf, id=14518, 1445.4pt x 757.83125pt>
+ [26 <./welfare_SCR_housing_level.pdf> <./welfare_CAR_level.pdf>]
+<main_counterfactual.pdf, id=14517, 1445.4pt x 757.83125pt>
 File: main_counterfactual.pdf Graphic file (type pdf)
 <use main_counterfactual.pdf>
-Package pdftex.def Info: main_counterfactual.pdf  used on input line 1018.
+Package pdftex.def Info: main_counterfactual.pdf  used on input line 891.
 (pdftex.def)             Requested size: 578.14977pt x 303.12714pt.
 
-Overfull \hbox (93.93988pt too wide) in paragraph at lines 1018--1019
+Overfull \hbox (93.93988pt too wide) in paragraph at lines 891--892
  [][] 
  []
 
-[34 <./main_counterfactual.pdf>]
-<CF_policy_rules10.pdf, id=14530, 1029.8475pt x 343.2825pt>
+[27]
+<CF_policy_rules10.pdf, id=14525, 1029.8475pt x 343.2825pt>
 File: CF_policy_rules10.pdf Graphic file (type pdf)
 <use CF_policy_rules10.pdf>
-Package pdftex.def Info: CF_policy_rules10.pdf  used on input line 1039.
+Package pdftex.def Info: CF_policy_rules10.pdf  used on input line 914.
 (pdftex.def)             Requested size: 360.45203pt x 120.15067pt.
-<main_counterfactual_phaseIn.pdf, id=14531, 1445.4pt x 813.0375pt>
+<main_counterfactual_phaseIn.pdf, id=14526, 1445.4pt x 813.0375pt>
 File: main_counterfactual_phaseIn.pdf Graphic file (type pdf)
 <use main_counterfactual_phaseIn.pdf>
-Package pdftex.def Info: main_counterfactual_phaseIn.pdf  used on input line 10
-40.
+Package pdftex.def Info: main_counterfactual_phaseIn.pdf  used on input line 91
+5.
 (pdftex.def)             Requested size: 578.14977pt x 325.20924pt.
 
-Overfull \hbox (93.93988pt too wide) in paragraph at lines 1039--1040
+Overfull \hbox (93.93988pt too wide) in paragraph at lines 914--915
  [] 
  []
 
+[28 <./main_counterfactual.pdf>] [29 <./CF_policy_rules10.pdf> <./main_counterf
+actual_phaseIn.pdf>]
+Overfull \hbox (29.4103pt too wide) in paragraph at lines 942--962
+[][]
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Excluding 'comment' comment. [30]
+<stickinessNegativeShocksJ.pdf, id=14556, 1445.4pt x 813.0375pt>
+File: stickinessNegativeShocksJ.pdf Graphic file (type pdf)
+<use stickinessNegativeShocksJ.pdf>
+Package pdftex.def Info: stickinessNegativeShocksJ.pdf  used on input line 1027
+.
+(pdftex.def)             Requested size: 578.14977pt x 325.20924pt.
 
-<counterfactuals11.pdf, id=14532, 1445.4pt x 813.0375pt>
-File: counterfactuals11.pdf Graphic file (type pdf)
-<use counterfactuals11.pdf>
-Package pdftex.def Info: counterfactuals11.pdf  used on input line 1064.
-(pdftex.def)             Requested size: 650.424pt x 365.8635pt.
-
-Overfull \hbox (166.21411pt too wide) in paragraph at lines 1064--1065
+Overfull \hbox (93.93988pt too wide) in paragraph at lines 1027--1028
  [][] 
  []
 
-[35 <./CF_policy_rules10.pdf> <./main_counterfactual_phaseIn.pdf>]
+[31 <./stickinessNegativeShocksJ.pdf>]
+<stickinessNegativeShocksEbF.pdf, id=14576, 1445.4pt x 813.0375pt>
+File: stickinessNegativeShocksEbF.pdf Graphic file (type pdf)
+<use stickinessNegativeShocksEbF.pdf>
+Package pdftex.def Info: stickinessNegativeShocksEbF.pdf  used on input line 10
+39.
+(pdftex.def)             Requested size: 578.14977pt x 325.20924pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (93.93988pt too wide) in paragraph at lines 1039--1040
+ [][] 
+ []
 
+[32 <./stickinessNegativeShocksEbF.pdf>]
+<stickinessNegativeShocksECAB.pdf, id=14595, 1445.4pt x 813.0375pt>
+File: stickinessNegativeShocksECAB.pdf Graphic file (type pdf)
+<use stickinessNegativeShocksECAB.pdf>
+Package pdftex.def Info: stickinessNegativeShocksECAB.pdf  used on input line 1
+051.
+(pdftex.def)             Requested size: 578.14977pt x 325.20924pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (93.93988pt too wide) in paragraph at lines 1051--1052
+ [][] 
+ []
 
-[36 <./counterfactuals11.pdf>] [37] Excluding 'comment' comment.
-Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment. Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 2037--2038
+[33 <./stickinessNegativeShocksECAB.pdf>]
+<stickiness_corporate_SCRECAB.pdf, id=14619, 1445.4pt x 406.51875pt>
+File: stickiness_corporate_SCRECAB.pdf Graphic file (type pdf)
+<use stickiness_corporate_SCRECAB.pdf>
+Package pdftex.def Info: stickiness_corporate_SCRECAB.pdf  used on input line 1
+074.
+(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
+
+Overfull \hbox (21.6877pt too wide) in paragraph at lines 1074--1075
+ [][] 
+ []
+
+<stickiness_housing_SCRECAB.pdf, id=14620, 1445.4pt x 406.51875pt>
+File: stickiness_housing_SCRECAB.pdf Graphic file (type pdf)
+<use stickiness_housing_SCRECAB.pdf>
+Package pdftex.def Info: stickiness_housing_SCRECAB.pdf  used on input line 108
+2.
+(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
+
+Overfull \hbox (21.6877pt too wide) in paragraph at lines 1082--1083
+ [][] 
+ []
+
+[34 <./stickiness_corporate_SCRECAB.pdf>]
+<stickiness_corporate_ccybECAB.pdf, id=14633, 1445.4pt x 406.51875pt>
+File: stickiness_corporate_ccybECAB.pdf Graphic file (type pdf)
+<use stickiness_corporate_ccybECAB.pdf>
+Package pdftex.def Info: stickiness_corporate_ccybECAB.pdf  used on input line 
+1091.
+(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
+
+Overfull \hbox (21.6877pt too wide) in paragraph at lines 1091--1092
+ [][] 
+ []
+
+<stickiness_housing_ccybECAB.pdf, id=14634, 1445.4pt x 406.51875pt>
+File: stickiness_housing_ccybECAB.pdf Graphic file (type pdf)
+<use stickiness_housing_ccybECAB.pdf>
+Package pdftex.def Info: stickiness_housing_ccybECAB.pdf  used on input line 10
+99.
+(pdftex.def)             Requested size: 505.89758pt x 142.28369pt.
+
+Overfull \hbox (21.6877pt too wide) in paragraph at lines 1099--1100
+ [][] 
+ []
+
+Excluding 'comment' comment. [35 <./stickiness_housing_SCRECAB.pdf> <./stickine
+ss_corporate_ccybECAB.pdf> <./stickiness_housing_ccybECAB.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2039--2041
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2043--2044
+Underfull \hbox (badness 10000) in paragraph at lines 1162--1163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2045--2046
+Underfull \hbox (badness 10000) in paragraph at lines 1164--1166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2047--2049
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2050--2052
+Underfull \hbox (badness 10000) in paragraph at lines 1170--1171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2053--2054
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2056
-
- []
-
-[38
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2057--2059
-
+Overfull \hbox (23.26402pt too wide) in paragraph at lines 1175--1176
+[]\T1/cmr/m/n/12 Bianchi, J. and Men-doza, E.G., 2010. Over-bor-row-ing, fi-nan
+-cial crises and'macro-prudential'taxes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2060--2063
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1176
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2064--2066
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 1177--1179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2067--2070
+Underfull \hbox (badness 10000) in paragraph at lines 1180--1181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2071--2074
+Underfull \hbox (badness 10000) in paragraph at lines 1184--1185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2075--2076
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2077--2079
+Underfull \hbox (badness 10000) in paragraph at lines 1188--1190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2080--2082
+Underfull \hbox (badness 10000) in paragraph at lines 1191--1194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2083--2086
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2088--2090
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2091--2092
+Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2096
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2097--2100
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2101--2103
-
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 2104--2107
+Underfull \hbox (badness 10000) in paragraph at lines 1206--1207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2111--2114
+Underfull \hbox (badness 10000) in paragraph at lines 1208--1209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2116--2118
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1213
+
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1214--1217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2119--2120
+Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2121--2123
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1222
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2125--2126
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2127--2131
-
- []
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/ucs\uni-34.def"
-File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-)
-Underfull \hbox (badness 10000) in paragraph at lines 2133--2134
+Underfull \hbox (badness 10000) in paragraph at lines 1227--1229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2135--2139
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2141--2145
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
 
  []
 
 
-Overfull \hbox (6.18582pt too wide) in paragraph at lines 2147--2150
-[]\T1/cmr/m/n/12 OVERBORROWING, FI-NAN-CIAL CRISES AND 'MACRO-PRUDENTIAL' TAXES
- Javier
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2150
+Underfull \hbox (badness 10000) in paragraph at lines 1234--1236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2152--2155
+Underfull \hbox (badness 10000) in paragraph at lines 1237--1240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2157--2163
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1245
 
  []
 
 
-Overfull \hbox (7.69997pt too wide) in paragraph at lines 2166--2170
-[]\T1/cmr/m/n/12 Would Macro-pru-den-tial Reg-u-la-tion Have Pre-vented the Las
-t Cri-sis? David Aik-man, Jonathan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2166--2170
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1249
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2172--2174
+Underfull \hbox (badness 10000) in paragraph at lines 1250--1253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2176--2180
+Underfull \hbox (badness 10000) in paragraph at lines 1254--1255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2182--2187
-
- []
-
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2191
+Underfull \hbox (badness 10000) in paragraph at lines 1256--1258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2192--2204
+Underfull \hbox (badness 10000) in paragraph at lines 1260--1261
+
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 1262--1265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2206--2207
+Underfull \hbox (badness 10000) in paragraph at lines 1269--1272
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2209--2211
+Underfull \hbox (badness 10000) in paragraph at lines 1273--1274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2213--2214
+Underfull \hbox (badness 10000) in paragraph at lines 1276--1278
 
  []
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2232.
+Underfull \hbox (badness 10000) in paragraph at lines 1279--1280
+
+ []
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2234.
+Underfull \hbox (badness 10000) in paragraph at lines 1281--1282
+
+ []
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2236.
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1287
+
+ []
+
+<smoothed_shocks.pdf, id=14661, 1445.4pt x 813.0375pt>
+File: smoothed_shocks.pdf Graphic file (type pdf)
+<use smoothed_shocks.pdf>
+Package pdftex.def Info: smoothed_shocks.pdf  used on input line 1316.
+(pdftex.def)             Requested size: 722.69824pt x 406.51776pt.
+
+Overfull \hbox (57.81337pt too wide) in paragraph at lines 1316--1319
+ [][] 
+ []
+
+<dataset.pdf, id=14662, 1445.4pt x 813.0375pt>
+File: dataset.pdf Graphic file (type pdf)
+<use dataset.pdf>
+Package pdftex.def Info: dataset.pdf  used on input line 1326.
+(pdftex.def)             Requested size: 722.69824pt x 406.51776pt.
+
+Overfull \hbox (57.81337pt too wide) in paragraph at lines 1326--1329
+ [][] 
+ []
+
+[39] [40 <./smoothed_shocks.pdf>] [41 <./dataset.pdf>]
+
+LaTeX Warning: Command \i invalid in math mode on input line 1347.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2239.
+LaTeX Warning: Command \i invalid in math mode on input line 1349.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2241.
+LaTeX Warning: Command \i invalid in math mode on input line 1351.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2243.
+LaTeX Warning: Command \i invalid in math mode on input line 1354.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2263.
+LaTeX Warning: Command \i invalid in math mode on input line 1356.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2265.
+LaTeX Warning: Command \i invalid in math mode on input line 1358.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2267.
+LaTeX Warning: Command \i invalid in math mode on input line 1378.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2270.
+LaTeX Warning: Command \i invalid in math mode on input line 1380.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2272.
+LaTeX Warning: Command \i invalid in math mode on input line 1382.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 2274.
+LaTeX Warning: Command \i invalid in math mode on input line 1385.
 
-[41] [42]
-<posteriordistributions1.pdf, id=14585, 1433.355pt x 783.92876pt>
+
+LaTeX Warning: Command \i invalid in math mode on input line 1387.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 1389.
+
+[42]
+<posteriordistributions1.pdf, id=14697, 1433.355pt x 783.92876pt>
 File: posteriordistributions1.pdf Graphic file (type pdf)
 <use posteriordistributions1.pdf>
-Package pdftex.def Info: posteriordistributions1.pdf  used on input line 2316.
+Package pdftex.def Info: posteriordistributions1.pdf  used on input line 1434.
 (pdftex.def)             Requested size: 645.0038pt x 352.76468pt.
 
-Overfull \hbox (160.79391pt too wide) in paragraph at lines 2316--2317
-[][] 
- []
-
-<posteriordistributions2.pdf, id=14586, 1433.355pt x 783.92876pt>
-File: posteriordistributions2.pdf Graphic file (type pdf)
-<use posteriordistributions2.pdf>
-Package pdftex.def Info: posteriordistributions2.pdf  used on input line 2321.
-(pdftex.def)             Requested size: 645.0038pt x 352.76468pt.
-
-Overfull \hbox (160.79391pt too wide) in paragraph at lines 2321--2322
-[][] 
+Overfull \hbox (160.79391pt too wide) in paragraph at lines 1434--1435
+ [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43 <./posteriordistributions1.pdf>] [44 <./posteriordistributions2.pdf>]
-[45]
-Overfull \hbox (14.32523pt too wide) detected at line 2402
+<posteriordistributions2.pdf, id=14698, 1433.355pt x 783.92876pt>
+File: posteriordistributions2.pdf Graphic file (type pdf)
+<use posteriordistributions2.pdf>
+Package pdftex.def Info: posteriordistributions2.pdf  used on input line 1441.
+(pdftex.def)             Requested size: 645.0038pt x 352.76468pt.
+
+Overfull \hbox (160.79391pt too wide) in paragraph at lines 1441--1442
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43] [44 <./posteriordistributions1.pdf>] [45 <./posteriordistributions2.pdf>]
+[46
+
+]
+Overfull \hbox (14.32523pt too wide) detected at line 1523
 []\OML/cmm/m/it/12 E[][]
  []
 
-[46] [47]
-Overfull \hbox (10.53581pt too wide) in paragraph at lines 2506--2507
+[47] [48]
+Overfull \hbox (10.53581pt too wide) in paragraph at lines 1627--1628
 \T1/cmr/m/n/12 Although, in-ter-est rate stick-i-ness can be at-tributed to var
 -i-ous rea-sons such as switch-ing costs,menu
  []
 
-[48] [49] [50]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2575.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2575.
+[49] [50] [51]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1696.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1696.
  (paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2575.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2575.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1696.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1696.
 
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 85577EACFE7EBB4480235D3522D0B301;450.
+(rerunfilecheck)             Checksum: 9BA35D68B6F214E3B5CCDF4140EAA0D8;1839.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2575.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1696.
  ) 
 Here is how much of TeX's memory you used:
- 38770 strings out of 492450
- 747427 string characters out of 3129749
- 942128 words of memory out of 3000000
- 42292 multiletter control sequences out of 15000+200000
- 557387 words of font info for 97 fonts, out of 3000000 for 9000
+ 38236 strings out of 492450
+ 740975 string characters out of 3129749
+ 942323 words of memory out of 3000000
+ 41741 multiletter control sequences out of 15000+200000
+ 558849 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,103p,2161b,584s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,11n,103p,2502b,584s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecrm0800.pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecrm0700.pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\tolga\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\tolga\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\tolga\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Us
-ers\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.
+ecti1000.pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1000.pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\tolga\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\tolga\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\tolga\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Us
+ers\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.
 pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecbx1095.pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecrm1440.pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
-r/jknappen/ec/dpi600\ecrm2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb>
-Output written on paper.pdf (50 pages, 3553368 bytes).
+\ecbx1728.pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1095.pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\tolga\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\tolga\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb>
+Output written on paper.pdf (51 pages, 3568982 bytes).
 PDF statistics:
- 17470 PDF objects out of 18468 (max. 8388607)
- 191 named destinations out of 1000 (max. 500000)
- 368 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 17636 PDF objects out of 18468 (max. 8388607)
+ 216 named destinations out of 1000 (max. 500000)
+ 477 words of extra memory for PDF output out of 10000 (max. 10000000)
 
