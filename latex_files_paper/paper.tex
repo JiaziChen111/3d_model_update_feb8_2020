@@ -1,3 +1,39 @@
+
+%comments--Kunal 2.11.2020
+%- The LTV shock and its impact needs to be clearly explained. So also for all shocks in general the transmission mechanism has to clearly brought about.
+%- Stickiness and Prudential policy interaction section: Why we are looking at cumulative differences and what is the policy experiment needs to be clearly brought about followed by the explanation of the mechanism and thereby the results and their policy implications
+
+%- More specifically, in figure 12 (2) CCYB has a counter intuitive impact on corporate borrowing (under positive housing dep shock....there is higher lending with CCYB than without)..Similar observation for high CAR vs low CAR. Similar observation in figure 13(1)...under capital dep shock, the mortgage borrowing with CCYB is higher.
+
+%- Why impact of CCYB and LTV different for Mortgage and Corporate borrowing?
+
+%- Welfare maximization function not mentioned before the macro pru figure (figure 15)
+%- Why timeline of counterfactual has 99?
+%- Why CCYB optimal value is maximum attainable in table 4
+%- Why CCYB increases the volatility of mortgage credit and other variables in table 6
+%- As mentioned earlier, Explanation of counterfactuals and their policy implications need to be brought out clearly
+
+
+%comments--Marc 2.10.2020
+%-Table 3 is updated but Table 2 still has the old set of shocks (i.e. depreciation), hence the difference with this one. It's a good idea to merge them into one, I'll do it once I get there.
+%-Figure 5 shifting: need to check this one.
+%-In figure 8: (I think) consumption goes up due to a substitution effect: they spend less on housing following the housing preference shock so their wealth shifts to more consumption. 
+%-In figure 11: I think this should be the same substitution effect as above: negative LTV shock forces down the spending on housing, which increases spending on consumption. The question is why it goes down initially. There is a strong second order effect from somewhere with this one. 
+%Related note to the above two: for the impulse responses & interest rate stickiness section (Figures 8 through 11), we had decided on using  one housing, one business and one banking shock (which I think is a nice structure). The housing-related shock here was housing depreciation, I put in housing preference and housing ltv shocks as the new candidate so we should keep only one of these. Given the above, keeping housing preference might make more sense? 
+
+%-Figures 12-14: both shock names and directions are all wrong :) These are housing preference, expected capital and bank capital shocks respectively (all positive), so I made these the same as the previous section (in the last version one shock was not working in the other section and vice versa, so we ended up with 2 different sets of shocks). 
+
+%-There is another problem with this section that I am still thinking about, related to the horizon of 20 quarters: the way I calculate these cumulative differences is the size of the area between two impulse responses with and without interest rate stickiness. The issue is (i) with a lot of these shocks, there are again these second order effects where the responses switch direction. In those cases the above metric gives a somewhat non-sensical result. That's why I shortened the horizon with these, which could be justified as focusing on the short horizon effects. Though even with the short horizon, some of the IRFs don't yield the result that we would like, i.e. the difference in IRFs with stickiness is larger. For example high/low LTV in Figure 12: the difference is very small, and it is actually larger in the presence of stickiness. With CCyB the old problem is still there: CCyB amplifies some of these shocks (e.g. figure 13 first panel). So one idea here is discard the figures on LTV and CCyB and only focus on CAR, which seems to be working fine also at longer horizons. 
+
+%-Figure 15 note to self to enlarge the labels.
+
+%-Figure 18: I forgot to take this one out, so only Figure 16&17 counterfactuals are new. 18 was meant to check what would have happened if optimal policy was in place + stickiness was lower, but in retrospect this skips one step--what would happen if stickiness was lower, and no optimal policy was in place. And if we also add that we end up with too many cases I think, so for now better to leave this out. 
+
+%-Figures 19 & 20: yes these would be the ones to get updated after the MC simulation, the red lines stay the same though (most likely they will remain similar, the main goal is to check whether another peak in the distributions will pop up if we run this long enough)
+
+
+
+
 \documentclass[12pt]{article}
 \usepackage[utf8x]{inputenc}
 \usepackage{mathrsfs}
