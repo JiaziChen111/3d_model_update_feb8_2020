@@ -1,5 +1,4 @@
 
-
 var 
 b_e      $B^e_t$ // entrepreneurial debt
 g_H      $g^H_t$   // housing investment adjustment cost
@@ -928,13 +927,13 @@ nograph,nodiagnostic,
 first_obs=3,
 nobs=72,
 presample=8,
-mh_nblocks=1,
+mh_nblocks=4,
 //mcmc_jumping_covariance=prior_variance,
 //load_mh_file,
-mh_replic=00000,
+mh_replic=500000,
 //bayesian_irf,
 //load_results_after_load_mh,
-mh_jscale=0.4,
+mh_jscale=0.35,
 mh_drop=0.2);
 //mh_init_scale=0.001);
 

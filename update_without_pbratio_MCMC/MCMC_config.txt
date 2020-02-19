@@ -5,4 +5,4 @@ Members = n1
 [node]
 Name = n1
 ComputerName = localhost
-CPUnbr = 4
+CPUnbr = 16
